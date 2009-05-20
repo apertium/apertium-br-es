@@ -3,11 +3,11 @@
 	Dictionary:
 	Bilingual dictionary: br-es
 	Sections: 1
-	Entries: 11872
+	Entries: 11754
 	Sdefs: 90
       
       Patterns applied:
-      	default (4031 times)
+      	default (3913 times)
       	norestrictions-0 (1580 times)
       	norestrictions-1 (1245 times)
       	norestrictions-2 (1272 times)
@@ -4728,17 +4728,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>a-bouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>importante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       adv-simple
     -->
     <e>
@@ -5251,17 +5240,6 @@
       <p>
         <l>a-vremañ<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>actual<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>a-vremañ<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>actual<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -7643,17 +7621,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>amerikan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>estadounidense<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -7944,17 +7911,6 @@
     -->
     <e>
       <p>
-        <l>amparfal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>torpe<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>ampart<s n="adj"/><s n="sint"/></l> 
         <r>hábil<s n="adj"/><s n="mf"/></r> 
       </p>
@@ -8076,7 +8032,7 @@
     -->
     <e>
       <p>
-        <l>amreizh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <l>amreizh<s n="adj"/><s n="sint"/></l> 
         <r>irregular<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
@@ -8087,7 +8043,7 @@
     -->
     <e>
       <p>
-        <l>amreizh<s n="adj"/><s n="sint"/></l> 
+        <l>amreizh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>irregular<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
@@ -8496,17 +8452,6 @@
       <p>
         <l>anat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>evidente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>anat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>evidente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -11581,17 +11526,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>artifisiel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>artificial<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-0
     -->
     <e>
@@ -14364,17 +14298,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>barrek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>competente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-1
     -->
     <e>
@@ -15750,17 +15673,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>beuz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>fuerte<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-7
     -->
     <e>
@@ -17010,17 +16922,6 @@
       <p>
         <l>bloaziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>anual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>bloaziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>anual<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -18863,17 +18764,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>boutin<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>común<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -19078,28 +18968,6 @@
       <p>
         <l>bras<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>magno<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>bras<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>grande<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>bras<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>gran<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -20717,17 +20585,6 @@
       <p>
         <l>broadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>nacional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>broadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>nacional<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -23967,17 +23824,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>da<b/>badout<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>permanente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       adv-simple
     -->
     <e>
@@ -24444,17 +24290,6 @@
     -->
     <e>
       <p>
-        <l>damani<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>potente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>damani<s n="n"/><s n="f"/></l> 
         <r>propiedad<s n="n"/><s n="f"/></r> 
       </p>
@@ -24765,17 +24600,6 @@
       <p>
         <l>danvezel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>material<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>danvezel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>material<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -26195,17 +26019,6 @@
       <p>
         <l>dedennus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>interesante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dedennus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>interesante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -28565,17 +28378,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>diaviz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>imprudente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-2
     -->
     <e>
@@ -28833,17 +28635,6 @@
     -->
     <e>
       <p>
-        <l>dibaouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>incesante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>dibar<s n="adj"/><s n="sint"/></l> 
         <r>particular<s n="adj"/><s n="mf"/></r> 
       </p>
@@ -28857,17 +28648,6 @@
       <p>
         <l>dibar<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>particular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dibar<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>particular<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -29269,28 +29049,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dichek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>familiar<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dichek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>coloquial<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-4
     -->
     <e>
@@ -29682,17 +29440,6 @@
       <p>
         <l>diehan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>incesante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>diehan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>incesante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -30160,17 +29907,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>diforc’h<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>diferente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -30254,17 +29990,6 @@
       <p>
         <l>difraeüs<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>urgente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>difraeüs<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>urgente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -31865,28 +31590,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>diot<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>idiota<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>diot<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>subnormal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -33361,17 +33064,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>disheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>diferente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-2
     -->
     <e>
@@ -34619,17 +34311,6 @@
     -->
     <e>
       <p>
-        <l>dispriz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>insignificante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>dispriz<s n="n"/><s n="m"/><s n="ND"/></l> 
         <r>desprecio<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
@@ -35642,17 +35323,6 @@
     -->
     <e>
       <p>
-        <l>divarvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inmortal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>diveleg<s n="n"/><s n="m"/></l> 
         <r>civil<s n="n"/><s n="mf"/></r> 
       </p>
@@ -36029,17 +35699,6 @@
       <p>
         <l>divoutin<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>original<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>divoutin<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>original<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -36652,28 +36311,6 @@
 	forced 'null' restriction
       default
     -->
-    <e alt="std">
-      <p>
-        <l>dizereat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>improcedente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dizereat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inconveniente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
     <e>
       <p>
         <l>dizesk<s n="adj"/><s n="sint"/></l> 
@@ -36689,17 +36326,6 @@
       <p>
         <l>dizesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>ignorante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dizesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>ignorante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -36755,17 +36381,6 @@
       <p>
         <l>dizingal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>irregular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dizingal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>irregular<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -37503,17 +37118,6 @@
       <p>
         <l>dornet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>hábil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dornet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>hábil<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -38597,28 +38201,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dreist<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>excelente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dreist<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>sobresaliente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       adv-simple
     -->
     <e>
@@ -38801,17 +38383,6 @@
       <p>
         <l>drev<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>alegre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>drev<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>alegre<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -39296,17 +38867,6 @@
       <p>
         <l>dudius<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>interesante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>dudius<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>interesante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -44316,17 +43876,6 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>eston<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>sorprendente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
 	forced 'RL' restriction
       adj-ABmf-Asp--7
     -->
@@ -44537,17 +44086,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>etrebroadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>internacional<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -44587,17 +44125,6 @@
       <p>
         <l>etrevroadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>internacional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>etrevroadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>internacional<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -44944,17 +44471,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>euver<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>igual<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-2
     -->
     <e>
@@ -45005,17 +44521,6 @@
       <p>
         <l>euvrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>absorbente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>euvrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>absorbente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -47496,17 +47001,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>flamm<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>ardiente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -47711,28 +47205,6 @@
       <p>
         <l>flemmus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>mordaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>flemmus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>picante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>flemmus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>mordaz<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -48041,17 +47513,6 @@
       <p>
         <l>fonnus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>abundante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>fonnus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>abundante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -48420,17 +47881,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>fougaser<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>suficiente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -48734,17 +48184,6 @@
       <p>
         <l>frammadurel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>estructural<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>frammadurel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>estructural<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -50565,17 +50004,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>galloudek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>potente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-1
     -->
     <e>
@@ -50637,17 +50065,6 @@
       <p>
         <l>galloudus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>potente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>galloudus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>potente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -52369,17 +51786,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>gor<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>caliente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -53948,17 +53354,6 @@
       <p>
         <l>gourdrouzus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>amenazante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>gourdrouzus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>amenazante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -57178,17 +56573,6 @@
 	forced 'null' restriction
       default
     -->
-    <e>
-      <p>
-        <l>gwellañ<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>mejor<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
     <e alt="eco">
       <p>
         <l>gwellentez<s n="n"/><s n="f"/></l> 
@@ -57545,17 +56929,6 @@
       <p>
         <l>gwer<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>verde<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>gwer<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>verde<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -58216,17 +57589,6 @@
       <p>
         <l>gwigourus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>chirriante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>gwigourus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>chirriante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -59159,17 +58521,6 @@
       <p>
         <l>harp<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>adyacente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>harp<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>adyacente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -60560,17 +59911,6 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>hevelep<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>tal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
 	forced 'LR' restriction
       mfadj-43
     -->
@@ -60743,17 +60083,6 @@
       <p>
         <l>hewel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>visual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>hewel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>visual<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -61660,17 +60989,6 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>hollek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>general<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
 	forced 'RL' restriction
       adj-bothmf-leftsp-1
     -->
@@ -61678,17 +60996,6 @@
       <p>
         <l>hollel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>total<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>hollel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>total<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -62734,17 +62041,6 @@
       <p>
         <l>illur<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>brillante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>illur<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>brillante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -65143,17 +64439,6 @@
       <p>
         <l>jentil<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>amable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>jentil<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>amable<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -69167,17 +68452,6 @@
     -->
     <e>
       <p>
-        <l>kefridiel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>oficial<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>kefridier<s n="n"/><s n="m"/></l> 
         <r>comisario<s n="n"/><s n="GD"/></r> 
       </p>
@@ -71099,17 +70373,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>kenfeuriek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>proporcional<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-1
     -->
     <e>
@@ -71171,17 +70434,6 @@
       <p>
         <l>kenglot<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>correspondiente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>kenglot<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>correspondiente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -72232,17 +71484,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>kenwerzhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>comercial<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-2
     -->
     <e>
@@ -72304,17 +71545,6 @@
       <p>
         <l>keodedel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>civil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>keodedel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>civil<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -72870,17 +72100,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>kevatal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>igual<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-1
     -->
     <e>
@@ -73195,17 +72414,6 @@
       <p>
         <l>kevredigezhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>social<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>kevredigezhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>social<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -74548,17 +73756,6 @@
       <p>
         <l>klewelet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>audiovisual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>klewelet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>audiovisual<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -77743,17 +76940,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>kran<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>elegante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-0
     -->
     <e>
@@ -78453,17 +77639,6 @@
       <p>
         <l>kreñv<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>fuerte<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>kreñv<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>fuerte<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -79212,17 +78387,6 @@
       <p>
         <l>kumun<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>común<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>kumun<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>común<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -81208,17 +80372,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>lec’hel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>local<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-0
     -->
     <e>
@@ -82466,17 +81619,6 @@
     -->
     <e>
       <p>
-        <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>legal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>lezirek<s n="adj"/><s n="sint"/></l> 
         <r>perezoso<s n="adj"/><s n="m"/><s n="ND"/></r> 
       </p>
@@ -82703,17 +81845,6 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>liberal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>liberal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
 	forced 'LR' restriction
       mfadj-43
     -->
@@ -82875,17 +82006,6 @@
       <p>
         <l>lies<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>plural<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>lies<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>plural<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -83183,17 +82303,6 @@
       <p>
         <l>liesvloaziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>plurianual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>liesvloaziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>plurianual<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -85091,17 +84200,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>lufr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>brillante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-2
     -->
     <e>
@@ -85988,17 +85086,6 @@
       <p>
         <l>mallus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>urgente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>mallus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>urgente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -87273,17 +86360,6 @@
     -->
     <e>
       <p>
-        <l>marvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>mortal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>marvus<s n="adj"/><s n="sint"/></l> 
         <r>homicida<s n="adj"/><s n="mf"/></r> 
       </p>
@@ -87297,17 +86373,6 @@
       <p>
         <l>marvus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>homicida<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>marvus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>homicida<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -87759,17 +86824,6 @@
       <p>
         <l>meinel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>mineral<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>meinel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>mineral<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -90085,17 +89139,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>micherel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>profesional<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-4
     -->
     <e>
@@ -91086,17 +90129,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>mistr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>elegante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-1
     -->
     <e>
@@ -91389,17 +90421,6 @@
       <p>
         <l>miziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>mensual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>miziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>mensual<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -93649,17 +92670,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>naturel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>natural<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-0
     -->
     <e>
@@ -93798,17 +92808,6 @@
       <p>
         <l>nebeut<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>insignificante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>nebeut<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>insignificante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -94260,17 +93259,6 @@
       <p>
         <l>nerzhus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>fuerte<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>nerzhus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>fuerte<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -95288,17 +94276,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>normal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>normal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-0
     -->
     <e>
@@ -96262,17 +95239,6 @@
       <p>
         <l>ofisiel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>oficial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>ofisiel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>oficial<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -97730,17 +96696,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>paot<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>abundante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -97967,17 +96922,6 @@
       <p>
         <l>par<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>igual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>par<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>igual<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -98253,17 +97197,6 @@
       <p>
         <l>parizian<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>parisino<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e c="new-category">
-      <p>
-        <l>parizian<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>parisiense<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -99538,17 +98471,6 @@
     -->
     <e>
       <p>
-        <l>pennañ<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>principal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>penndanvez<s n="n"/><s n="m"/></l> 
         <r>capital<s n="n"/><s n="m"/></r> 
       </p>
@@ -100189,17 +99111,6 @@
       <p>
         <l>personel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>personal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>personel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>personal<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -101058,17 +99969,6 @@
       <p>
         <l>pezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>importante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -102158,17 +101058,6 @@
       <p>
         <l>plantel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>vegetal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>plantel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>vegetal<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -103868,17 +102757,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>pouezus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>importante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -105034,17 +103912,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>prezidantel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>presidencial<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-4
     -->
     <e>
@@ -106105,17 +104972,6 @@
     -->
     <e>
       <p>
-        <l>protestant<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>protestante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>protestant<s n="n"/><s n="f"/></l> 
         <r>protestante<s n="n"/><s n="mf"/></r> 
       </p>
@@ -106536,17 +105392,6 @@
       <p>
         <l>puilh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>abundante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>puilh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>abundante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -109852,17 +108697,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>revel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>sexual<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-1
     -->
     <e>
@@ -112965,17 +111799,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>sebezus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>sorprendente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-3
     -->
     <e>
@@ -113827,17 +112650,6 @@
     -->
     <e>
       <p>
-        <l>sentus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>obediente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>serjant<s n="n"/><s n="m"/></l> 
         <r>sargento<s n="n"/><s n="mf"/></r> 
       </p>
@@ -114126,17 +112938,6 @@
       <p>
         <l>sevenadurel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>cultural<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>sevenadurel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>cultural<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -115462,17 +114263,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>skedus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>brillante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-2
     -->
     <e>
@@ -116716,17 +115506,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>skort<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>insuficiente<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-1
     -->
     <e>
@@ -117369,17 +116148,6 @@
     -->
     <e>
       <p>
-        <l>sokial<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>social<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
         <l>sokialour<s n="n"/><s n="m"/></l> 
         <r>socialista<s n="n"/></r> 
       </p>
@@ -117750,17 +116518,6 @@
 
     <!-- 
 	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>sonn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>fuerte<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
       norestrictions-0
     -->
     <e>
@@ -117987,17 +116744,6 @@
       <p>
         <l>souezhus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>sorprendente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>souezhus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>sorprendente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -118328,17 +117074,6 @@
       <p>
         <l>speredel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>espiritual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>speredel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>espiritual<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -119362,17 +118097,6 @@
       <p>
         <l>stank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>abundante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>stank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>abundante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -120946,17 +119670,6 @@
       <p>
         <l>struzhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>vegetal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>struzhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>vegetal<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -129471,17 +128184,6 @@
       <p>
         <l>verbel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>verbal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>verbel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>verbal<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
