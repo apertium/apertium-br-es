@@ -1173,9 +1173,9 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>$lemmaB<s n="adj"/><s n="ND"/></l> 
+        <l>$lemmaB<s n="adj"/><s n="GD"/></l> 
         <r>$lemmaC<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>

@@ -30,8 +30,9 @@
       	adv-simple (273 times)
       	rmsp-nounm-39 (95 times)
       	rmsp-nounf-39 (7 times)
-      	adj-bothmf-leftsp-1 (93 times)
+      	adj-bothmf-leftsp-1 (91 times)
       	adj-bothmf-leftsp-2 (67 times)
+      	adj-bothmf-leftsp-3 (2 times)
 
 -->
 <dictionary>
@@ -34805,6 +34806,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-3
+    -->
+    <e r="RL">
+      <p>
+        <l>dispriz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>insignificante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -34812,17 +34824,6 @@
       <p>
         <l>dispriz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>insignificante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'RL' restriction
-      adj-bothmf-leftsp-1
-    -->
-    <e r="RL">
-      <p>
-        <l>dispriz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>insignificante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -94565,6 +94566,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-3
+    -->
+    <e r="RL">
+      <p>
+        <l>nebeut<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>insignificante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -94572,17 +94584,6 @@
       <p>
         <l>nebeut<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>insignificante<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'RL' restriction
-      adj-bothmf-leftsp-1
-    -->
-    <e r="RL">
-      <p>
-        <l>nebeut<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>insignificante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
