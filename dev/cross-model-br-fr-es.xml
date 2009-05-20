@@ -1404,6 +1404,86 @@
 </action>
 </action-set>
 </cross-action>
+<cross-action id="adj-bothmf-leftsp-9">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>$lemmaA<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>$lemmaB<s n="adj"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>$lemmaB<s n="adj"/><s n="f"/></l> 
+        <r>$lemmaC<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+<action>
+    <e r="LR">
+      <p>
+        <l>$lemmaA<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>$lemmaA<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>$lemmaA<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+</action>
+</action-set>
+</cross-action>
+<cross-action id="adj-bothmf-leftsp-10">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>$lemmaA<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>$lemmaB<s n="adj"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>$lemmaB<s n="adj"/><s n="f"/></l> 
+        <r>$lemmaC<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+<action>
+    <e r="LR">
+      <p>
+        <l>$lemmaA<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>$lemmaA<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l>$lemmaA<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+</action>
+</action-set>
+</cross-action>
 <cross-action id="adj-ABmf-Asp-1">
 	<pattern>
     <e r="LR">
