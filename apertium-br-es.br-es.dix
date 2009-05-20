@@ -3,11 +3,11 @@
 	Dictionary:
 	Bilingual dictionary: br-es
 	Sections: 1
-	Entries: 11839
+	Entries: 11840
 	Sdefs: 90
       
       Patterns applied:
-      	default (4663 times)
+      	default (4562 times)
       	norestrictions-0 (1580 times)
       	norestrictions-1 (1245 times)
       	norestrictions-2 (1272 times)
@@ -27,6 +27,8 @@
       	cnjsub-simple (2 times)
       	cnjadv-simple (30 times)
       	adv-simple (273 times)
+      	rmsp-nounm-39 (95 times)
+      	rmsp-nounf-39 (7 times)
 
 -->
 <dictionary>
@@ -6916,23 +6918,23 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>ali<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>parecer<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>ali<s n="n"/><s n="m"/></l> 
+        <r>parecer<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>ali<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>pregón<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>ali<s n="n"/><s n="m"/></l> 
+        <r>pregón<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -6949,12 +6951,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>ali<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>aviso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>ali<s n="n"/><s n="m"/></l> 
+        <r>aviso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -6971,12 +6973,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>ali<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>dictamen<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>ali<s n="n"/><s n="m"/></l> 
+        <r>dictamen<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -7576,12 +7578,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>amdu<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>dorso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>amdu<s n="n"/><s n="m"/></l> 
+        <r>dorso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -8632,12 +8634,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>angell<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>brazo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>angell<s n="n"/><s n="m"/></l> 
+        <r>brazo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -9897,12 +9899,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>araokadur<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>progreso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>araokadur<s n="n"/><s n="m"/></l> 
+        <r>progreso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -11987,12 +11989,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>arzh<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>oso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>arzh<s n="n"/><s n="m"/></l> 
+        <r>oso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -12240,12 +12242,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>askorn<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>hueso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>askorn<s n="n"/><s n="m"/></l> 
+        <r>hueso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -12713,23 +12715,23 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>aviz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>parecer<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>aviz<s n="n"/><s n="m"/></l> 
+        <r>parecer<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>aviz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>pregón<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>aviz<s n="n"/><s n="m"/></l> 
+        <r>pregón<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -12746,12 +12748,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>aviz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>aviso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>aviz<s n="n"/><s n="m"/></l> 
+        <r>aviso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -12768,12 +12770,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>aviz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>dictamen<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>aviz<s n="n"/><s n="m"/></l> 
+        <r>dictamen<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -13912,12 +13914,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>baradoz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>paraíso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>baradoz<s n="n"/><s n="m"/></l> 
+        <r>paraíso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -14275,12 +14277,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>barrad<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>acceso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>barrad<s n="n"/><s n="m"/></l> 
+        <r>acceso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -14715,12 +14717,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>bec’h<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>estrés<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>bec’h<s n="n"/><s n="m"/></l> 
+        <r>estrés<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -16101,12 +16103,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>bid<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>as<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>bid<s n="n"/><s n="m"/></l> 
+        <r>as<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -17740,12 +17742,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>born<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>as<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>born<s n="n"/><s n="m"/></l> 
+        <r>as<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -18136,12 +18138,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>bouilh<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>remolino<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>bouilh<s n="n"/><s n="m"/></l> 
+        <r>remolino<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -22206,12 +22208,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>chal<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>flujo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>chal<s n="n"/><s n="m"/></l> 
+        <r>flujo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -25143,12 +25145,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>darleadur<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>curso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>darleadur<s n="n"/><s n="m"/></l> 
+        <r>curso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -25407,12 +25409,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>daspugn<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>amasijo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>daspugn<s n="n"/><s n="m"/></l> 
+        <r>amasijo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -33712,23 +33714,23 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>diskuizh<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>reposo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>diskuizh<s n="n"/><s n="m"/></l> 
+        <r>reposo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>diskuizh<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>descanso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>diskuizh<s n="n"/><s n="m"/></l> 
+        <r>descanso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -34427,12 +34429,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>dispriz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>desprecio<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>dispriz<s n="n"/><s n="m"/></l> 
+        <r>desprecio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -34713,12 +34715,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>distaol<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>descuento<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>distaol<s n="n"/><s n="m"/></l> 
+        <r>descuento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -38695,12 +38697,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>drougimplij<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>abuso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>drougimplij<s n="n"/><s n="m"/></l> 
+        <r>abuso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -49827,12 +49829,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>galleg<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>francés<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>galleg<s n="n"/><s n="m"/></l> 
+        <r>francés<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -49860,12 +49862,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>galleg<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>galo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>galleg<s n="n"/><s n="m"/></l> 
+        <r>galo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -49981,12 +49983,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>gallegach<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>francés<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>gallegach<s n="n"/><s n="m"/></l> 
+        <r>francés<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -50014,12 +50016,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>gallegach<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>galo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>gallegach<s n="n"/><s n="m"/></l> 
+        <r>galo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -50729,12 +50731,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>gaz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>gas<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>gaz<s n="n"/><s n="m"/></l> 
+        <r>gas<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -50795,12 +50797,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>gedvezh<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>tiempo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>gedvezh<s n="n"/><s n="m"/></l> 
+        <r>tiempo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -53897,12 +53899,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>gouron<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>héroe<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>gouron<s n="n"/><s n="m"/></l> 
+        <r>héroe<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -56372,12 +56374,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounf-39
     -->
     <e>
       <p>
-        <l>gwech<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>vez<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>gwech<s n="n"/><s n="f"/></l> 
+        <r>vez<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -56449,12 +56451,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounf-39
     -->
     <e>
       <p>
-        <l>gwechenn<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>vez<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>gwechenn<s n="n"/><s n="f"/></l> 
+        <r>vez<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -57098,12 +57100,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>gwenva<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>paraíso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>gwenva<s n="n"/><s n="m"/></l> 
+        <r>paraíso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -57142,12 +57144,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>gwenved<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>paraíso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>gwenved<s n="n"/><s n="m"/></l> 
+        <r>paraíso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -57692,12 +57694,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounf-39
     -->
     <e>
       <p>
-        <l>gwezh<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>vez<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>gwezh<s n="n"/><s n="f"/></l> 
+        <r>vez<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -58712,12 +58714,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>haroz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>héroe<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>haroz<s n="n"/><s n="m"/></l> 
+        <r>héroe<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -61286,12 +61288,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>hollved<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>universo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>hollved<s n="n"/><s n="m"/></l> 
+        <r>universo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -64366,12 +64368,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>japaneg<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>japonés<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>japaneg<s n="n"/><s n="m"/></l> 
+        <r>japonés<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -65686,12 +65688,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>kalc’h<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>pene<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>kalc’h<s n="n"/><s n="m"/></l> 
+        <r>pene<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -66126,12 +66128,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>kammarver<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>abuso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>kammarver<s n="n"/><s n="m"/></l> 
+        <r>abuso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -66203,12 +66205,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>kammed<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>paso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>kammed<s n="n"/><s n="m"/></l> 
+        <r>paso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -68337,12 +68339,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>kaz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>caso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>kaz<s n="n"/><s n="m"/></l> 
+        <r>caso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -70240,12 +70242,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>kendalc’h<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>congreso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>kendalc’h<s n="n"/><s n="m"/></l> 
+        <r>congreso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -71164,12 +71166,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>kenober<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>concurso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>kenober<s n="n"/><s n="m"/></l> 
+        <r>concurso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -71186,12 +71188,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>kenober<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>certamen<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>kenober<s n="n"/><s n="m"/></l> 
+        <r>certamen<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -74431,12 +74433,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>kloz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>cercado<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>kloz<s n="n"/><s n="m"/></l> 
+        <r>cercado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -74453,12 +74455,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>kloz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>coto<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>kloz<s n="n"/><s n="m"/></l> 
+        <r>coto<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -74607,12 +74609,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>koad<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>bosque<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>koad<s n="n"/><s n="m"/></l> 
+        <r>bosque<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -75531,12 +75533,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>konkour<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>concurso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>konkour<s n="n"/><s n="m"/></l> 
+        <r>concurso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -75553,12 +75555,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>konkour<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>certamen<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>konkour<s n="n"/><s n="m"/></l> 
+        <r>certamen<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -75905,12 +75907,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>korf<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>cuerpo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>korf<s n="n"/><s n="m"/></l> 
+        <r>cuerpo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -78248,12 +78250,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounf-39
     -->
     <e>
       <p>
-        <l>kroaz<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>cruz<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>kroaz<s n="n"/><s n="f"/></l> 
+        <r>cruz<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -78325,12 +78327,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounf-39
     -->
     <e>
       <p>
-        <l>kroez<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>cruz<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>kroez<s n="n"/><s n="f"/></l> 
+        <r>cruz<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -79568,12 +79570,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>laes<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>legado<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>laes<s n="n"/><s n="m"/></l> 
+        <r>legado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -79942,12 +79944,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>lammgresk<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>progreso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>lammgresk<s n="n"/><s n="m"/></l> 
+        <r>progreso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -80382,12 +80384,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>lavared<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>propósito<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>lavared<s n="n"/><s n="m"/></l> 
+        <r>propósito<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -80657,12 +80659,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>lean<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>religioso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>lean<s n="n"/><s n="m"/></l> 
+        <r>religioso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -81009,12 +81011,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>legad<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>legado<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>legad<s n="n"/><s n="m"/></l> 
+        <r>legado<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -82967,12 +82969,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>lins<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>lince<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>lins<s n="n"/><s n="m"/></l> 
+        <r>lince<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -83407,12 +83409,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>livrad<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>peso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>livrad<s n="n"/><s n="m"/></l> 
+        <r>peso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -83517,12 +83519,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>liñs<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>lince<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>liñs<s n="n"/><s n="m"/></l> 
+        <r>lince<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -84925,12 +84927,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>mab<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>hijo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>mab<s n="n"/><s n="m"/></l> 
+        <r>hijo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -86388,12 +86390,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>markiz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>marqués<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>markiz<s n="n"/><s n="m"/></l> 
+        <r>marqués<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -88093,23 +88095,23 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>meno<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>parecer<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>meno<s n="n"/><s n="m"/></l> 
+        <r>parecer<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>meno<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>pregón<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>meno<s n="n"/><s n="m"/></l> 
+        <r>pregón<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -88126,12 +88128,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>meno<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>aviso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>meno<s n="n"/><s n="m"/></l> 
+        <r>aviso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -88148,12 +88150,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>meno<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>dictamen<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>meno<s n="n"/><s n="m"/></l> 
+        <r>dictamen<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -90634,12 +90636,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>miz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>mes<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>miz<s n="n"/><s n="m"/></l> 
+        <r>mes<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -90920,12 +90922,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>mizvezh<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>mes<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>mizvezh<s n="n"/><s n="m"/></l> 
+        <r>mes<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -91943,12 +91945,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounf-39
     -->
     <e>
       <p>
-        <l>mouezh<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>voz<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>mouezh<s n="n"/><s n="f"/></l> 
+        <r>voz<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -93428,12 +93430,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>nederlandeg<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>neerlandés<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>nederlandeg<s n="n"/><s n="m"/></l> 
+        <r>neerlandés<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -96893,12 +96895,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>palez<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>palacio<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>palez<s n="n"/><s n="m"/></l> 
+        <r>palacio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -98279,12 +98281,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>paz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>paso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>paz<s n="n"/><s n="m"/></l> 
+        <r>paso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -103086,12 +103088,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>portugaleg<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>portugués<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>portugaleg<s n="n"/><s n="m"/></l> 
+        <r>portugués<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -103405,12 +103407,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>pouez<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>peso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>pouez<s n="n"/><s n="m"/></l> 
+        <r>peso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -104395,12 +104397,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>prepoz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>propósito<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>prepoz<s n="n"/><s n="m"/></l> 
+        <r>propósito<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -104516,12 +104518,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>prezeg<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>discurso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>prezeg<s n="n"/><s n="m"/></l> 
+        <r>discurso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -104912,12 +104914,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>priz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>premio<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>priz<s n="n"/><s n="m"/></l> 
+        <r>premio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -104939,29 +104941,40 @@
     <e>
       <p>
         <l>priz<s n="n"/><s n="m"/><s n="ND"/></l> 
+        <r>premio<s n="n"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>priz<s n="n"/><s n="m"/><s n="ND"/></l> 
         <r>precio<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>priz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>precio<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>priz<s n="n"/><s n="m"/></l> 
+        <r>precio<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>priz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>galardón<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>priz<s n="n"/><s n="m"/></l> 
+        <r>galardón<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -105616,23 +105629,23 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>prosez<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>proceso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>prosez<s n="n"/><s n="m"/></l> 
+        <r>proceso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>prosez<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>pleito<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>prosez<s n="n"/><s n="m"/></l> 
+        <r>pleito<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -106188,12 +106201,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>puñs<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>pozo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>puñs<s n="n"/><s n="m"/></l> 
+        <r>pozo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -106221,12 +106234,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>rabat<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>descuento<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>rabat<s n="n"/><s n="m"/></l> 
+        <r>descuento<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -107475,12 +107488,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>reimplij<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>abuso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>reimplij<s n="n"/><s n="m"/></l> 
+        <r>abuso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -108080,12 +108093,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>relijiuz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>religioso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>relijiuz<s n="n"/><s n="m"/></l> 
+        <r>religioso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -108520,12 +108533,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>reober<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>abuso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>reober<s n="n"/><s n="m"/></l> 
+        <r>abuso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -109972,12 +109985,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>riz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>arroz<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>riz<s n="n"/><s n="m"/></l> 
+        <r>arroz<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -112018,12 +112031,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>saozneg<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>inglés<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>saozneg<s n="n"/><s n="m"/></l> 
+        <r>inglés<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -114460,12 +114473,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>sinaeg<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>chino<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>sinaeg<s n="n"/><s n="m"/></l> 
+        <r>chino<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -119256,12 +119269,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>ster<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>sentido<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>ster<s n="n"/><s n="m"/></l> 
+        <r>sentido<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -123117,12 +123130,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>tennad<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>recorrido<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>tennad<s n="n"/><s n="m"/></l> 
+        <r>recorrido<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -125130,12 +125143,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>touesk<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>amasijo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>touesk<s n="n"/><s n="m"/></l> 
+        <r>amasijo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -126560,12 +126573,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>treuzfroud<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>remolino<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>treuzfroud<s n="n"/><s n="m"/></l> 
+        <r>remolino<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -126857,12 +126870,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>trevell<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>apuro<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>trevell<s n="n"/><s n="m"/></l> 
+        <r>apuro<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -127748,12 +127761,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounf-39
     -->
     <e>
       <p>
-        <l>trovezh<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>vez<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>trovezh<s n="n"/><s n="f"/></l> 
+        <r>vez<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -127792,12 +127805,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>troñsenn<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>dorso<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>troñsenn<s n="n"/><s n="m"/></l> 
+        <r>dorso<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -129343,12 +129356,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmsp-nounm-39
     -->
     <e>
       <p>
-        <l>voulouz<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>terciopelo<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <l>voulouz<s n="n"/><s n="m"/></l> 
+        <r>terciopelo<s n="n"/><s n="m"/></r> 
       </p>
     </e>
 
