@@ -3,11 +3,11 @@
 	Dictionary:
 	Bilingual dictionary: br-es
 	Sections: 1
-	Entries: 11580
+	Entries: 11839
 	Sdefs: 90
       
       Patterns applied:
-      	default (5235 times)
+      	default (4663 times)
       	norestrictions-0 (1580 times)
       	norestrictions-1 (1245 times)
       	norestrictions-2 (1272 times)
@@ -18,6 +18,15 @@
       	npal-311 (3 times)
       	rmrestricts-211 (3 times)
       	rmrestricts-212 (3 times)
+      	mfadj-21 (111 times)
+      	mfadj-41 (112 times)
+      	mfadj-42 (112 times)
+      	mfadj-43 (94 times)
+      	pr-simple (88 times)
+      	cnjcoo-simple (9 times)
+      	cnjsub-simple (2 times)
+      	cnjadv-simple (30 times)
+      	adv-simple (273 times)
 
 -->
 <dictionary>
@@ -180,13 +189,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>2ek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>bilingüe<s n="adj"/></r> 
+        <r>bilingüe<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>2ek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>bilingüe<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>2ek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>bilingüe<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -4542,7 +4573,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4553,7 +4584,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4564,7 +4595,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4575,7 +4606,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4586,7 +4617,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4597,7 +4628,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4608,7 +4639,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4619,7 +4650,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4630,7 +4661,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4641,7 +4672,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4652,7 +4683,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4685,7 +4716,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4696,7 +4727,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4707,7 +4738,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4718,7 +4749,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4729,7 +4760,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4740,7 +4771,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4751,7 +4782,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4762,7 +4793,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4773,7 +4804,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4784,7 +4815,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4795,7 +4826,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4806,7 +4837,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4817,7 +4848,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4828,7 +4859,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4839,7 +4870,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4850,7 +4881,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4861,7 +4892,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4872,7 +4903,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4883,7 +4914,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4894,7 +4925,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4905,7 +4936,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4916,7 +4947,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4927,7 +4958,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4938,7 +4969,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4949,7 +4980,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4960,7 +4991,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4971,7 +5002,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -4982,7 +5013,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -4993,7 +5024,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5004,7 +5035,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5015,7 +5046,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5026,7 +5057,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5037,7 +5068,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -5048,7 +5079,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5059,7 +5090,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5070,7 +5101,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5081,7 +5112,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5092,7 +5123,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5103,7 +5134,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5114,7 +5145,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5125,7 +5156,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5136,7 +5167,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5147,7 +5178,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5158,7 +5189,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -5169,7 +5200,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5202,7 +5233,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5213,7 +5244,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5224,7 +5255,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5235,7 +5266,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5246,7 +5277,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5257,7 +5288,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5268,7 +5299,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5279,7 +5310,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5290,7 +5321,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -5301,7 +5332,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5356,7 +5387,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -5367,7 +5398,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -5378,7 +5409,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -5532,7 +5563,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5587,7 +5618,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -5598,7 +5629,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -5609,7 +5640,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -5664,7 +5695,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5675,7 +5706,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -5686,7 +5717,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -6224,24 +6255,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>aes<s n="adj"/><s n="sint"/></l> 
-        <r>fácil<s n="adj"/></r> 
+        <r>fácil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>aes<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>fácil<s n="adj"/></r> 
+        <r>fácil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>aes<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fácil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>aes<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fácil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -6279,13 +6332,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>aezet<s n="adj"/><s n="sint"/></l> 
-        <r>fácil<s n="adj"/></r> 
+        <r>fácil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>aezet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fácil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>aezet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fácil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>aezet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fácil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -6368,7 +6454,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -6598,13 +6684,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>akuit<s n="adj"/><s n="sint"/></l> 
-        <r>hábil<s n="adj"/></r> 
+        <r>hábil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>akuit<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>hábil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>akuit<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>hábil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>akuit<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>hábil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -6962,7 +7081,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -7336,7 +7455,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -7347,7 +7466,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -7358,7 +7477,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -7720,24 +7839,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>ampar<s n="adj"/><s n="sint"/></l> 
-        <r>incomparable<s n="adj"/></r> 
+        <r>incomparable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>ampar<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>incomparable<s n="adj"/></r> 
+        <r>incomparable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>ampar<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>incomparable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>ampar<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>incomparable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -8424,13 +8565,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>aner<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inútil<s n="adj"/></r> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>aner<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>aner<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -9293,6 +9456,39 @@
     </e>
 
     <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>aparchant<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>conveniente<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>aparchant<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>conveniente<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>aparchant<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>conveniente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -9404,7 +9600,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -10031,7 +10227,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -11901,7 +12097,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -11912,7 +12108,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -12242,7 +12438,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -12396,7 +12592,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -12638,7 +12834,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -14793,24 +14989,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>belgiat<s n="adj"/><s n="sint"/></l> 
-        <r>belga<s n="adj"/></r> 
+        <r>belga<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>belgiat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>belga<s n="adj"/></r> 
+        <r>belga<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>belgiat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>belga<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>belgiat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>belga<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -14926,7 +15144,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -14937,7 +15155,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -15179,7 +15397,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -15399,7 +15617,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -15410,7 +15628,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -15421,7 +15639,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -15432,7 +15650,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -15696,7 +15914,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -15806,7 +16024,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -15971,7 +16189,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -15982,7 +16200,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -16180,7 +16398,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -16191,7 +16409,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -16399,24 +16617,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>ble<s n="adj"/><s n="sint"/></l> 
-        <r>débil<s n="adj"/></r> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>ble<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>débil<s n="adj"/></r> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>ble<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>ble<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -17664,24 +17904,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>boud<s n="adj"/><s n="sint"/></l> 
-        <r>grave<s n="adj"/></r> 
+        <r>grave<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>boud<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>grave<s n="adj"/></r> 
+        <r>grave<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>boud<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>grave<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>boud<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>grave<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -18379,13 +18641,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>bourrus<s n="adj"/><s n="sint"/></l> 
-        <r>agradable<s n="adj"/></r> 
+        <r>agradable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -18401,13 +18663,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>bourrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>agradable<s n="adj"/></r> 
+        <r>agradable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -18419,6 +18681,17 @@
       <p>
         <l>bourrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>grato<s n="adj"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>bourrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>agradable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -18441,6 +18714,28 @@
       <p>
         <l>bourrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>grato<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>bourrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>agradable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>bourrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>agradable<s n="adj"/></r> 
       </p>
     </e>
 
@@ -19315,7 +19610,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -19337,7 +19632,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -19446,13 +19741,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>bresk<s n="adj"/><s n="sint"/></l> 
-        <r>frágil<s n="adj"/></r> 
+        <r>frágil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>bresk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>frágil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>bresk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>frágil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>bresk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>frágil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -20898,24 +21226,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>brudet<s n="adj"/><s n="sint"/></l> 
-        <r>célebre<s n="adj"/></r> 
+        <r>célebre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>brudet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>célebre<s n="adj"/></r> 
+        <r>célebre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>brudet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>célebre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>brudet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>célebre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -20987,7 +21337,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -22769,7 +23119,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -22780,7 +23130,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -22977,13 +23327,24 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>c’hwek<s n="adj"/><s n="sint"/></l> 
-        <r>amable<s n="adj"/></r> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>c’hwek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -23517,7 +23878,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -23550,7 +23911,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -23561,7 +23922,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -23572,7 +23933,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -23583,7 +23944,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -23594,7 +23955,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -23605,7 +23966,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -23770,7 +24131,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -24088,24 +24449,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>damheñvel<s n="adj"/><s n="sint"/></l> 
-        <r>similar<s n="adj"/></r> 
+        <r>similar<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>damheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>similar<s n="adj"/></r> 
+        <r>similar<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>damheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>similar<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>damheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>similar<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -24430,7 +24813,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -24441,7 +24824,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -24452,7 +24835,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -25332,7 +25715,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -25552,7 +25935,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -25651,7 +26034,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -25662,7 +26045,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -26772,13 +27155,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dereat<s n="adj"/><s n="sint"/></l> 
-        <r>conveniente<s n="adj"/></r> 
+        <r>conveniente<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>dereat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>conveniente<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>dereat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>conveniente<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>dereat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>conveniente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -27652,13 +28068,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diaes<s n="adj"/><s n="sint"/></l> 
-        <r>difícil<s n="adj"/></r> 
+        <r>difícil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>diaes<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>difícil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>diaes<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>difícil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>diaes<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>difícil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -28499,6 +28948,39 @@
     </e>
 
     <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>dibosupl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imposible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>dibosupl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imposible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>dibosupl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imposible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -28532,24 +29014,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dibrez<s n="adj"/><s n="sint"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dibrez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>dibrez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>dibrez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -28730,13 +29234,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>didalvoud<s n="adj"/><s n="sint"/></l> 
-        <r>inútil<s n="adj"/></r> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>didalvoud<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>didalvoud<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>didalvoud<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -28950,24 +29487,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diefedus<s n="adj"/><s n="sint"/></l> 
-        <r>ineficaz<s n="adj"/></r> 
+        <r>ineficaz<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diefedus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>ineficaz<s n="adj"/></r> 
+        <r>ineficaz<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>diefedus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>ineficaz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>diefedus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>ineficaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29225,24 +29784,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dieub<s n="adj"/><s n="sint"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dieub<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>dieub<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>dieub<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29346,13 +29927,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>difiñv<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inmóvil<s n="adj"/></r> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>difiñv<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>difiñv<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29533,24 +30136,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>difrouezh<s n="adj"/><s n="sint"/></l> 
-        <r>estéril<s n="adj"/></r> 
+        <r>estéril<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>difrouezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>estéril<s n="adj"/></r> 
+        <r>estéril<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>difrouezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>estéril<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>difrouezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>estéril<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29577,13 +30202,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>digabestr<s n="adj"/><s n="sint"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>digabestr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>digabestr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>digabestr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29632,13 +30290,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>digalon<s n="adj"/><s n="sint"/></l> 
-        <r>cobarde<s n="adj"/></r> 
+        <r>cobarde<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>digalon<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>cobarde<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>digalon<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>cobarde<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>digalon<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>cobarde<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29698,24 +30389,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>digemm<s n="adj"/><s n="sint"/></l> 
-        <r>invariable<s n="adj"/></r> 
+        <r>invariable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>digemm<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>invariable<s n="adj"/></r> 
+        <r>invariable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>digemm<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>invariable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>digemm<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>invariable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29940,13 +30653,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>digredus<s n="adj"/><s n="sint"/></l> 
-        <r>increíble<s n="adj"/></r> 
+        <r>increíble<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>digredus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>increíble<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>digredus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>increíble<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>digredus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>increíble<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -30028,46 +30774,90 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diharzus<s n="adj"/><s n="sint"/></l> 
-        <r>irresistible<s n="adj"/></r> 
+        <r>irresistible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diharzus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>irresistible<s n="adj"/></r> 
+        <r>irresistible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      mfadj-41
     -->
-    <e>
+    <e r="RL">
+      <p>
+        <l>diharzus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>irresistible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>diharzus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>irresistible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-43
+    -->
+    <e r="LR">
       <p>
         <l>dihesk<s n="adj"/><s n="sint"/></l> 
-        <r>inagotable<s n="adj"/></r> 
+        <r>inagotable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dihesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inagotable<s n="adj"/></r> 
+        <r>inagotable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>dihesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inagotable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>dihesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inagotable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -30095,7 +30885,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -30469,7 +31259,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -30480,7 +31270,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -30491,7 +31281,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -30502,7 +31292,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -30513,7 +31303,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -30589,24 +31379,79 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dinerzh<s n="adj"/><s n="sint"/></l> 
-        <r>débil<s n="adj"/></r> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dinerzh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>débil<s n="adj"/></r> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>dinerzh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>dinerzh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>diniver<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>innumerable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>diniver<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>innumerable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>diniver<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>innumerable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -30622,24 +31467,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diniveradus<s n="adj"/><s n="sint"/></l> 
-        <r>innumerable<s n="adj"/></r> 
+        <r>innumerable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diniveradus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>innumerable<s n="adj"/></r> 
+        <r>innumerable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>diniveradus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>innumerable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>diniveradus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>innumerable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -30909,7 +31776,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -30920,7 +31787,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -30931,7 +31798,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -31052,7 +31919,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -31063,7 +31930,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -31074,7 +31941,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -31645,24 +32512,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dired<s n="adj"/><s n="sint"/></l> 
-        <r>inmóvil<s n="adj"/></r> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dired<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inmóvil<s n="adj"/></r> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>dired<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>dired<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -32294,24 +33183,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dishual<s n="adj"/><s n="sint"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dishual<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>dishual<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>dishual<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -33427,24 +34338,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>displetus<s n="adj"/><s n="sint"/></l> 
-        <r>inútil<s n="adj"/></r> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>displetus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inútil<s n="adj"/></r> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>displetus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>displetus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inútil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -33658,13 +34591,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>distabil<s n="adj"/><s n="sint"/></l> 
-        <r>inestable<s n="adj"/></r> 
+        <r>inestable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>distabil<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inestable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>distabil<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inestable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>distabil<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inestable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -33680,24 +34646,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>distag<s n="adj"/><s n="sint"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>distag<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>distag<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>distag<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -33801,24 +34789,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>distart<s n="adj"/><s n="sint"/></l> 
-        <r>cobarde<s n="adj"/></r> 
+        <r>cobarde<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>distart<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>cobarde<s n="adj"/></r> 
+        <r>cobarde<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>distart<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>cobarde<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>distart<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>cobarde<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -33834,13 +34844,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>dister<s n="adj"/><s n="sint"/></l> 
-        <r>mediocre<s n="adj"/></r> 
+        <r>mediocre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>dister<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>mediocre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>dister<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>mediocre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>dister<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>mediocre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -34307,24 +35350,57 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>divarrek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>incapaz<s n="adj"/></r> 
+        <r>incapaz<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      mfadj-41
     -->
-    <e alt="std">
+    <e r="RL">
       <p>
         <l>divarrek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inhábil<s n="adj"/></r> 
+        <r>incapaz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL" alt="std">
+      <p>
+        <l>divarrek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inhábil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>divarrek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>incapaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL" alt="std">
+      <p>
+        <l>divarrek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inhábil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -34736,24 +35812,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e c="new-category">
+    <e r="LR" c="new-category">
       <p>
         <l>divrall<s n="adj"/><s n="sint"/></l> 
-        <r>estable<s n="adj"/></r> 
+        <r>estable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e c="new-category">
+    <e r="LR" c="new-category">
       <p>
         <l>divrall<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>estable<s n="adj"/></r> 
+        <r>estable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL" c="new-category">
+      <p>
+        <l>divrall<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>estable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL" c="new-category">
+      <p>
+        <l>divrall<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>estable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -34813,13 +35911,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>divyezhek<s n="adj"/><s n="sint"/></l> 
-        <r>bilingüe<s n="adj"/></r> 
+        <r>bilingüe<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>divyezhek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>bilingüe<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>divyezhek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>bilingüe<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>divyezhek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>bilingüe<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -34891,7 +36022,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -34902,7 +36033,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -34913,7 +36044,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -34924,7 +36055,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -34956,24 +36087,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diwelus<s n="adj"/><s n="sint"/></l> 
-        <r>invisible<s n="adj"/></r> 
+        <r>invisible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diwelus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>invisible<s n="adj"/></r> 
+        <r>invisible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>diwelus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>invisible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>diwelus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>invisible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -35001,7 +36154,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -35111,7 +36264,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -35330,35 +36483,68 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diziouerus<s n="adj"/><s n="sint"/></l> 
-        <r>imprescindible<s n="adj"/></r> 
+        <r>imprescindible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>diziouerus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>imprescindible<s n="adj"/></r> 
+        <r>imprescindible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      mfadj-41
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>diziouerus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>indispensable<s n="adj"/></r> 
+        <r>indispensable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>diziouerus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imprescindible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>diziouerus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>indispensable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>diziouerus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imprescindible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -36166,13 +37352,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>douarel<s n="adj"/><s n="sint"/></l> 
-        <r>terrestre<s n="adj"/></r> 
+        <r>terrestre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>douarel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>terrestre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>douarel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>terrestre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>douarel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>terrestre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -36992,7 +38211,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -37003,7 +38222,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37014,7 +38233,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37025,7 +38244,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37036,7 +38255,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37102,7 +38321,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37113,7 +38332,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37245,7 +38464,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37828,7 +39047,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -37839,7 +39058,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37850,7 +39069,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -37905,7 +39124,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -37927,7 +39146,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -37938,7 +39157,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -37949,7 +39168,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -37960,7 +39179,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37971,7 +39190,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -37982,7 +39201,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -37993,7 +39212,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38004,7 +39223,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38015,7 +39234,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38026,7 +39245,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38037,7 +39256,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38048,7 +39267,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -38059,7 +39278,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -38070,7 +39289,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -38081,7 +39300,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38092,7 +39311,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38103,7 +39322,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38114,7 +39333,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38125,7 +39344,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -38136,7 +39355,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38147,7 +39366,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38158,7 +39377,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38169,7 +39388,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38180,7 +39399,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38191,7 +39410,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38202,7 +39421,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -38213,7 +39432,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -38224,7 +39443,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38235,7 +39454,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -38246,7 +39465,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38257,7 +39476,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -38268,7 +39487,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38279,7 +39498,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38334,7 +39553,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -38487,13 +39706,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>eeun<s n="adj"/><s n="sint"/></l> 
-        <r>simple<s n="adj"/></r> 
+        <r>simple<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -38509,13 +39728,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>eeun<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>simple<s n="adj"/></r> 
+        <r>simple<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -38553,6 +39772,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>eeun<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>simple<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -38571,6 +39801,17 @@
       <p>
         <l>eeun<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>mero<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>eeun<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>simple<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -38719,7 +39960,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjsub-simple
     -->
     <e>
       <p>
@@ -38730,7 +39971,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjsub-simple
     -->
     <e>
       <p>
@@ -39104,7 +40345,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -40094,7 +41335,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -40105,7 +41346,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -40116,7 +41357,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -40127,7 +41368,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -40138,7 +41379,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -40149,7 +41390,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -40160,7 +41401,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -40171,7 +41412,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -40182,7 +41423,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -40270,7 +41511,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -40753,24 +41994,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>enepyuzev<s n="adj"/><s n="sint"/></l> 
-        <r>antisemita<s n="adj"/></r> 
+        <r>antisemita<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>enepyuzev<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>antisemita<s n="adj"/></r> 
+        <r>antisemita<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>enepyuzev<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>antisemita<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>enepyuzev<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>antisemita<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -41249,7 +42512,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -41678,7 +42941,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -41689,7 +42952,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -41710,13 +42973,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>entanet<s n="adj"/><s n="sint"/></l> 
-        <r>entusiasta<s n="adj"/></r> 
+        <r>entusiasta<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>entanet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>entusiasta<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>entanet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>entusiasta<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>entanet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>entusiasta<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -41854,7 +43150,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -41865,7 +43161,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -41876,7 +43172,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -41887,7 +43183,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -41898,7 +43194,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -41909,7 +43205,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -41920,7 +43216,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -42601,13 +43897,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>espar<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>incomparable<s n="adj"/></r> 
+        <r>incomparable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>espar<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>incomparable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>espar<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>incomparable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -42755,13 +44073,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>estrañjour<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>alienígena<s n="adj"/></r> 
+        <r>alienígena<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -42811,7 +44129,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -42822,7 +44140,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -42833,7 +44151,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -42844,7 +44162,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -42855,7 +44173,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -42921,7 +44239,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -42932,7 +44250,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43020,7 +44338,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43185,7 +44503,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43437,13 +44755,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>euzhus<s n="adj"/><s n="sint"/></l> 
-        <r>horrible<s n="adj"/></r> 
+        <r>horrible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>euzhus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>horrible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>euzhus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>horrible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>euzhus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>horrible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -43515,7 +44866,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43526,7 +44877,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -43537,7 +44888,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -43548,7 +44899,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -43647,7 +44998,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43658,7 +45009,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43669,7 +45020,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43680,7 +45031,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43691,7 +45042,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -43702,7 +45053,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43713,7 +45064,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43724,7 +45075,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -43735,7 +45086,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -43768,7 +45119,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -44878,24 +46229,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>feal<s n="adj"/><s n="sint"/></l> 
-        <r>fiel<s n="adj"/></r> 
+        <r>fiel<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>feal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>fiel<s n="adj"/></r> 
+        <r>fiel<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>feal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fiel<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>feal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fiel<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -45417,24 +46790,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>fidel<s n="adj"/><s n="sint"/></l> 
-        <r>fiel<s n="adj"/></r> 
+        <r>fiel<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>fidel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>fiel<s n="adj"/></r> 
+        <r>fiel<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>fidel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fiel<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>fidel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fiel<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -46375,7 +47770,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -47078,24 +48473,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>frank<s n="adj"/><s n="sint"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>frank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>frank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>frank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -47140,6 +48557,17 @@
       <p>
         <l>frank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>sincero<s n="adj"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>frank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/></r> 
       </p>
     </e>
 
@@ -47782,24 +49210,24 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>fur<s n="adj"/><s n="sint"/></l> 
-        <r>prudente<s n="adj"/></r> 
+        <r>prudente<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>fur<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>prudente<s n="adj"/></r> 
+        <r>prudente<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -48960,7 +50388,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -48971,7 +50399,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -49598,7 +51026,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -50951,7 +52379,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -50962,7 +52390,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -50973,7 +52401,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -50984,7 +52412,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -51181,24 +52609,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gouennelour<s n="adj"/><s n="sint"/></l> 
-        <r>racista<s n="adj"/></r> 
+        <r>racista<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gouennelour<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>racista<s n="adj"/></r> 
+        <r>racista<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>gouennelour<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>racista<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>gouennelour<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>racista<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -51313,24 +52763,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gouez<s n="adj"/><s n="sint"/></l> 
-        <r>salvaje<s n="adj"/></r> 
+        <r>salvaje<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>salvaje<s n="adj"/></r> 
+        <r>salvaje<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>gouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>salvaje<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>gouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>salvaje<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -52634,7 +54106,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -52645,7 +54117,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -53150,24 +54622,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>grevus<s n="adj"/><s n="sint"/></l> 
-        <r>grave<s n="adj"/></r> 
+        <r>grave<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>grevus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>grave<s n="adj"/></r> 
+        <r>grave<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>grevus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>grave<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>grevus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>grave<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -53194,35 +54688,68 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>greüs<s n="adj"/><s n="sint"/></l> 
-        <r>factible<s n="adj"/></r> 
+        <r>factible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>greüs<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>factible<s n="adj"/></r> 
+        <r>factible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      mfadj-41
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>greüs<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>dable<s n="adj"/></r> 
+        <r>dable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>greüs<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>factible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>greüs<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>dable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>greüs<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>factible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -53536,7 +55063,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -54129,24 +55656,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gwan<s n="adj"/><s n="sint"/></l> 
-        <r>débil<s n="adj"/></r> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gwan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>débil<s n="adj"/></r> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>gwan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>gwan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -54613,24 +56162,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gwazh<s n="adj"/><s n="sint"/></l> 
-        <r>peor<s n="adj"/></r> 
+        <r>peor<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gwazh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>peor<s n="adj"/></r> 
+        <r>peor<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>gwazh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>peor<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>gwazh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>peor<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -54812,7 +56383,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -54823,7 +56394,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -54834,7 +56405,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -55197,7 +56768,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -55285,7 +56856,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -55296,7 +56867,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -55317,24 +56888,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gwelus<s n="adj"/><s n="sint"/></l> 
-        <r>visible<s n="adj"/></r> 
+        <r>visible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gwelus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>visible<s n="adj"/></r> 
+        <r>visible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>gwelus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>visible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>gwelus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>visible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -55603,13 +57196,24 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e c="new-category">
+    <e r="LR" c="new-category">
       <p>
         <l>gwerc’h<s n="adj"/><s n="sint"/></l> 
-        <r>virgen<s n="adj"/></r> 
+        <r>virgen<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR" c="new-category">
+      <p>
+        <l>gwerc’h<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>virgen<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -55955,13 +57559,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>gwevn<s n="adj"/><s n="sint"/></l> 
-        <r>flexible<s n="adj"/></r> 
+        <r>flexible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>gwevn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>flexible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>gwevn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>flexible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>gwevn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>flexible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -56066,7 +57703,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -56077,7 +57714,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -56701,7 +58338,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -56712,7 +58349,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjcoo-simple
     -->
     <e>
       <p>
@@ -57294,13 +58931,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      mfadj-41
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>hañval<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>semejante<s n="adj"/></r> 
+        <r>semejante<s n="adj"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -57345,6 +58982,28 @@
       <p>
         <l>hañval<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>parejo<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>hañval<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>semejante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>hañval<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>semejante<s n="adj"/></r> 
       </p>
     </e>
 
@@ -57449,7 +59108,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -57503,13 +59162,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>hegarat<s n="adj"/><s n="sint"/></l> 
-        <r>amable<s n="adj"/></r> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>hegarat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>hegarat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>hegarat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -57900,7 +59592,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -57911,7 +59603,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -57922,7 +59614,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -57933,7 +59625,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -57944,7 +59636,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -57955,7 +59647,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -58120,7 +59812,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -58460,13 +60152,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>heverk<s n="adj"/><s n="sint"/></l> 
-        <r>destacable<s n="adj"/></r> 
+        <r>destacable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -58482,13 +60174,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>heverk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>destacable<s n="adj"/></r> 
+        <r>destacable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -58504,13 +60196,24 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      mfadj-41
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>heverk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>relevante<s n="adj"/></r> 
+        <r>destacable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>heverk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>relevante<s n="adj"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -58537,8 +60240,52 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>heverk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>destacable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>heverk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>relevante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
+    -->
+    <e>
+      <p>
+        <l>heverk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>destacable<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>heverk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>relevante<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      adv-simple
     -->
     <e>
       <p>
@@ -58680,13 +60427,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      mfadj-41
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>heñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>semejante<s n="adj"/></r> 
+        <r>semejante<s n="adj"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -58731,6 +60478,17 @@
       <p>
         <l>heñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>parejo<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>heñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>semejante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -59055,7 +60813,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -59066,7 +60824,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -59077,7 +60835,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -59297,7 +61055,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjcoo-simple
     -->
     <e>
       <p>
@@ -59308,7 +61066,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjcoo-simple
     -->
     <e>
       <p>
@@ -59319,7 +61077,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjcoo-simple
     -->
     <e>
       <p>
@@ -59715,7 +61473,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -61178,7 +62936,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -61189,7 +62947,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -61397,13 +63155,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>iskis<s n="adj"/><s n="sint"/></l> 
-        <r>alienígena<s n="adj"/></r> 
+        <r>alienígena<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -61419,13 +63177,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>iskis<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>alienígena<s n="adj"/></r> 
+        <r>alienígena<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -61640,7 +63398,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -61651,7 +63409,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -61793,13 +63551,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>istorel<s n="adj"/><s n="sint"/></l> 
-        <r>histórico<s n="adj"/></r> 
+        <r>histórico<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -61815,13 +63573,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>istorel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>histórico<s n="adj"/></r> 
+        <r>histórico<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -61844,6 +63602,28 @@
       <p>
         <l>istorel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>histórico<s n="adj"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>istorel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>histórico<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>istorel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>histórico<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -62036,7 +63816,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -63268,7 +65048,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -63443,13 +65223,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>kadarn<s n="adj"/><s n="sint"/></l> 
-        <r>firme<s n="adj"/></r> 
+        <r>firme<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -63465,13 +65245,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>kadarn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>firme<s n="adj"/></r> 
+        <r>firme<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -63483,6 +65263,39 @@
       <p>
         <l>kadarn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>en<b/>firme<s n="adj"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>kadarn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>firme<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>kadarn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>firme<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>kadarn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>valiente<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -63718,13 +65531,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>kaezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>pobre<s n="adj"/></r> 
+        <r>pobre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>kaezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>pobre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>kaezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>pobre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -64137,7 +65972,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -64148,7 +65983,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -67151,7 +68986,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -67359,24 +69194,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>kelc’hiek<s n="adj"/><s n="sint"/></l> 
-        <r>circular<s n="adj"/></r> 
+        <r>circular<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>kelc’hiek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>circular<s n="adj"/></r> 
+        <r>circular<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>kelc’hiek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>circular<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>kelc’hiek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>circular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -67844,7 +69701,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -67855,7 +69712,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -68229,7 +70086,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -69241,7 +71098,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -69769,7 +71626,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -69846,7 +71703,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -70187,7 +72044,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -70198,7 +72055,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -70429,7 +72286,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -70440,7 +72297,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -70451,7 +72308,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -71649,24 +73506,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>kiriek<s n="adj"/><s n="sint"/></l> 
-        <r>responsable<s n="adj"/></r> 
+        <r>responsable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>kiriek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>responsable<s n="adj"/></r> 
+        <r>responsable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>kiriek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>responsable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>kiriek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>responsable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -74763,7 +76642,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -74796,7 +76675,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -74807,7 +76686,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -74818,7 +76697,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -75082,7 +76961,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -75093,7 +76972,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -76831,7 +78710,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -79724,7 +81603,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -79735,7 +81614,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -80229,13 +82108,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>lezvarnel<s n="adj"/><s n="sint"/></l> 
-        <r>judicial<s n="adj"/></r> 
+        <r>judicial<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>lezvarnel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>judicial<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>lezvarnel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>judicial<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>lezvarnel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>judicial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -80361,24 +82273,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>libr<s n="adj"/><s n="sint"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>libr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>libre<s n="adj"/></r> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>libr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>libr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>libre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -80526,24 +82460,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>liesdoare<s n="adj"/><s n="sint"/></l> 
-        <r>múltiple<s n="adj"/></r> 
+        <r>múltiple<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>liesdoare<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>múltiple<s n="adj"/></r> 
+        <r>múltiple<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>liesdoare<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>múltiple<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>liesdoare<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>múltiple<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -80779,24 +82735,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>liesyezhek<s n="adj"/><s n="sint"/></l> 
-        <r>multilingüe<s n="adj"/></r> 
+        <r>multilingüe<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>liesyezhek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>multilingüe<s n="adj"/></r> 
+        <r>multilingüe<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>liesyezhek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>multilingüe<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>liesyezhek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>multilingüe<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -84586,7 +86564,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -84597,7 +86575,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -84608,7 +86586,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -84619,7 +86597,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -84630,7 +86608,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -84652,7 +86630,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -84663,7 +86641,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -84674,7 +86652,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -84685,7 +86663,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -84696,7 +86674,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -85158,7 +87136,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -85763,7 +87741,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -85774,7 +87752,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -85785,7 +87763,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -86830,7 +88808,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjcoo-simple
     -->
     <e>
       <p>
@@ -86841,7 +88819,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjcoo-simple
     -->
     <e>
       <p>
@@ -86852,7 +88830,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjcoo-simple
     -->
     <e>
       <p>
@@ -87116,7 +89094,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -87127,7 +89105,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -87555,13 +89533,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>mibin<s n="adj"/><s n="sint"/></l> 
-        <r>ágil<s n="adj"/></r> 
+        <r>ágil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>mibin<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>ágil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>mibin<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>ágil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>mibin<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>ágil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -87940,35 +89951,68 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>milourel<s n="adj"/><s n="sint"/></l> 
-        <r>militar<s n="adj"/></r> 
+        <r>militar<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>milourel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>militar<s n="adj"/></r> 
+        <r>militar<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      mfadj-41
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>milourel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>castrense<s n="adj"/></r> 
+        <r>militar<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>milourel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>castrense<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>milourel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>militar<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>milourel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>castrense<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -88997,7 +91041,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -89030,7 +91074,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -89668,7 +91712,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -89679,7 +91723,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -89689,24 +91733,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>mort<s n="adj"/><s n="sint"/></l> 
-        <r>inmóvil<s n="adj"/></r> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>mort<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inmóvil<s n="adj"/></r> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>mort<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>mort<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inmóvil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -90218,7 +92284,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -90229,7 +92295,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -90251,7 +92317,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -90273,7 +92339,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -90284,7 +92350,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -90295,7 +92361,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -90636,7 +92702,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjcoo-simple
     -->
     <e>
       <p>
@@ -90647,7 +92713,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -90911,7 +92977,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -91241,7 +93307,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -91274,7 +93340,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -91285,7 +93351,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -91307,7 +93373,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -91549,7 +93615,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -91582,7 +93648,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -91593,7 +93659,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -91768,6 +93834,28 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>nes<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>afín<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>nes<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>afín<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -91901,7 +93989,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -92099,7 +94187,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -92110,7 +94198,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -92593,13 +94681,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>noazus<s n="adj"/><s n="sint"/></l> 
-        <r>perjudicial<s n="adj"/></r> 
+        <r>perjudicial<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>noazus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>perjudicial<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>noazus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>perjudicial<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>noazus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>perjudicial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -92615,24 +94736,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>nobl<s n="adj"/><s n="sint"/></l> 
-        <r>noble<s n="adj"/></r> 
+        <r>noble<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>nobl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>noble<s n="adj"/></r> 
+        <r>noble<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>nobl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>noble<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>nobl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>noble<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -93055,24 +95198,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>nukleel<s n="adj"/><s n="sint"/></l> 
-        <r>nuclear<s n="adj"/></r> 
+        <r>nuclear<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>nukleel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>nuclear<s n="adj"/></r> 
+        <r>nuclear<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>nukleel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>nuclear<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>nukleel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>nuclear<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -94221,13 +96386,90 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>ouesk<s n="adj"/><s n="sint"/></l> 
-        <r>amable<s n="adj"/></r> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>ouesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>ouesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>ouesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-43
+    -->
+    <e r="LR">
+      <p>
+        <l>ouesk<s n="adj"/><s n="sint"/></l> 
+        <r>flexible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>ouesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>flexible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>ouesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>flexible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>ouesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>flexible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -94239,17 +96481,6 @@
       <p>
         <l>ouesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>amable<s n="adj"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>ouesk<s n="adj"/><s n="sint"/></l> 
-        <r>flexible<s n="adj"/></r> 
       </p>
     </e>
 
@@ -94277,7 +96508,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -94288,7 +96519,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -94299,7 +96530,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -94310,7 +96541,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -94904,7 +97135,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -94915,7 +97146,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -94926,7 +97157,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -94937,7 +97168,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -95189,24 +97420,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>paour<s n="adj"/><s n="sint"/></l> 
-        <r>pobre<s n="adj"/></r> 
+        <r>pobre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>paour<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>pobre<s n="adj"/></r> 
+        <r>pobre<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>paour<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>pobre<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>paour<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>pobre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -96103,7 +98356,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjcoo-simple
     -->
     <e>
       <p>
@@ -96323,7 +98576,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -96367,7 +98620,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -96378,7 +98631,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -96389,7 +98642,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -96730,7 +98983,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -96763,7 +99016,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -96774,7 +99027,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -97202,13 +99455,24 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>peoc’hus<s n="adj"/><s n="sint"/></l> 
-        <r>apacible<s n="adj"/></r> 
+        <r>apacible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>peoc’hus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>apacible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -97390,7 +99654,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -97401,7 +99665,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -97621,7 +99885,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -97841,7 +100105,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -97863,7 +100127,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -97984,7 +100248,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -98039,7 +100303,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -98137,13 +100401,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>peuzheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>similar<s n="adj"/></r> 
+        <r>similar<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>peuzheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>similar<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>peuzheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>similar<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -98270,7 +100556,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -99205,7 +101491,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -99216,7 +101502,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -99776,13 +102062,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>plijus<s n="adj"/><s n="sint"/></l> 
-        <r>agradable<s n="adj"/></r> 
+        <r>agradable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -99798,13 +102084,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>plijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>agradable<s n="adj"/></r> 
+        <r>agradable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -99816,6 +102102,17 @@
       <p>
         <l>plijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>grato<s n="adj"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>plijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>agradable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -99838,6 +102135,17 @@
       <p>
         <l>plijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>grato<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>plijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>agradable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -100084,13 +102392,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>poblek<s n="adj"/><s n="sint"/></l> 
-        <r>popular<s n="adj"/></r> 
+        <r>popular<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>poblek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>popular<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>poblek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>popular<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>poblek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>popular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -100106,24 +102447,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>poblel<s n="adj"/><s n="sint"/></l> 
-        <r>popular<s n="adj"/></r> 
+        <r>popular<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>poblel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>popular<s n="adj"/></r> 
+        <r>popular<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>poblel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>popular<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>poblel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>popular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -100216,24 +102579,24 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>poellek<s n="adj"/><s n="sint"/></l> 
-        <r>prudente<s n="adj"/></r> 
+        <r>prudente<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>poellek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>prudente<s n="adj"/></r> 
+        <r>prudente<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -100938,6 +103301,39 @@
       <p>
         <l>postadur<s n="n"/><s n="m"/></l> 
         <r>colocación<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>posupl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>posible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>posupl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>posible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>posupl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>posible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -101680,7 +104076,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -103979,7 +106375,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -104617,7 +107013,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -104792,13 +107188,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>red<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>móvil<s n="adj"/></r> 
+        <r>móvil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>red<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>móvil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>red<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>móvil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -105320,24 +107738,68 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>rekis<s n="adj"/><s n="sint"/></l> 
-        <r>imprescindible<s n="adj"/></r> 
+        <r>imprescindible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>rekis<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>imprescindible<s n="adj"/></r> 
+        <r>imprescindible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>rekis<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>indispensable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>rekis<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imprescindible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>rekis<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>indispensable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>rekis<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imprescindible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -105349,6 +107811,17 @@
       <p>
         <l>rekis<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>indispensable<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>rekis<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imprescindible<s n="adj"/></r> 
       </p>
     </e>
 
@@ -106596,13 +109069,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>ret-holl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>imprescindible<s n="adj"/></r> 
+        <r>imprescindible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -106614,6 +109087,17 @@
       <p>
         <l>ret-holl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>indispensable<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>ret-holl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imprescindible<s n="adj"/></r> 
       </p>
     </e>
 
@@ -108257,24 +110741,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>roz<s n="adj"/><s n="sint"/></l> 
-        <r>rosa<s n="adj"/></r> 
+        <r>rosa<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>roz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>rosa<s n="adj"/></r> 
+        <r>rosa<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>roz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>rosa<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>roz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>rosa<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -109974,7 +112480,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -110150,7 +112656,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -111074,7 +113580,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -111722,13 +114228,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>simpl<s n="adj"/><s n="sint"/></l> 
-        <r>simple<s n="adj"/></r> 
+        <r>simple<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -111744,13 +114250,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>simpl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>simple<s n="adj"/></r> 
+        <r>simple<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -111788,6 +114294,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>simpl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>simple<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -111806,6 +114323,17 @@
       <p>
         <l>simpl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>mero<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>simpl<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>simple<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -112294,13 +114822,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>sizhuniek<s n="adj"/><s n="sint"/></l> 
-        <r>semanal<s n="adj"/></r> 
+        <r>semanal<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>sizhuniek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>semanal<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>sizhuniek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>semanal<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>sizhuniek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>semanal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -113801,13 +116362,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e c="new-category">
+    <e r="LR" c="new-category">
       <p>
         <l>skouer<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>ejemplar<s n="adj"/></r> 
+        <r>ejemplar<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL" c="new-category">
+      <p>
+        <l>skouer<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>ejemplar<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL" c="new-category">
+      <p>
+        <l>skouer<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>ejemplar<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -114065,24 +116648,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>skrijus<s n="adj"/><s n="sint"/></l> 
-        <r>terrible<s n="adj"/></r> 
+        <r>terrible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>skrijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>terrible<s n="adj"/></r> 
+        <r>terrible<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>skrijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>terrible<s n="adj"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -114105,6 +116699,28 @@
       <p>
         <l>skrijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>tremendo<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>skrijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>terrible<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>skrijus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>terrible<s n="adj"/></r> 
       </p>
     </e>
 
@@ -115748,13 +118364,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e c="new-category">
+    <e r="LR" c="new-category">
       <p>
         <l>stabil<s n="adj"/><s n="sint"/></l> 
-        <r>estable<s n="adj"/></r> 
+        <r>estable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR" c="new-category">
+      <p>
+        <l>stabil<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>estable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL" c="new-category">
+      <p>
+        <l>stabil<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>estable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL" c="new-category">
+      <p>
+        <l>stabil<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>estable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -116397,13 +119046,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>start<s n="adj"/><s n="sint"/></l> 
-        <r>difícil<s n="adj"/></r> 
+        <r>difícil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>start<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>difícil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>start<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>difícil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>start<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>difícil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -118796,7 +121478,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -119037,24 +121719,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>talvoudus<s n="adj"/><s n="sint"/></l> 
-        <r>útil<s n="adj"/></r> 
+        <r>útil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>talvoudus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>útil<s n="adj"/></r> 
+        <r>útil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>talvoudus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>útil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>talvoudus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>útil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -119115,7 +121819,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -119126,7 +121830,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -122260,19 +124964,30 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      mfadj-41
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>tost<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>afín<s n="adj"/></r> 
+        <r>afín<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>tost<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>afín<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -122811,7 +125526,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      cnjadv-simple
     -->
     <e>
       <p>
@@ -122998,7 +125713,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -123405,7 +126120,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -124339,24 +127054,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>trist<s n="adj"/><s n="sint"/></l> 
-        <r>triste<s n="adj"/></r> 
+        <r>triste<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>trist<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>triste<s n="adj"/></r> 
+        <r>triste<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>trist<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>triste<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>trist<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>triste<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -124505,7 +127242,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -124516,7 +127253,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -124527,7 +127264,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -125131,13 +127868,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>truezus<s n="adj"/><s n="sint"/></l> 
-        <r>lamentable<s n="adj"/></r> 
+        <r>lamentable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'LR' restriction
+      mfadj-21
+    -->
+    <e r="LR">
+      <p>
+        <l>truezus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>lamentable<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>truezus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>lamentable<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>truezus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>lamentable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -125956,24 +128726,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>unyezhek<s n="adj"/><s n="sint"/></l> 
-        <r>monolingüe<s n="adj"/></r> 
+        <r>monolingüe<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>unyezhek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>monolingüe<s n="adj"/></r> 
+        <r>monolingüe<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>unyezhek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>monolingüe<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>unyezhek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>monolingüe<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -126242,13 +129034,35 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>ven<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>débil<s n="adj"/></r> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>ven<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>ven<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>débil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -126573,7 +129387,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -126584,7 +129398,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -126595,7 +129409,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -126606,7 +129420,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -126617,7 +129431,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -126628,7 +129442,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -126639,7 +129453,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -126650,7 +129464,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -126661,7 +129475,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -126672,7 +129486,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -126683,7 +129497,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -126694,7 +129508,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -126705,7 +129519,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -126716,7 +129530,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -126727,7 +129541,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -126771,7 +129585,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -126782,7 +129596,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -126891,24 +129705,46 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>yaouank<s n="adj"/><s n="sint"/></l> 
-        <r>joven<s n="adj"/></r> 
+        <r>joven<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>yaouank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>joven<s n="adj"/></r> 
+        <r>joven<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>yaouank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>joven<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>yaouank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>joven<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -127276,13 +130112,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-43
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>youlek<s n="adj"/><s n="sint"/></l> 
-        <r>voluntario<s n="adj"/></r> 
+        <r>voluntario<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -127298,13 +130134,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'LR' restriction
+      mfadj-21
     -->
-    <e>
+    <e r="LR">
       <p>
         <l>youlek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>voluntario<s n="adj"/></r> 
+        <r>voluntario<s n="adj"/><s n="mf"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -127327,6 +130163,28 @@
       <p>
         <l>youlek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>voluntario<s n="adj"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-41
+    -->
+    <e r="RL">
+      <p>
+        <l>youlek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>voluntario<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      mfadj-42
+    -->
+    <e r="RL">
+      <p>
+        <l>youlek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>voluntario<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -127409,7 +130267,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -127420,7 +130278,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      adv-simple
     -->
     <e>
       <p>
@@ -127431,7 +130289,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
@@ -127442,7 +130300,7 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      pr-simple
     -->
     <e>
       <p>
