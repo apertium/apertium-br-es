@@ -3,11 +3,11 @@
 	Dictionary:
 	Bilingual dictionary: br-es
 	Sections: 1
-	Entries: 11586
+	Entries: 11580
 	Sdefs: 90
       
       Patterns applied:
-      	default (5247 times)
+      	default (5235 times)
       	norestrictions-0 (1580 times)
       	norestrictions-1 (1245 times)
       	norestrictions-2 (1272 times)
@@ -15,7 +15,9 @@
       	norestrictions-4 (522 times)
       	norestrictions-5 (246 times)
       	norestrictions-6 (308 times)
-      	ND-311 (3 times)
+      	npal-311 (3 times)
+      	rmrestricts-211 (3 times)
+      	rmrestricts-212 (3 times)
 
 -->
 <dictionary>
@@ -487,7 +489,7 @@
 
     <!-- 
 	forced 'null' restriction
-      ND-311
+      npal-311
     -->
     <e>
       <p>
@@ -4408,7 +4410,7 @@
 
     <!-- 
 	forced 'null' restriction
-      ND-311
+      npal-311
     -->
     <e>
       <p>
@@ -4419,7 +4421,7 @@
 
     <!-- 
 	forced 'null' restriction
-      ND-311
+      npal-311
     -->
     <e>
       <p>
@@ -39520,23 +39522,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmrestricts-212
     -->
     <e>
       <p>
-        <l>emgavadenn<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>cita<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>emgavadenn<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>cita<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>emgavadenn<s n="n"/><s n="f"/></l> 
+        <r>cita<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -49662,23 +49653,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmrestricts-211
     -->
     <e>
       <p>
-        <l>geun<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>marisma<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>geun<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>marisma<s n="n"/><s n="f"/><s n="pl"/></r> 
+        <l>geun<s n="n"/><s n="f"/></l> 
+        <r>marisma<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -55844,23 +55824,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmrestricts-211
     -->
     <e>
       <p>
-        <l>gwern<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>marisma<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>gwern<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>marisma<s n="n"/><s n="f"/><s n="pl"/></r> 
+        <l>gwern<s n="n"/><s n="f"/></l> 
+        <r>marisma<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -92108,23 +92077,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmrestricts-212
     -->
     <e>
       <p>
-        <l>nevez-amzer<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>primavera<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>nevez-amzer<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>primavera<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>nevez-amzer<s n="n"/><s n="f"/></l> 
+        <r>primavera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -92229,23 +92187,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmrestricts-212
     -->
     <e>
       <p>
-        <l>nevezamzer<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>primavera<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>nevezamzer<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>primavera<s n="n"/><s n="f"/><s n="sg"/></r> 
+        <l>nevezamzer<s n="n"/><s n="f"/></l> 
+        <r>primavera<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -92944,23 +92891,12 @@
 
     <!-- 
 	forced 'null' restriction
-      default
+      rmrestricts-211
     -->
     <e>
       <p>
-        <l>nouelenn<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>navidad<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <!-- 
-	forced 'null' restriction
-      default
-    -->
-    <e>
-      <p>
-        <l>nouelenn<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>navidad<s n="n"/><s n="f"/><s n="pl"/></r> 
+        <l>nouelenn<s n="n"/><s n="f"/></l> 
+        <r>navidad<s n="n"/><s n="f"/></r> 
       </p>
     </e>
 

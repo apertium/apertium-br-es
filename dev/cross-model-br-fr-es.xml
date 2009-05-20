@@ -337,7 +337,7 @@
 
 </cross-action>
 <!-- 5 entries like this -->
-<cross-action id="ND-311">
+<cross-action id="npal-311">
 	<pattern>
     <e>
       <p>
@@ -368,6 +368,191 @@
 </cross-action>
 <!-- 5 entries like this -->
 
+<cross-action id="rmrestricts-207">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/><s n="sg"/></l> 
+        <r>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="webform">
+      <p>
+        <l>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+<action>
+    <e>
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+</action>
+</action-set>
+
+</cross-action>
+<!-- 11 entries like this -->
+
+<cross-action id="rmrestricts-208">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/><s n="sg"/></l> 
+        <r>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="webform">
+      <p>
+        <l>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+<action>
+    <e>
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+</action>
+</action-set>
+
+</cross-action>
+<!-- 11 entries like this -->
+
+<cross-action id="rmrestricts-209">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/><s n="pl"/></l> 
+        <r>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="webform">
+      <p>
+        <l>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+<action>
+    <e>
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+</action>
+</action-set>
+
+</cross-action>
+<!-- 11 entries like this -->
+
+<cross-action id="rmrestricts-210">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/><s n="pl"/></l> 
+        <r>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="webform">
+      <p>
+        <l>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+<action>
+    <e>
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+</action>
+</action-set>
+
+</cross-action>
+<!-- 11 entries like this -->
+
+<cross-action id="rmrestricts-211">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/><s n="ND"/></l> 
+        <r>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="webform">
+      <p>
+        <l>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+<action>
+    <e>
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+</action>
+</action-set>
+
+</cross-action>
+<!-- 11 entries like this -->
+
+<cross-action id="rmrestricts-212">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/><s n="ND"/></l> 
+        <r>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="webform">
+      <p>
+        <l>$lemmaB<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+<action>
+    <e>
+      <p>
+        <l>$lemmaA<s n="n"/><s n="f"/></l> 
+        <r>$lemmaC<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+</action>
+</action-set>
+
+</cross-action>
+<!-- 11 entries like this -->
 
 </cross-model>
 
