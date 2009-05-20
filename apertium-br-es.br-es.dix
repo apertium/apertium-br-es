@@ -3,11 +3,11 @@
 	Dictionary:
 	Bilingual dictionary: br-es
 	Sections: 1
-	Entries: 11840
+	Entries: 11992
 	Sdefs: 90
       
       Patterns applied:
-      	default (4350 times)
+      	default (4342 times)
       	norestrictions-0 (1580 times)
       	norestrictions-1 (1245 times)
       	norestrictions-2 (1272 times)
@@ -30,6 +30,8 @@
       	adv-simple (273 times)
       	rmsp-nounm-39 (95 times)
       	rmsp-nounf-39 (7 times)
+      	adj-bothmf-leftsp-1 (93 times)
+      	adj-bothmf-leftsp-2 (67 times)
 
 -->
 <dictionary>
@@ -4696,13 +4698,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>a-bouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>importante<s n="adj"/><s n="mf"/></r> 
+        <r>importante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -4714,6 +4716,17 @@
       <p>
         <l>a-bouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>a-bouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>importante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -5213,13 +5226,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>a-vremañ<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>actual<s n="adj"/><s n="mf"/></r> 
+        <r>actual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -5231,6 +5244,17 @@
       <p>
         <l>a-vremañ<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>actual<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>a-vremañ<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>actual<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -7611,13 +7635,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>amerikan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>estadounidense<s n="adj"/><s n="mf"/></r> 
+        <r>estadounidense<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -7629,6 +7653,17 @@
       <p>
         <l>amerikan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>americano<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>amerikan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>estadounidense<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -7908,6 +7943,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>amparfal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>torpe<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -7926,6 +7972,17 @@
       <p>
         <l>ampart<s n="adj"/><s n="sint"/></l> 
         <r>hábil<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>ampart<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>hábil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -8014,6 +8071,17 @@
       <p>
         <l>amred<s n="n"/><s n="m"/></l> 
         <r>circuito<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>amreizh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>irregular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -8432,6 +8500,17 @@
       <p>
         <l>anat<s n="adj"/><s n="sint"/></l> 
         <r>evidente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>anat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>evidente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -11527,6 +11606,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>artifisiel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>artificial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -12392,6 +12482,17 @@
       <p>
         <l>asur<s n="adj"/><s n="sint"/></l> 
         <r>formal<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>asur<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>formal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -13628,13 +13729,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>bann<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>ascendente<s n="adj"/><s n="mf"/></r> 
+        <r>ascendente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -14332,6 +14433,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>barrek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>competente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -14790,6 +14902,17 @@
       <p>
         <l>bedel<s n="adj"/><s n="sint"/></l> 
         <r>mundial<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>bedel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>mundial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -15703,6 +15826,17 @@
       <p>
         <l>beurevezh<s n="n"/><s n="m"/></l> 
         <r>matiné<s n="n"/><s n="f"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>beuz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fuerte<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -16957,6 +17091,17 @@
       <p>
         <l>bloaziek<s n="adj"/><s n="sint"/></l> 
         <r>anual<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>bloaziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>anual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -18820,6 +18965,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>boutin<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>común<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -18992,6 +19148,17 @@
       <p>
         <l>bras<s n="adj"/><s n="sint"/></l> 
         <r>grande<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>bras<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>grande<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -20642,6 +20809,17 @@
       <p>
         <l>broadel<s n="adj"/><s n="sint"/></l> 
         <r>nacional<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>broadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>nacional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -23902,6 +24080,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>da<b/>badout<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>permanente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -24364,6 +24553,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>damani<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>potente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -24679,6 +24879,17 @@
       <p>
         <l>danvezel<s n="adj"/><s n="sint"/></l> 
         <r>material<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>danvezel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>material<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -26113,6 +26324,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>dedennus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>interesante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -27345,6 +27567,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>dereziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>gradual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -28467,6 +28700,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>diaviz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>imprudente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -28742,6 +28986,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>dibaouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>incesante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -28760,6 +29015,17 @@
       <p>
         <l>dibar<s n="adj"/><s n="sint"/></l> 
         <r>particular<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>dibar<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>particular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -28881,6 +29147,17 @@
       <p>
         <l>dibleg<s n="adj"/><s n="sint"/></l> 
         <r>intransigente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>dibleg<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>intransigente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29138,6 +29415,28 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>dichek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>familiar<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>dichek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>coloquial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -29288,6 +29587,17 @@
       <p>
         <l>didalvoud<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>inútil<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>didamall<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inocente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29530,6 +29840,17 @@
       <p>
         <l>diefedus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>ineficaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>diehan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>incesante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29974,13 +30295,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>diforc’h<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>diferente<s n="adj"/><s n="mf"/></r> 
+        <r>diferente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -29992,6 +30313,17 @@
       <p>
         <l>diforc’h<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>distinto<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>diforc’h<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>diferente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -30080,6 +30412,17 @@
       <p>
         <l>difraeüs<s n="adj"/><s n="sint"/></l> 
         <r>urgente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>difraeüs<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>urgente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -30267,6 +30610,17 @@
       <p>
         <l>digablus<s n="adj"/><s n="sint"/></l> 
         <r>inocente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>digablus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inocente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -31668,6 +32022,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>diot<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>idiota<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -32581,6 +32946,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>direizh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>irregular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -32819,6 +33195,17 @@
       <p>
         <l>diseblant<s n="adj"/><s n="sint"/></l> 
         <r>indiferente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>diseblant<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>indiferente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -33131,13 +33518,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>disheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>diferente<s n="adj"/><s n="mf"/></r> 
+        <r>diferente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -33149,6 +33536,17 @@
       <p>
         <l>disheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>distinto<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>disheñvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>diferente<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -34418,6 +34816,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>dispriz<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>insignificante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -35419,6 +35828,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>divarvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inmortal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -35800,6 +36220,17 @@
       <p>
         <l>divoutin<s n="adj"/><s n="sint"/></l> 
         <r>original<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>divoutin<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>original<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -36233,6 +36664,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>dizalc’h<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>independiente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -36321,6 +36763,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>dizehan<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>incesante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -36376,13 +36829,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>dizereat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>inconveniente<s n="adj"/><s n="mf"/></r> 
+        <r>inconveniente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -36403,8 +36856,30 @@
     -->
     <e>
       <p>
+        <l>dizereat<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inconveniente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
         <l>dizesk<s n="adj"/><s n="sint"/></l> 
         <r>ignorante<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>dizesk<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>ignorante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -36471,6 +36946,17 @@
       <p>
         <l>dizingal<s n="adj"/><s n="sint"/></l> 
         <r>irregular<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>dizingal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>irregular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -37208,6 +37694,17 @@
       <p>
         <l>dornet<s n="adj"/><s n="sint"/></l> 
         <r>hábil<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>dornet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>hábil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -38191,6 +38688,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>drant<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>alegre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -38301,6 +38809,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>dreist<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>excelente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -38374,6 +38893,17 @@
       <p>
         <l>dreistmuzul<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>desmesurado<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>dreistordinal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>excepcional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -38484,6 +39014,17 @@
       <p>
         <l>drev<s n="adj"/><s n="sint"/></l> 
         <r>alegre<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>drev<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>alegre<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -38979,6 +39520,17 @@
       <p>
         <l>dudius<s n="adj"/><s n="sint"/></l> 
         <r>interesante<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>dudius<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>interesante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -44274,6 +44826,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>etrebroadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>internacional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -44314,6 +44877,17 @@
       <p>
         <l>etrevroadel<s n="adj"/><s n="sint"/></l> 
         <r>internacional<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>etrevroadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>internacional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -44681,6 +45255,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>euver<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>igual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -44732,6 +45317,17 @@
       <p>
         <l>euvrus<s n="adj"/><s n="sint"/></l> 
         <r>absorbente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>euvrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>absorbente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -47244,6 +47840,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>flamm<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>ardiente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -47438,6 +48045,28 @@
       <p>
         <l>flemmus<s n="adj"/><s n="sint"/></l> 
         <r>mordaz<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>flemmus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>picante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>flemmus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>mordaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -47757,6 +48386,17 @@
       <p>
         <l>fonnus<s n="adj"/><s n="sint"/></l> 
         <r>abundante<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>fonnus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>abundante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -48124,6 +48764,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>fougaser<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>suficiente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -48428,6 +49079,17 @@
       <p>
         <l>frammadurel<s n="adj"/><s n="sint"/></l> 
         <r>estructural<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>frammadurel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>estructural<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -49499,13 +50161,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>gae<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>feliz<s n="adj"/><s n="mf"/></r> 
+        <r>feliz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -50247,6 +50909,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>galloudek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>potente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -50309,6 +50982,17 @@
       <p>
         <l>galloudus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>poderoso<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>galloudus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>potente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -50940,6 +51624,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>genidik<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>natal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -51310,6 +52005,17 @@
       <p>
         <l>glas<s n="adj"/><s n="sint"/></l> 
         <r>azul<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL" c="new-category">
+      <p>
+        <l>glas<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>azul<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -52025,6 +52731,17 @@
       <p>
         <l>gor<s n="adj"/><s n="sint"/></l> 
         <r>caliente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>gor<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>caliente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -53624,6 +54341,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>gourdrouzus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>amenazante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -54493,6 +55221,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>greantel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>industrial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -55050,6 +55789,17 @@
       <p>
         <l>groñs<s n="adj"/><s n="sint"/></l> 
         <r>formal<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>groñs<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>formal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -56814,6 +57564,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>gwellañ<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>mejor<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -57184,6 +57945,17 @@
       <p>
         <l>gwer<s n="adj"/><s n="sint"/></l> 
         <r>verde<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>gwer<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>verde<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -57844,6 +58616,17 @@
       <p>
         <l>gwigourus<s n="adj"/><s n="sint"/></l> 
         <r>chirriante<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>gwigourus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>chirriante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -58780,6 +59563,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>harp<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>adyacente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -59396,6 +60190,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>hengounel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>tradicional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -59568,6 +60373,17 @@
       <p>
         <l>henvoazel<s n="adj"/><s n="sint"/></l> 
         <r>tradicional<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>henvoazel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>tradicional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -60144,6 +60960,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>hevelep<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>tal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -60316,6 +61143,17 @@
       <p>
         <l>hewel<s n="adj"/><s n="sint"/></l> 
         <r>visual<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>hewel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>visual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -60694,6 +61532,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>hiniennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>individual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -60958,13 +61807,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>hoalet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>mayor<s n="adj"/><s n="mf"/></r> 
+        <r>mayor<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -61002,13 +61851,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>hoalus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>mayor<s n="adj"/><s n="mf"/></r> 
+        <r>mayor<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -61031,6 +61880,17 @@
       <p>
         <l>hoalus<s n="adj"/><s n="sint"/></l> 
         <r>atrayente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>hoalus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>atrayente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -61233,6 +62093,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>hollek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>general<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -61240,6 +62111,17 @@
       <p>
         <l>hollek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>general<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>hollel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>total<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -61317,6 +62199,17 @@
       <p>
         <l>hollvedel<s n="adj"/><s n="sint"/></l> 
         <r>universal<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>hollvedel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>universal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -62285,6 +63178,17 @@
       <p>
         <l>illur<s n="adj"/><s n="sint"/></l> 
         <r>brillante<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>illur<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>brillante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -64731,6 +65635,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>jentil<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>amable<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -65831,13 +66746,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>kalonek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>valiente<s n="adj"/><s n="mf"/></r> 
+        <r>valiente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -68779,6 +69694,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>kefridiel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>oficial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -70715,6 +71641,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>kenfeurel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>proporcional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -70733,6 +71670,17 @@
       <p>
         <l>kenfeuriek<s n="adj"/><s n="sint"/></l> 
         <r>proporcional<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>kenfeuriek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>proporcional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -70799,6 +71747,17 @@
       <p>
         <l>kenglot<s n="adj"/><s n="sint"/></l> 
         <r>correspondiente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>kenglot<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>correspondiente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -71859,6 +72818,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>kenwerzhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>comercial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -71921,6 +72891,17 @@
       <p>
         <l>keodedel<s n="adj"/><s n="sint"/></l> 
         <r>civil<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>keodedel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>civil<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -72409,6 +73390,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>kevandirel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>continental<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -72460,6 +73452,17 @@
       <p>
         <l>kevatal<s n="adj"/><s n="sint"/></l> 
         <r>igual<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>kevatal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>igual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -72728,6 +73731,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>kevredadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>federal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -72768,6 +73782,17 @@
       <p>
         <l>kevredigezhel<s n="adj"/><s n="sint"/></l> 
         <r>social<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>kevredigezhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>social<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -74132,6 +75157,17 @@
       <p>
         <l>klevout<s n="vblex"/></l> 
         <r>sentir<s n="vblex"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>klewelet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>audiovisual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -77315,13 +78351,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>kran<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>elegante<s n="adj"/><s n="mf"/></r> 
+        <r>elegante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -77333,6 +78369,17 @@
       <p>
         <l>kran<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>airoso<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>kran<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>elegante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -78026,6 +79073,17 @@
       <p>
         <l>kreñv<s n="adj"/><s n="sint"/></l> 
         <r>fuerte<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>kreñv<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fuerte<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -78774,6 +79832,17 @@
       <p>
         <l>kumun<s n="adj"/><s n="sint"/></l> 
         <r>común<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>kumun<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>común<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -80780,6 +81849,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>lec’hel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>local<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -82034,6 +83114,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>legal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -82265,6 +83356,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>liberal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>liberal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -82426,6 +83528,17 @@
       <p>
         <l>lies<s n="adj"/><s n="sint"/></l> 
         <r>plural<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>lies<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>plural<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -82723,6 +83836,17 @@
       <p>
         <l>liesvloaziek<s n="adj"/><s n="sint"/></l> 
         <r>plurianual<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>liesvloaziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>plurianual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -84652,6 +85776,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>lufr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>brillante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -85550,6 +86685,17 @@
       <p>
         <l>mallus<s n="adj"/><s n="sint"/></l> 
         <r>urgente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>mallus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>urgente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -86830,6 +87976,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>marvel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>mortal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -86848,6 +88005,17 @@
       <p>
         <l>marvus<s n="adj"/><s n="sint"/></l> 
         <r>homicida<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>marvus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>homicida<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -87310,6 +88478,17 @@
       <p>
         <l>meinel<s n="adj"/><s n="sint"/></l> 
         <r>mineral<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>meinel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>mineral<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -89041,6 +90220,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>meur<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>grande<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -89609,6 +90799,17 @@
       <p>
         <l>micherel<s n="adj"/><s n="sint"/></l> 
         <r>profesional<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>micherel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>profesional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -90603,13 +91804,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>mistr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>elegante<s n="adj"/><s n="mf"/></r> 
+        <r>elegante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -90621,6 +91822,17 @@
       <p>
         <l>mistr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>airoso<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>mistr<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>elegante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -90907,6 +92119,17 @@
       <p>
         <l>miziek<s n="adj"/><s n="sint"/></l> 
         <r>mensual<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>miziek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>mensual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -93188,6 +94411,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>naturel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>natural<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -93338,6 +94572,17 @@
       <p>
         <l>nebeut<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>insignificante<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>nebeut<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>insignificante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -93778,6 +95023,17 @@
       <p>
         <l>nerzhus<s n="adj"/><s n="sint"/></l> 
         <r>fuerte<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>nerzhus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fuerte<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -94805,6 +96061,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>normal<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>normal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -95333,13 +96600,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>oadet<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>mayor<s n="adj"/><s n="mf"/></r> 
+        <r>mayor<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -95780,6 +97047,17 @@
       <p>
         <l>ofisiel<s n="adj"/><s n="sint"/></l> 
         <r>oficial<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>ofisiel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>oficial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -97291,6 +98569,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>paot<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>abundante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -97518,6 +98807,17 @@
       <p>
         <l>papigod<s n="n"/><s n="m"/></l> 
         <r>papagayo<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>par<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>igual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -97797,13 +99097,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e c="new-category">
+    <e r="RL" c="new-category">
       <p>
         <l>parizian<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>parisiense<s n="adj"/><s n="mf"/></r> 
+        <r>parisiense<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -97815,6 +99115,17 @@
       <p>
         <l>parizian<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>parisino<s n="adj"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e c="new-category">
+      <p>
+        <l>parizian<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>parisiense<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -99106,6 +100417,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>pennañ<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>principal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -99751,6 +101073,17 @@
       <p>
         <l>personel<s n="adj"/><s n="sint"/></l> 
         <r>personal<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>personel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>personal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -100635,13 +101968,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>pezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>importante<s n="adj"/><s n="mf"/></r> 
+        <r>importante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -100653,6 +101986,17 @@
       <p>
         <l>pezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>pezh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>importante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -101731,6 +103075,17 @@
       <p>
         <l>plantel<s n="adj"/><s n="sint"/></l> 
         <r>vegetal<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>plantel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>vegetal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -103462,13 +104817,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>pouezus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>importante<s n="adj"/><s n="mf"/></r> 
+        <r>importante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -103480,6 +104835,17 @@
       <p>
         <l>pouezus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'null' restriction
+      default
+    -->
+    <e>
+      <p>
+        <l>pouezus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>importante<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
@@ -104628,6 +105994,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>prezidantel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>presidencial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -105706,6 +107083,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>protestant<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>protestante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -105790,6 +107178,17 @@
       <p>
         <l>proviñsel<s n="adj"/><s n="sint"/></l> 
         <r>provincial<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>proviñsel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>provincial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -106120,6 +107519,17 @@
       <p>
         <l>puilh<s n="adj"/><s n="sint"/></l> 
         <r>abundante<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>puilh<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>abundante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -106828,6 +108238,28 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>rannvroel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>comarcal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>rannvroel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>regional<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -107070,13 +108502,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>real<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>real<s n="adj"/><s n="mf"/></r> 
+        <r>real<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -107671,6 +109103,17 @@
       <p>
         <l>reizhel<s n="adj"/><s n="sint"/></l> 
         <r>sexual<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>reizhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>sexual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -108687,6 +110130,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>reoliek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>regular<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -109409,6 +110863,17 @@
       <p>
         <l>revel<s n="adj"/><s n="sint"/></l> 
         <r>sexual<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>revel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>sexual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -110634,13 +112099,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>roueel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>real<s n="adj"/><s n="mf"/></r> 
+        <r>real<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -111939,6 +113404,17 @@
       <p>
         <l>saotrus<s n="adj"/><s n="sint"/></l> 
         <r>contaminante<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>saotrus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>contaminante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -113428,6 +114904,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>sentus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>obediente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -113721,6 +115208,17 @@
       <p>
         <l>sevenadurel<s n="adj"/><s n="sint"/></l> 
         <r>cultural<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>sevenadurel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>cultural<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -115089,6 +116587,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>skedus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>brillante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -116354,6 +117863,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>skort<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>insuficiente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -116981,6 +118501,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>sokial<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>social<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -117322,6 +118853,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>sonerezhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>musical<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -117351,6 +118893,17 @@
       <p>
         <l>sonn<s n="adj"/><s n="sint"/></l> 
         <r>fuerte<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>sonn<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>fuerte<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -117883,6 +119436,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>speredek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>inteligente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -117901,6 +119465,17 @@
       <p>
         <l>speredel<s n="adj"/><s n="sint"/></l> 
         <r>espiritual<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>speredel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>espiritual<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -118924,6 +120499,17 @@
       <p>
         <l>stank<s n="adj"/><s n="sint"/></l> 
         <r>abundante<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>stank<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>abundante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -120530,6 +122116,17 @@
       <p>
         <l>struzhel<s n="adj"/><s n="sint"/></l> 
         <r>vegetal<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>struzhel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>vegetal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -124153,6 +125750,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>tiriadel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>territorial<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -124479,6 +126087,17 @@
       <p>
         <l>tomm<s n="adj"/><s n="sint"/></l> 
         <r>caliente<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>tomm<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>caliente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -126793,6 +128412,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>treuzwelus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>transparente<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -127713,6 +129343,17 @@
       <p>
         <l>trovanel<s n="adj"/><s n="sint"/></l> 
         <r>tropical<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>trovanel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>tropical<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -129015,6 +130656,17 @@
     </e>
 
     <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>vak<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>vacante<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <!-- 
 	forced 'null' restriction
       default
     -->
@@ -129099,6 +130751,17 @@
       <p>
         <l>verbel<s n="adj"/><s n="sint"/></l> 
         <r>verbal<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-1
+    -->
+    <e r="RL">
+      <p>
+        <l>verbel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>verbal<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -129935,6 +131598,17 @@
       <p>
         <l>yezhadurel<s n="adj"/><s n="sint"/></l> 
         <r>gramatical<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+    <!-- 
+	forced 'RL' restriction
+      adj-bothmf-leftsp-2
+    -->
+    <e r="RL">
+      <p>
+        <l>yezhadurel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>gramatical<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 

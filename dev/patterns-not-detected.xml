@@ -240,29 +240,6 @@
       </p>
     </e>
 
-    <e r="LR" c="new-category">
-      <p>
-        <l>bleu<s n="adj"/><s n="f"/></l> 
-        <r>azul<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 419 entries like this -->
-
-<cross-action id="ND-11">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>glas<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>bleu<s n="adj"/><s n="GD"/><s n="ND"/></r> 
-      </p>
-    </e>
-
     <e r="RL" c="new-category">
       <p>
         <l>bleu<s n="adj"/><s n="GD"/></l> 
@@ -277,30 +254,7 @@
 </cross-action>
 <!-- 415 entries like this -->
 
-<cross-action id="ND-12">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>glas<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>bleu<s n="adj"/><s n="GD"/><s n="ND"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" c="new-category">
-      <p>
-        <l>bleu<s n="adj"/><s n="m"/></l> 
-        <r>azul<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 409 entries like this -->
-
-<cross-action id="ND-13">
+<cross-action id="ND-11">
 	<pattern>
     <e r="RL">
       <p>
@@ -323,7 +277,7 @@
 </cross-action>
 <!-- 363 entries like this -->
 
-<cross-action id="ND-14">
+<cross-action id="ND-12">
 	<pattern>
     <e r="RL">
       <p>
@@ -346,7 +300,7 @@
 </cross-action>
 <!-- 363 entries like this -->
 
-<cross-action id="ND-15">
+<cross-action id="ND-13">
 	<pattern>
     <e>
       <p>
@@ -369,7 +323,7 @@
 </cross-action>
 <!-- 363 entries like this -->
 
-<cross-action id="ND-16">
+<cross-action id="ND-14">
 	<pattern>
     <e r="RL">
       <p>
@@ -392,7 +346,7 @@
 </cross-action>
 <!-- 355 entries like this -->
 
-<cross-action id="ND-17">
+<cross-action id="ND-15">
 	<pattern>
     <e r="RL">
       <p>
@@ -415,7 +369,7 @@
 </cross-action>
 <!-- 347 entries like this -->
 
-<cross-action id="ND-18">
+<cross-action id="ND-16">
 	<pattern>
     <e r="RL">
       <p>
@@ -438,7 +392,7 @@
 </cross-action>
 <!-- 347 entries like this -->
 
-<cross-action id="ND-19">
+<cross-action id="ND-17">
 	<pattern>
     <e r="RL">
       <p>
@@ -461,12 +415,58 @@
 </cross-action>
 <!-- 339 entries like this -->
 
-<cross-action id="ND-20">
+<cross-action id="ND-18">
 	<pattern>
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>légal<s n="adj"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="webform">
+      <p>
+        <l>légal<s n="adj"/><s n="GD"/></l> 
+        <r>legal<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 329 entries like this -->
+
+<cross-action id="ND-19">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>légal<s n="adj"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="webform">
+      <p>
+        <l>légal<s n="adj"/><s n="GD"/></l> 
+        <r>legal<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 329 entries like this -->
+
+<cross-action id="ND-20">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>légal<s n="adj"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -489,13 +489,13 @@
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="m"/><s n="pl"/></r> 
+        <r>légal<s n="adj"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="RL" a="webform">
+    <e r="LR" a="webform">
       <p>
-        <l>légal<s n="adj"/><s n="GD"/></l> 
+        <l>légal<s n="adj"/><s n="f"/></l> 
         <r>legal<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
@@ -512,7 +512,7 @@
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="f"/><s n="sg"/></r> 
+        <r>légal<s n="adj"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -535,7 +535,7 @@
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="f"/><s n="sg"/></r> 
+        <r>légal<s n="adj"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -558,13 +558,13 @@
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="f"/><s n="pl"/></r> 
+        <r>légal<s n="adj"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="RL" a="webform">
+    <e r="LR" a="webform">
       <p>
-        <l>légal<s n="adj"/><s n="GD"/></l> 
+        <l>légal<s n="adj"/><s n="m"/></l> 
         <r>legal<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
@@ -574,14 +574,14 @@
 </action-set>
 
 </cross-action>
-<!-- 329 entries like this -->
+<!-- 321 entries like this -->
 
 <cross-action id="ND-25">
 	<pattern>
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="f"/><s n="pl"/></r> 
+        <r>légal<s n="adj"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -597,14 +597,14 @@
 </action-set>
 
 </cross-action>
-<!-- 329 entries like this -->
+<!-- 321 entries like this -->
 
 <cross-action id="ND-26">
 	<pattern>
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="m"/><s n="sg"/></r> 
+        <r>légal<s n="adj"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -627,7 +627,7 @@
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="m"/><s n="sg"/></r> 
+        <r>légal<s n="adj"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -650,7 +650,7 @@
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="m"/><s n="pl"/></r> 
+        <r>légal<s n="adj"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -673,52 +673,6 @@
     <e r="RL">
       <p>
         <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" a="webform">
-      <p>
-        <l>légal<s n="adj"/><s n="f"/></l> 
-        <r>legal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 321 entries like this -->
-
-<cross-action id="ND-30">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>légal<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" a="webform">
-      <p>
-        <l>légal<s n="adj"/><s n="m"/></l> 
-        <r>legal<s n="adj"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 321 entries like this -->
-
-<cross-action id="ND-31">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>lezennel<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>légal<s n="adj"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -737,7 +691,7 @@
 </cross-action>
 <!-- 321 entries like this -->
 
-<cross-action id="ND-32">
+<cross-action id="ND-30">
 	<pattern>
     <e r="LR">
       <p>
@@ -760,7 +714,7 @@
 </cross-action>
 <!-- 287 entries like this -->
 
-<cross-action id="ND-33">
+<cross-action id="ND-31">
 	<pattern>
     <e r="LR">
       <p>
@@ -783,7 +737,7 @@
 </cross-action>
 <!-- 285 entries like this -->
 
-<cross-action id="ND-34">
+<cross-action id="ND-32">
 	<pattern>
     <e r="LR">
       <p>
@@ -806,7 +760,7 @@
 </cross-action>
 <!-- 285 entries like this -->
 
-<cross-action id="ND-35">
+<cross-action id="ND-33">
 	<pattern>
     <e r="LR">
       <p>
@@ -829,7 +783,7 @@
 </cross-action>
 <!-- 283 entries like this -->
 
-<cross-action id="ND-36">
+<cross-action id="ND-34">
 	<pattern>
     <e r="LR">
       <p>
@@ -852,7 +806,7 @@
 </cross-action>
 <!-- 279 entries like this -->
 
-<cross-action id="ND-37">
+<cross-action id="ND-35">
 	<pattern>
     <e r="LR">
       <p>
@@ -875,11 +829,57 @@
 </cross-action>
 <!-- 279 entries like this -->
 
-<cross-action id="ND-38">
+<cross-action id="ND-36">
 	<pattern>
     <e r="RL">
       <p>
         <l>araokadur<s n="n"/><s n="m"/><s n="ND"/></l> 
+        <r>progrès<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>progrès<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>progreso<s n="n"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 201 entries like this -->
+
+<cross-action id="ND-37">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>araokadur<s n="n"/><s n="m"/><s n="sg"/></l> 
+        <r>progrès<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>progrès<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>progreso<s n="n"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 201 entries like this -->
+
+<cross-action id="ND-38">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>araokadur<s n="n"/><s n="m"/><s n="pl"/></l> 
         <r>progrès<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
@@ -900,52 +900,6 @@
 
 <cross-action id="ND-39">
 	<pattern>
-    <e r="LR">
-      <p>
-        <l>araokadur<s n="n"/><s n="m"/><s n="sg"/></l> 
-        <r>progrès<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>progrès<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>progreso<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 201 entries like this -->
-
-<cross-action id="ND-40">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>araokadur<s n="n"/><s n="m"/><s n="pl"/></l> 
-        <r>progrès<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>progrès<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>progreso<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 201 entries like this -->
-
-<cross-action id="ND-41">
-	<pattern>
     <e r="RL">
       <p>
         <l>araokadur<s n="n"/><s n="m"/><s n="ND"/></l> 
@@ -967,7 +921,7 @@
 </cross-action>
 <!-- 199 entries like this -->
 
-<cross-action id="ND-42">
+<cross-action id="ND-40">
 	<pattern>
     <e r="LR">
       <p>
@@ -990,7 +944,7 @@
 </cross-action>
 <!-- 199 entries like this -->
 
-<cross-action id="ND-43">
+<cross-action id="ND-41">
 	<pattern>
     <e r="LR">
       <p>
@@ -1013,7 +967,7 @@
 </cross-action>
 <!-- 199 entries like this -->
 
-<cross-action id="ND-44">
+<cross-action id="ND-42">
 	<pattern>
     <e r="RL">
       <p>
@@ -1036,7 +990,7 @@
 </cross-action>
 <!-- 197 entries like this -->
 
-<cross-action id="ND-45">
+<cross-action id="ND-43">
 	<pattern>
     <e r="LR">
       <p>
@@ -1059,7 +1013,7 @@
 </cross-action>
 <!-- 189 entries like this -->
 
-<cross-action id="ND-46">
+<cross-action id="ND-44">
 	<pattern>
     <e>
       <p>
@@ -1082,7 +1036,7 @@
 </cross-action>
 <!-- 177 entries like this -->
 
-<cross-action id="ND-47">
+<cross-action id="ND-45">
 	<pattern>
     <e>
       <p>
@@ -1105,7 +1059,7 @@
 </cross-action>
 <!-- 175 entries like this -->
 
-<cross-action id="ND-48">
+<cross-action id="ND-46">
 	<pattern>
     <e>
       <p>
@@ -1128,7 +1082,7 @@
 </cross-action>
 <!-- 175 entries like this -->
 
-<cross-action id="ND-49">
+<cross-action id="ND-47">
 	<pattern>
     <e>
       <p>
@@ -1151,7 +1105,7 @@
 </cross-action>
 <!-- 173 entries like this -->
 
-<cross-action id="ND-50">
+<cross-action id="ND-48">
 	<pattern>
     <e>
       <p>
@@ -1174,7 +1128,7 @@
 </cross-action>
 <!-- 165 entries like this -->
 
-<cross-action id="ND-51">
+<cross-action id="ND-49">
 	<pattern>
     <e>
       <p>
@@ -1197,7 +1151,7 @@
 </cross-action>
 <!-- 147 entries like this -->
 
-<cross-action id="ND-52">
+<cross-action id="ND-50">
 	<pattern>
     <e r="LR">
       <p>
@@ -1220,7 +1174,7 @@
 </cross-action>
 <!-- 143 entries like this -->
 
-<cross-action id="ND-53">
+<cross-action id="ND-51">
 	<pattern>
     <e r="LR">
       <p>
@@ -1243,7 +1197,7 @@
 </cross-action>
 <!-- 143 entries like this -->
 
-<cross-action id="ND-54">
+<cross-action id="ND-52">
 	<pattern>
     <e>
       <p>
@@ -1266,7 +1220,7 @@
 </cross-action>
 <!-- 135 entries like this -->
 
-<cross-action id="ND-55">
+<cross-action id="ND-53">
 	<pattern>
     <e r="LR">
       <p>
@@ -1289,7 +1243,7 @@
 </cross-action>
 <!-- 131 entries like this -->
 
-<cross-action id="ND-56">
+<cross-action id="ND-54">
 	<pattern>
     <e r="LR">
       <p>
@@ -1312,7 +1266,7 @@
 </cross-action>
 <!-- 127 entries like this -->
 
-<cross-action id="ND-57">
+<cross-action id="ND-55">
 	<pattern>
     <e>
       <p>
@@ -1335,7 +1289,7 @@
 </cross-action>
 <!-- 127 entries like this -->
 
-<cross-action id="ND-58">
+<cross-action id="ND-56">
 	<pattern>
     <e>
       <p>
@@ -1358,7 +1312,7 @@
 </cross-action>
 <!-- 127 entries like this -->
 
-<cross-action id="ND-59">
+<cross-action id="ND-57">
 	<pattern>
     <e r="LR">
       <p>
@@ -1381,7 +1335,7 @@
 </cross-action>
 <!-- 125 entries like this -->
 
-<cross-action id="ND-60">
+<cross-action id="ND-58">
 	<pattern>
     <e r="LR">
       <p>
@@ -1404,7 +1358,7 @@
 </cross-action>
 <!-- 125 entries like this -->
 
-<cross-action id="ND-61">
+<cross-action id="ND-59">
 	<pattern>
     <e>
       <p>
@@ -1427,7 +1381,7 @@
 </cross-action>
 <!-- 125 entries like this -->
 
-<cross-action id="ND-62">
+<cross-action id="ND-60">
 	<pattern>
     <e r="RL">
       <p>
@@ -1450,7 +1404,7 @@
 </cross-action>
 <!-- 123 entries like this -->
 
-<cross-action id="ND-63">
+<cross-action id="ND-61">
 	<pattern>
     <e r="LR">
       <p>
@@ -1473,7 +1427,7 @@
 </cross-action>
 <!-- 121 entries like this -->
 
-<cross-action id="ND-64">
+<cross-action id="ND-62">
 	<pattern>
     <e r="RL">
       <p>
@@ -1496,7 +1450,7 @@
 </cross-action>
 <!-- 121 entries like this -->
 
-<cross-action id="ND-65">
+<cross-action id="ND-63">
 	<pattern>
     <e r="RL">
       <p>
@@ -1519,7 +1473,7 @@
 </cross-action>
 <!-- 117 entries like this -->
 
-<cross-action id="ND-66">
+<cross-action id="ND-64">
 	<pattern>
     <e r="RL">
       <p>
@@ -1542,7 +1496,7 @@
 </cross-action>
 <!-- 117 entries like this -->
 
-<cross-action id="ND-67">
+<cross-action id="ND-65">
 	<pattern>
     <e r="LR">
       <p>
@@ -1565,7 +1519,7 @@
 </cross-action>
 <!-- 115 entries like this -->
 
-<cross-action id="ND-68">
+<cross-action id="ND-66">
 	<pattern>
     <e>
       <p>
@@ -1588,7 +1542,7 @@
 </cross-action>
 <!-- 115 entries like this -->
 
-<cross-action id="ND-69">
+<cross-action id="ND-67">
 	<pattern>
     <e>
       <p>
@@ -1611,7 +1565,7 @@
 </cross-action>
 <!-- 115 entries like this -->
 
-<cross-action id="ND-70">
+<cross-action id="ND-68">
 	<pattern>
     <e r="RL">
       <p>
@@ -1634,7 +1588,7 @@
 </cross-action>
 <!-- 111 entries like this -->
 
-<cross-action id="ND-71">
+<cross-action id="ND-69">
 	<pattern>
     <e r="RL">
       <p>
@@ -1657,7 +1611,7 @@
 </cross-action>
 <!-- 109 entries like this -->
 
-<cross-action id="ND-72">
+<cross-action id="ND-70">
 	<pattern>
     <e>
       <p>
@@ -1680,7 +1634,7 @@
 </cross-action>
 <!-- 105 entries like this -->
 
-<cross-action id="ND-73">
+<cross-action id="ND-71">
 	<pattern>
     <e r="RL">
       <p>
@@ -1703,7 +1657,7 @@
 </cross-action>
 <!-- 103 entries like this -->
 
-<cross-action id="ND-74">
+<cross-action id="ND-72">
 	<pattern>
     <e r="RL">
       <p>
@@ -1726,7 +1680,7 @@
 </cross-action>
 <!-- 103 entries like this -->
 
-<cross-action id="ND-75">
+<cross-action id="ND-73">
 	<pattern>
     <e r="RL">
       <p>
@@ -1749,7 +1703,7 @@
 </cross-action>
 <!-- 95 entries like this -->
 
-<cross-action id="ND-76">
+<cross-action id="ND-74">
 	<pattern>
     <e r="RL">
       <p>
@@ -1772,7 +1726,7 @@
 </cross-action>
 <!-- 95 entries like this -->
 
-<cross-action id="ND-77">
+<cross-action id="ND-75">
 	<pattern>
     <e r="RL">
       <p>
@@ -1795,7 +1749,7 @@
 </cross-action>
 <!-- 95 entries like this -->
 
-<cross-action id="ND-78">
+<cross-action id="ND-76">
 	<pattern>
     <e r="RL">
       <p>
@@ -1818,7 +1772,7 @@
 </cross-action>
 <!-- 93 entries like this -->
 
-<cross-action id="ND-79">
+<cross-action id="ND-77">
 	<pattern>
     <e r="RL">
       <p>
@@ -1841,7 +1795,7 @@
 </cross-action>
 <!-- 93 entries like this -->
 
-<cross-action id="ND-80">
+<cross-action id="ND-78">
 	<pattern>
     <e r="LR">
       <p>
@@ -1864,7 +1818,7 @@
 </cross-action>
 <!-- 91 entries like this -->
 
-<cross-action id="ND-81">
+<cross-action id="ND-79">
 	<pattern>
     <e r="RL">
       <p>
@@ -1887,7 +1841,7 @@
 </cross-action>
 <!-- 91 entries like this -->
 
-<cross-action id="ND-82">
+<cross-action id="ND-80">
 	<pattern>
     <e r="RL">
       <p>
@@ -1910,7 +1864,7 @@
 </cross-action>
 <!-- 89 entries like this -->
 
-<cross-action id="ND-83">
+<cross-action id="ND-81">
 	<pattern>
     <e r="LR">
       <p>
@@ -1933,7 +1887,7 @@
 </cross-action>
 <!-- 89 entries like this -->
 
-<cross-action id="ND-84">
+<cross-action id="ND-82">
 	<pattern>
     <e r="RL">
       <p>
@@ -1956,7 +1910,7 @@
 </cross-action>
 <!-- 89 entries like this -->
 
-<cross-action id="ND-85">
+<cross-action id="ND-83">
 	<pattern>
     <e r="RL">
       <p>
@@ -1979,7 +1933,7 @@
 </cross-action>
 <!-- 89 entries like this -->
 
-<cross-action id="ND-86">
+<cross-action id="ND-84">
 	<pattern>
     <e r="RL">
       <p>
@@ -2002,7 +1956,7 @@
 </cross-action>
 <!-- 87 entries like this -->
 
-<cross-action id="ND-87">
+<cross-action id="ND-85">
 	<pattern>
     <e r="LR">
       <p>
@@ -2025,7 +1979,7 @@
 </cross-action>
 <!-- 87 entries like this -->
 
-<cross-action id="ND-88">
+<cross-action id="ND-86">
 	<pattern>
     <e r="RL">
       <p>
@@ -2048,7 +2002,7 @@
 </cross-action>
 <!-- 87 entries like this -->
 
-<cross-action id="ND-89">
+<cross-action id="ND-87">
 	<pattern>
     <e r="RL">
       <p>
@@ -2071,7 +2025,7 @@
 </cross-action>
 <!-- 87 entries like this -->
 
-<cross-action id="ND-90">
+<cross-action id="ND-88">
 	<pattern>
     <e r="RL">
       <p>
@@ -2094,7 +2048,7 @@
 </cross-action>
 <!-- 85 entries like this -->
 
-<cross-action id="ND-91">
+<cross-action id="ND-89">
 	<pattern>
     <e r="LR">
       <p>
@@ -2117,7 +2071,7 @@
 </cross-action>
 <!-- 85 entries like this -->
 
-<cross-action id="ND-92">
+<cross-action id="ND-90">
 	<pattern>
     <e r="RL">
       <p>
@@ -2140,7 +2094,7 @@
 </cross-action>
 <!-- 85 entries like this -->
 
-<cross-action id="ND-93">
+<cross-action id="ND-91">
 	<pattern>
     <e r="RL">
       <p>
@@ -2163,7 +2117,7 @@
 </cross-action>
 <!-- 85 entries like this -->
 
-<cross-action id="ND-94">
+<cross-action id="ND-92">
 	<pattern>
     <e>
       <p>
@@ -2186,7 +2140,7 @@
 </cross-action>
 <!-- 79 entries like this -->
 
-<cross-action id="ND-95">
+<cross-action id="ND-93">
 	<pattern>
     <e>
       <p>
@@ -2209,7 +2163,7 @@
 </cross-action>
 <!-- 61 entries like this -->
 
-<cross-action id="ND-96">
+<cross-action id="ND-94">
 	<pattern>
     <e r="LR">
       <p>
@@ -2232,7 +2186,7 @@
 </cross-action>
 <!-- 55 entries like this -->
 
-<cross-action id="ND-97">
+<cross-action id="ND-95">
 	<pattern>
     <e>
       <p>
@@ -2255,7 +2209,7 @@
 </cross-action>
 <!-- 53 entries like this -->
 
-<cross-action id="ND-98">
+<cross-action id="ND-96">
 	<pattern>
     <e r="RL">
       <p>
@@ -2268,6 +2222,52 @@
       <p>
         <l>français<s n="adj"/><s n="f"/></l> 
         <r>francés<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 45 entries like this -->
+
+<cross-action id="ND-97">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>bro<s n="n"/><s n="f"/><s n="ND"/></l> 
+        <r>pays<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>país<s n="n"/><s n="m"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 45 entries like this -->
+
+<cross-action id="ND-98">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>bro<s n="n"/><s n="f"/><s n="ND"/></l> 
+        <r>pays<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>país<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -2287,6 +2287,29 @@
       </p>
     </e>
 
+    <e r="RL">
+      <p>
+        <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>país<s n="n"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 45 entries like this -->
+
+<cross-action id="ND-100">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>bro<s n="n"/><s n="f"/><s n="sg"/></l> 
+        <r>pays<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
     <e r="LR">
       <p>
         <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
@@ -2301,11 +2324,11 @@
 </cross-action>
 <!-- 45 entries like this -->
 
-<cross-action id="ND-100">
+<cross-action id="ND-101">
 	<pattern>
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>bro<s n="n"/><s n="f"/><s n="ND"/></l> 
+        <l>bro<s n="n"/><s n="f"/><s n="sg"/></l> 
         <r>pays<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
@@ -2314,29 +2337,6 @@
       <p>
         <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
         <r>país<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 45 entries like this -->
-
-<cross-action id="ND-101">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>bro<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>pays<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>país<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -2356,10 +2356,10 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>país<s n="n"/><s n="m"/><s n="ND"/></r> 
+        <r>país<s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -2374,15 +2374,15 @@
 	<pattern>
     <e r="LR">
       <p>
-        <l>bro<s n="n"/><s n="f"/><s n="sg"/></l> 
+        <l>bro<s n="n"/><s n="f"/><s n="pl"/></l> 
         <r>pays<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
         <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>país<s n="n"/><s n="m"/><s n="pl"/></r> 
+        <r>país<s n="n"/><s n="m"/><s n="ND"/></r> 
       </p>
     </e>
 
@@ -2397,7 +2397,7 @@
 	<pattern>
     <e r="LR">
       <p>
-        <l>bro<s n="n"/><s n="f"/><s n="sg"/></l> 
+        <l>bro<s n="n"/><s n="f"/><s n="pl"/></l> 
         <r>pays<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
@@ -2405,7 +2405,7 @@
     <e r="RL">
       <p>
         <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>país<s n="n"/><s n="m"/><s n="sg"/></r> 
+        <r>país<s n="n"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -2425,52 +2425,6 @@
       </p>
     </e>
 
-    <e r="LR">
-      <p>
-        <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>país<s n="n"/><s n="m"/><s n="ND"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 45 entries like this -->
-
-<cross-action id="ND-106">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>bro<s n="n"/><s n="f"/><s n="pl"/></l> 
-        <r>pays<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>país<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 45 entries like this -->
-
-<cross-action id="ND-107">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>bro<s n="n"/><s n="f"/><s n="pl"/></l> 
-        <r>pays<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
-
     <e r="RL">
       <p>
         <l>pays<s n="n"/><s n="m"/><s n="sp"/></l> 
@@ -2485,7 +2439,7 @@
 </cross-action>
 <!-- 45 entries like this -->
 
-<cross-action id="ND-108">
+<cross-action id="ND-106">
 	<pattern>
     <e r="LR">
       <p>
@@ -2508,7 +2462,7 @@
 </cross-action>
 <!-- 43 entries like this -->
 
-<cross-action id="ND-109">
+<cross-action id="ND-107">
 	<pattern>
     <e r="RL">
       <p>
@@ -2530,13 +2484,59 @@
 
 </cross-action>
 <!-- 43 entries like this -->
+
+<cross-action id="ND-108">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>gallek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>français<s n="adj"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="eleka">
+      <p>
+        <l>français<s n="adj"/><s n="m"/><s n="sp"/></l> 
+        <r>francés<s n="adj"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 43 entries like this -->
+
+<cross-action id="ND-109">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>gallek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>français<s n="adj"/><s n="GD"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="eleka">
+      <p>
+        <l>français<s n="adj"/><s n="m"/><s n="sp"/></l> 
+        <r>francés<s n="adj"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 41 entries like this -->
 
 <cross-action id="ND-110">
 	<pattern>
-    <e r="RL">
+    <e r="LR">
       <p>
         <l>gallek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>français<s n="adj"/><s n="f"/><s n="sp"/></r> 
+        <r>français<s n="adj"/><s n="GD"/><s n="sp"/></r> 
       </p>
     </e>
 
@@ -2552,55 +2552,9 @@
 </action-set>
 
 </cross-action>
-<!-- 43 entries like this -->
+<!-- 41 entries like this -->
 
 <cross-action id="ND-111">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>gallek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>français<s n="adj"/><s n="GD"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" a="eleka">
-      <p>
-        <l>français<s n="adj"/><s n="m"/><s n="sp"/></l> 
-        <r>francés<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 41 entries like this -->
-
-<cross-action id="ND-112">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>gallek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>français<s n="adj"/><s n="GD"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" a="eleka">
-      <p>
-        <l>français<s n="adj"/><s n="m"/><s n="sp"/></l> 
-        <r>francés<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 41 entries like this -->
-
-<cross-action id="ND-113">
 	<pattern>
     <e>
       <p>
@@ -2623,7 +2577,7 @@
 </cross-action>
 <!-- 39 entries like this -->
 
-<cross-action id="ND-114">
+<cross-action id="ND-112">
 	<pattern>
     <e r="LR">
       <p>
@@ -2646,7 +2600,7 @@
 </cross-action>
 <!-- 37 entries like this -->
 
-<cross-action id="ND-115">
+<cross-action id="ND-113">
 	<pattern>
     <e r="LR">
       <p>
@@ -2669,7 +2623,7 @@
 </cross-action>
 <!-- 37 entries like this -->
 
-<cross-action id="ND-116">
+<cross-action id="ND-114">
 	<pattern>
     <e r="RL">
       <p>
@@ -2692,7 +2646,7 @@
 </cross-action>
 <!-- 37 entries like this -->
 
-<cross-action id="ND-117">
+<cross-action id="ND-115">
 	<pattern>
     <e>
       <p>
@@ -2715,7 +2669,7 @@
 </cross-action>
 <!-- 37 entries like this -->
 
-<cross-action id="ND-118">
+<cross-action id="ND-116">
 	<pattern>
     <e r="RL">
       <p>
@@ -2738,7 +2692,7 @@
 </cross-action>
 <!-- 35 entries like this -->
 
-<cross-action id="ND-119">
+<cross-action id="ND-117">
 	<pattern>
     <e r="LR">
       <p>
@@ -2761,7 +2715,7 @@
 </cross-action>
 <!-- 33 entries like this -->
 
-<cross-action id="ND-120">
+<cross-action id="ND-118">
 	<pattern>
     <e>
       <p>
@@ -2784,7 +2738,7 @@
 </cross-action>
 <!-- 33 entries like this -->
 
-<cross-action id="ND-121">
+<cross-action id="ND-119">
 	<pattern>
     <e r="LR">
       <p>
@@ -2807,7 +2761,7 @@
 </cross-action>
 <!-- 31 entries like this -->
 
-<cross-action id="ND-122">
+<cross-action id="ND-120">
 	<pattern>
     <e>
       <p>
@@ -2830,7 +2784,7 @@
 </cross-action>
 <!-- 31 entries like this -->
 
-<cross-action id="ND-123">
+<cross-action id="ND-121">
 	<pattern>
     <e r="LR">
       <p>
@@ -2853,7 +2807,7 @@
 </cross-action>
 <!-- 29 entries like this -->
 
-<cross-action id="ND-124">
+<cross-action id="ND-122">
 	<pattern>
     <e r="LR">
       <p>
@@ -2876,7 +2830,7 @@
 </cross-action>
 <!-- 29 entries like this -->
 
-<cross-action id="ND-125">
+<cross-action id="ND-123">
 	<pattern>
     <e r="RL">
       <p>
@@ -2899,7 +2853,7 @@
 </cross-action>
 <!-- 29 entries like this -->
 
-<cross-action id="ND-126">
+<cross-action id="ND-124">
 	<pattern>
     <e r="RL">
       <p>
@@ -2922,7 +2876,7 @@
 </cross-action>
 <!-- 29 entries like this -->
 
-<cross-action id="ND-127">
+<cross-action id="ND-125">
 	<pattern>
     <e r="RL">
       <p>
@@ -2945,7 +2899,7 @@
 </cross-action>
 <!-- 29 entries like this -->
 
-<cross-action id="ND-128">
+<cross-action id="ND-126">
 	<pattern>
     <e>
       <p>
@@ -2968,7 +2922,7 @@
 </cross-action>
 <!-- 29 entries like this -->
 
-<cross-action id="ND-129">
+<cross-action id="ND-127">
 	<pattern>
     <e r="RL">
       <p>
@@ -2991,7 +2945,7 @@
 </cross-action>
 <!-- 25 entries like this -->
 
-<cross-action id="ND-130">
+<cross-action id="ND-128">
 	<pattern>
     <e r="LR">
       <p>
@@ -3014,7 +2968,7 @@
 </cross-action>
 <!-- 21 entries like this -->
 
-<cross-action id="ND-131">
+<cross-action id="ND-129">
 	<pattern>
     <e>
       <p>
@@ -3037,7 +2991,7 @@
 </cross-action>
 <!-- 21 entries like this -->
 
-<cross-action id="ND-132">
+<cross-action id="ND-130">
 	<pattern>
     <e>
       <p>
@@ -3060,7 +3014,7 @@
 </cross-action>
 <!-- 21 entries like this -->
 
-<cross-action id="ND-133">
+<cross-action id="ND-131">
 	<pattern>
     <e>
       <p>
@@ -3083,7 +3037,7 @@
 </cross-action>
 <!-- 21 entries like this -->
 
-<cross-action id="ND-134">
+<cross-action id="ND-132">
 	<pattern>
     <e>
       <p>
@@ -3106,7 +3060,7 @@
 </cross-action>
 <!-- 21 entries like this -->
 
-<cross-action id="ND-135">
+<cross-action id="ND-133">
 	<pattern>
     <e r="RL">
       <p>
@@ -3129,11 +3083,57 @@
 </cross-action>
 <!-- 21 entries like this -->
 
-<cross-action id="ND-136">
+<cross-action id="ND-134">
 	<pattern>
     <e r="RL">
       <p>
         <l>fri<s n="n"/><s n="m"/><s n="ND"/></l> 
+        <r>nez<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>nez<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>nariz<s n="n"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 21 entries like this -->
+
+<cross-action id="ND-135">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>fri<s n="n"/><s n="m"/><s n="sg"/></l> 
+        <r>nez<s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>nez<s n="n"/><s n="m"/><s n="sp"/></l> 
+        <r>nariz<s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 21 entries like this -->
+
+<cross-action id="ND-136">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>fri<s n="n"/><s n="m"/><s n="sg"/></l> 
         <r>nez<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
@@ -3156,7 +3156,7 @@
 	<pattern>
     <e r="LR">
       <p>
-        <l>fri<s n="n"/><s n="m"/><s n="sg"/></l> 
+        <l>fri<s n="n"/><s n="m"/><s n="pl"/></l> 
         <r>nez<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
@@ -3179,7 +3179,7 @@
 	<pattern>
     <e r="LR">
       <p>
-        <l>fri<s n="n"/><s n="m"/><s n="sg"/></l> 
+        <l>fri<s n="n"/><s n="m"/><s n="pl"/></l> 
         <r>nez<s n="n"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
@@ -3199,52 +3199,6 @@
 <!-- 21 entries like this -->
 
 <cross-action id="ND-139">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>fri<s n="n"/><s n="m"/><s n="pl"/></l> 
-        <r>nez<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>nez<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>nariz<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 21 entries like this -->
-
-<cross-action id="ND-140">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>fri<s n="n"/><s n="m"/><s n="pl"/></l> 
-        <r>nez<s n="n"/><s n="m"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>nez<s n="n"/><s n="m"/><s n="sp"/></l> 
-        <r>nariz<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 21 entries like this -->
-
-<cross-action id="ND-141">
 	<pattern>
     <e>
       <p>
@@ -3267,7 +3221,7 @@
 </cross-action>
 <!-- 19 entries like this -->
 
-<cross-action id="ND-142">
+<cross-action id="ND-140">
 	<pattern>
     <e r="LR">
       <p>
@@ -3290,7 +3244,7 @@
 </cross-action>
 <!-- 19 entries like this -->
 
-<cross-action id="ND-143">
+<cross-action id="ND-141">
 	<pattern>
     <e>
       <p>
@@ -3313,7 +3267,7 @@
 </cross-action>
 <!-- 19 entries like this -->
 
-<cross-action id="ND-144">
+<cross-action id="ND-142">
 	<pattern>
     <e>
       <p>
@@ -3336,7 +3290,7 @@
 </cross-action>
 <!-- 19 entries like this -->
 
-<cross-action id="ND-145">
+<cross-action id="ND-143">
 	<pattern>
     <e r="RL">
       <p>
@@ -3359,7 +3313,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-146">
+<cross-action id="ND-144">
 	<pattern>
     <e>
       <p>
@@ -3382,7 +3336,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-147">
+<cross-action id="ND-145">
 	<pattern>
     <e>
       <p>
@@ -3405,7 +3359,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-148">
+<cross-action id="ND-146">
 	<pattern>
     <e>
       <p>
@@ -3428,7 +3382,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-149">
+<cross-action id="ND-147">
 	<pattern>
     <e>
       <p>
@@ -3451,7 +3405,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-150">
+<cross-action id="ND-148">
 	<pattern>
     <e>
       <p>
@@ -3474,7 +3428,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-151">
+<cross-action id="ND-149">
 	<pattern>
     <e>
       <p>
@@ -3497,7 +3451,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-152">
+<cross-action id="ND-150">
 	<pattern>
     <e r="LR">
       <p>
@@ -3520,7 +3474,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-153">
+<cross-action id="ND-151">
 	<pattern>
     <e r="LR">
       <p>
@@ -3543,7 +3497,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-154">
+<cross-action id="ND-152">
 	<pattern>
     <e r="RL">
       <p>
@@ -3566,7 +3520,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-155">
+<cross-action id="ND-153">
 	<pattern>
     <e>
       <p>
@@ -3589,7 +3543,7 @@
 </cross-action>
 <!-- 17 entries like this -->
 
-<cross-action id="ND-156">
+<cross-action id="ND-154">
 	<pattern>
     <e r="RL">
       <p>
@@ -3612,7 +3566,7 @@
 </cross-action>
 <!-- 15 entries like this -->
 
-<cross-action id="ND-157">
+<cross-action id="ND-155">
 	<pattern>
     <e r="RL">
       <p>
@@ -3635,7 +3589,7 @@
 </cross-action>
 <!-- 15 entries like this -->
 
-<cross-action id="ND-158">
+<cross-action id="ND-156">
 	<pattern>
     <e r="RL">
       <p>
@@ -3648,6 +3602,52 @@
       <p>
         <l>néerlandais<s n="adj"/><s n="f"/></l> 
         <r>neerlandés<s n="adj"/><s n="f"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 15 entries like this -->
+
+<cross-action id="ND-157">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>nederlandek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>néerlandais<s n="adj"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>néerlandais<s n="adj"/><s n="m"/><s n="sp"/></l> 
+        <r>neerlandés<s n="adj"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 15 entries like this -->
+
+<cross-action id="ND-158">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>nederlandek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>néerlandais<s n="adj"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>néerlandais<s n="adj"/><s n="m"/><s n="sp"/></l> 
+        <r>neerlandés<s n="adj"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -3667,52 +3667,6 @@
       </p>
     </e>
 
-    <e r="RL">
-      <p>
-        <l>néerlandais<s n="adj"/><s n="m"/><s n="sp"/></l> 
-        <r>neerlandés<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 15 entries like this -->
-
-<cross-action id="ND-160">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>nederlandek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>néerlandais<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>néerlandais<s n="adj"/><s n="m"/><s n="sp"/></l> 
-        <r>neerlandés<s n="adj"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 15 entries like this -->
-
-<cross-action id="ND-161">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>nederlandek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>néerlandais<s n="adj"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
     <e>
       <p>
         <l>néerlandais<s n="adj"/><s n="f"/></l> 
@@ -3727,7 +3681,7 @@
 </cross-action>
 <!-- 15 entries like this -->
 
-<cross-action id="ND-162">
+<cross-action id="ND-160">
 	<pattern>
     <e>
       <p>
@@ -3750,7 +3704,7 @@
 </cross-action>
 <!-- 15 entries like this -->
 
-<cross-action id="ND-163">
+<cross-action id="ND-161">
 	<pattern>
     <e>
       <p>
@@ -3773,7 +3727,7 @@
 </cross-action>
 <!-- 15 entries like this -->
 
-<cross-action id="ND-164">
+<cross-action id="ND-162">
 	<pattern>
     <e>
       <p>
@@ -3796,7 +3750,7 @@
 </cross-action>
 <!-- 15 entries like this -->
 
-<cross-action id="ND-165">
+<cross-action id="ND-163">
 	<pattern>
     <e r="RL">
       <p>
@@ -3819,7 +3773,7 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-166">
+<cross-action id="ND-164">
 	<pattern>
     <e r="RL">
       <p>
@@ -3842,7 +3796,7 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-167">
+<cross-action id="ND-165">
 	<pattern>
     <e r="RL">
       <p>
@@ -3865,7 +3819,7 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-168">
+<cross-action id="ND-166">
 	<pattern>
     <e r="LR">
       <p>
@@ -3888,7 +3842,7 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-169">
+<cross-action id="ND-167">
 	<pattern>
     <e r="LR">
       <p>
@@ -3911,7 +3865,7 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-170">
+<cross-action id="ND-168">
 	<pattern>
     <e>
       <p>
@@ -3934,7 +3888,7 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-171">
+<cross-action id="ND-169">
 	<pattern>
     <e>
       <p>
@@ -3957,7 +3911,7 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-172">
+<cross-action id="ND-170">
 	<pattern>
     <e>
       <p>
@@ -3980,11 +3934,57 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-173">
+<cross-action id="ND-171">
 	<pattern>
     <e r="LR">
       <p>
         <l>gwech<s n="n"/><s n="f"/><s n="sg"/></l> 
+        <r>fois<s n="n"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>fois<s n="n"/><s n="f"/><s n="sp"/></l> 
+        <r>vez<s n="n"/><s n="f"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 13 entries like this -->
+
+<cross-action id="ND-172">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>gwech<s n="n"/><s n="f"/><s n="sg"/></l> 
+        <r>fois<s n="n"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>fois<s n="n"/><s n="f"/><s n="sp"/></l> 
+        <r>vez<s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 13 entries like this -->
+
+<cross-action id="ND-173">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>gwech<s n="n"/><s n="f"/><s n="pl"/></l> 
         <r>fois<s n="n"/><s n="f"/><s n="sp"/></r> 
       </p>
     </e>
@@ -4007,7 +4007,7 @@
 	<pattern>
     <e r="LR">
       <p>
-        <l>gwech<s n="n"/><s n="f"/><s n="sg"/></l> 
+        <l>gwech<s n="n"/><s n="f"/><s n="pl"/></l> 
         <r>fois<s n="n"/><s n="f"/><s n="sp"/></r> 
       </p>
     </e>
@@ -4028,9 +4028,9 @@
 
 <cross-action id="ND-175">
 	<pattern>
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>gwech<s n="n"/><s n="f"/><s n="pl"/></l> 
+        <l>gwech<s n="n"/><s n="f"/><s n="ND"/></l> 
         <r>fois<s n="n"/><s n="f"/><s n="sp"/></r> 
       </p>
     </e>
@@ -4051,9 +4051,9 @@
 
 <cross-action id="ND-176">
 	<pattern>
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>gwech<s n="n"/><s n="f"/><s n="pl"/></l> 
+        <l>gwech<s n="n"/><s n="f"/><s n="ND"/></l> 
         <r>fois<s n="n"/><s n="f"/><s n="sp"/></r> 
       </p>
     </e>
@@ -4073,52 +4073,6 @@
 <!-- 13 entries like this -->
 
 <cross-action id="ND-177">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>gwech<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>fois<s n="n"/><s n="f"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>fois<s n="n"/><s n="f"/><s n="sp"/></l> 
-        <r>vez<s n="n"/><s n="f"/><s n="ND"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 13 entries like this -->
-
-<cross-action id="ND-178">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>gwech<s n="n"/><s n="f"/><s n="ND"/></l> 
-        <r>fois<s n="n"/><s n="f"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>fois<s n="n"/><s n="f"/><s n="sp"/></l> 
-        <r>vez<s n="n"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 13 entries like this -->
-
-<cross-action id="ND-179">
 	<pattern>
     <e r="LR">
       <p>
@@ -4141,7 +4095,7 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-180">
+<cross-action id="ND-178">
 	<pattern>
     <e>
       <p>
@@ -4164,7 +4118,7 @@
 </cross-action>
 <!-- 13 entries like this -->
 
-<cross-action id="ND-181">
+<cross-action id="ND-179">
 	<pattern>
     <e r="RL">
       <p>
@@ -4187,7 +4141,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-182">
+<cross-action id="ND-180">
 	<pattern>
     <e r="RL">
       <p>
@@ -4210,7 +4164,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-183">
+<cross-action id="ND-181">
 	<pattern>
     <e r="RL">
       <p>
@@ -4233,7 +4187,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-184">
+<cross-action id="ND-182">
 	<pattern>
     <e r="RL">
       <p>
@@ -4256,7 +4210,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-185">
+<cross-action id="ND-183">
 	<pattern>
     <e r="RL">
       <p>
@@ -4279,7 +4233,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-186">
+<cross-action id="ND-184">
 	<pattern>
     <e r="RL">
       <p>
@@ -4302,7 +4256,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-187">
+<cross-action id="ND-185">
 	<pattern>
     <e>
       <p>
@@ -4325,7 +4279,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-188">
+<cross-action id="ND-186">
 	<pattern>
     <e>
       <p>
@@ -4348,7 +4302,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-189">
+<cross-action id="ND-187">
 	<pattern>
     <e>
       <p>
@@ -4371,7 +4325,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-190">
+<cross-action id="ND-188">
 	<pattern>
     <e>
       <p>
@@ -4394,7 +4348,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-191">
+<cross-action id="ND-189">
 	<pattern>
     <e>
       <p>
@@ -4417,7 +4371,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-192">
+<cross-action id="ND-190">
 	<pattern>
     <e>
       <p>
@@ -4440,7 +4394,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-193">
+<cross-action id="ND-191">
 	<pattern>
     <e>
       <p>
@@ -4463,7 +4417,7 @@
 </cross-action>
 <!-- 11 entries like this -->
 
-<cross-action id="ND-194">
+<cross-action id="ND-192">
 	<pattern>
     <e r="LR">
       <p>
@@ -4486,7 +4440,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-195">
+<cross-action id="ND-193">
 	<pattern>
     <e r="RL">
       <p>
@@ -4509,7 +4463,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-196">
+<cross-action id="ND-194">
 	<pattern>
     <e r="RL">
       <p>
@@ -4532,7 +4486,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-197">
+<cross-action id="ND-195">
 	<pattern>
     <e r="LR">
       <p>
@@ -4555,7 +4509,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-198">
+<cross-action id="ND-196">
 	<pattern>
     <e r="RL">
       <p>
@@ -4578,7 +4532,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-199">
+<cross-action id="ND-197">
 	<pattern>
     <e r="LR">
       <p>
@@ -4601,7 +4555,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-200">
+<cross-action id="ND-198">
 	<pattern>
     <e r="LR">
       <p>
@@ -4624,7 +4578,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-201">
+<cross-action id="ND-199">
 	<pattern>
     <e r="RL">
       <p>
@@ -4647,7 +4601,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-202">
+<cross-action id="ND-200">
 	<pattern>
     <e>
       <p>
@@ -4670,7 +4624,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-203">
+<cross-action id="ND-201">
 	<pattern>
     <e>
       <p>
@@ -4693,7 +4647,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-204">
+<cross-action id="ND-202">
 	<pattern>
     <e>
       <p>
@@ -4716,7 +4670,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-205">
+<cross-action id="ND-203">
 	<pattern>
     <e>
       <p>
@@ -4739,7 +4693,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-206">
+<cross-action id="ND-204">
 	<pattern>
     <e>
       <p>
@@ -4762,7 +4716,7 @@
 </cross-action>
 <!-- 9 entries like this -->
 
-<cross-action id="ND-207">
+<cross-action id="ND-205">
 	<pattern>
     <e>
       <p>
@@ -4785,7 +4739,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-208">
+<cross-action id="ND-206">
 	<pattern>
     <e>
       <p>
@@ -4808,7 +4762,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-209">
+<cross-action id="ND-207">
 	<pattern>
     <e>
       <p>
@@ -4831,7 +4785,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-210">
+<cross-action id="ND-208">
 	<pattern>
     <e r="RL">
       <p>
@@ -4854,7 +4808,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-211">
+<cross-action id="ND-209">
 	<pattern>
     <e r="RL">
       <p>
@@ -4877,7 +4831,30 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-212">
+<cross-action id="ND-210">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>ker<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>cher<s n="adj"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="eleka">
+      <p>
+        <l>cher<s n="adj"/><s n="f"/></l> 
+        <r>entrañable<s n="adj"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 7 entries like this -->
+
+<cross-action id="ND-211">
 	<pattern>
     <e r="LR">
       <p>
@@ -4900,7 +4877,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-213">
+<cross-action id="ND-212">
 	<pattern>
     <e r="LR">
       <p>
@@ -4923,12 +4900,35 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-214">
+<cross-action id="ND-213">
 	<pattern>
     <e r="LR">
       <p>
         <l>eürus<s n="adj"/><s n="sint"/></l> 
         <r>heureux<s n="adj"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>heureux<s n="adj"/><s n="m"/><s n="sp"/></l> 
+        <r>feliz<s n="adj"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 7 entries like this -->
+
+<cross-action id="ND-214">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>eürus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>heureux<s n="adj"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -4951,29 +4951,6 @@
     <e r="RL">
       <p>
         <l>eürus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>heureux<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>heureux<s n="adj"/><s n="m"/><s n="sp"/></l> 
-        <r>feliz<s n="adj"/><s n="mf"/><s n="ND"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 7 entries like this -->
-
-<cross-action id="ND-216">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>eürus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
         <r>heureux<s n="adj"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -4992,7 +4969,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-217">
+<cross-action id="ND-216">
 	<pattern>
     <e>
       <p>
@@ -5015,7 +4992,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-218">
+<cross-action id="ND-217">
 	<pattern>
     <e>
       <p>
@@ -5038,7 +5015,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-219">
+<cross-action id="ND-218">
 	<pattern>
     <e>
       <p>
@@ -5061,7 +5038,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-220">
+<cross-action id="ND-219">
 	<pattern>
     <e>
       <p>
@@ -5084,7 +5061,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-221">
+<cross-action id="ND-220">
 	<pattern>
     <e>
       <p>
@@ -5107,7 +5084,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-222">
+<cross-action id="ND-221">
 	<pattern>
     <e>
       <p>
@@ -5130,7 +5107,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-223">
+<cross-action id="ND-222">
 	<pattern>
     <e>
       <p>
@@ -5153,7 +5130,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-224">
+<cross-action id="ND-223">
 	<pattern>
     <e>
       <p>
@@ -5176,7 +5153,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-225">
+<cross-action id="ND-224">
 	<pattern>
     <e>
       <p>
@@ -5199,7 +5176,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-226">
+<cross-action id="ND-225">
 	<pattern>
     <e>
       <p>
@@ -5222,7 +5199,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-227">
+<cross-action id="ND-226">
 	<pattern>
     <e>
       <p>
@@ -5245,7 +5222,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-228">
+<cross-action id="ND-227">
 	<pattern>
     <e>
       <p>
@@ -5268,7 +5245,7 @@
 </cross-action>
 <!-- 7 entries like this -->
 
-<cross-action id="ND-229">
+<cross-action id="ND-228">
 	<pattern>
     <e r="RL">
       <p>
@@ -5291,7 +5268,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-230">
+<cross-action id="ND-229">
 	<pattern>
     <e r="LR">
       <p>
@@ -5314,7 +5291,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-231">
+<cross-action id="ND-230">
 	<pattern>
     <e r="LR">
       <p>
@@ -5337,7 +5314,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-232">
+<cross-action id="ND-231">
 	<pattern>
     <e>
       <p>
@@ -5360,7 +5337,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-233">
+<cross-action id="ND-232">
 	<pattern>
     <e r="LR">
       <p>
@@ -5383,7 +5360,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-234">
+<cross-action id="ND-233">
 	<pattern>
     <e r="LR">
       <p>
@@ -5396,6 +5373,29 @@
       <p>
         <l>efficace<s n="adj"/><s n="mf"/><s n="sg"/></l> 
         <r>eficaz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 5 entries like this -->
+
+<cross-action id="ND-234">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>efedus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>efficace<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>efficace<s n="adj"/><s n="mf"/><s n="pl"/></l> 
+        <r>eficaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -5417,8 +5417,8 @@
 
     <e>
       <p>
-        <l>efficace<s n="adj"/><s n="mf"/><s n="pl"/></l> 
-        <r>eficaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
+        <l>efficace<s n="adj"/><s n="mf"/><s n="sg"/></l> 
+        <r>eficaz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -5434,14 +5434,14 @@
     <e r="RL">
       <p>
         <l>efedus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>efficace<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+        <r>efficace<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>efficace<s n="adj"/><s n="mf"/><s n="sg"/></l> 
-        <r>eficaz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
+        <l>efficace<s n="adj"/><s n="mf"/><s n="pl"/></l> 
+        <r>eficaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -5463,29 +5463,6 @@
 
     <e>
       <p>
-        <l>efficace<s n="adj"/><s n="mf"/><s n="pl"/></l> 
-        <r>eficaz<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 5 entries like this -->
-
-<cross-action id="ND-238">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>efedus<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>efficace<s n="adj"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>efficace<s n="adj"/><s n="mf"/><s n="sg"/></l> 
         <r>eficaz<s n="adj"/><s n="mf"/><s n="sg"/></r> 
       </p>
@@ -5498,7 +5475,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-239">
+<cross-action id="ND-238">
 	<pattern>
     <e r="LR">
       <p>
@@ -5521,7 +5498,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-240">
+<cross-action id="ND-239">
 	<pattern>
     <e r="RL">
       <p>
@@ -5544,7 +5521,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-241">
+<cross-action id="ND-240">
 	<pattern>
     <e r="RL">
       <p>
@@ -5567,7 +5544,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-242">
+<cross-action id="ND-241">
 	<pattern>
     <e r="LR">
       <p>
@@ -5590,7 +5567,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-243">
+<cross-action id="ND-242">
 	<pattern>
     <e r="LR">
       <p>
@@ -5602,6 +5579,29 @@
     <e r="RL" a="eleka">
       <p>
         <l>important<s n="adj"/><s n="GD"/><s n="ND"/></l> 
+        <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 5 entries like this -->
+
+<cross-action id="ND-243">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>a-bouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>important<s n="adj"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="LR" a="eleka">
+      <p>
+        <l>important<s n="adj"/><s n="m"/><s n="sg"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5624,7 +5624,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="m"/><s n="sg"/></l> 
+        <l>important<s n="adj"/><s n="m"/><s n="pl"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5647,7 +5647,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="m"/><s n="pl"/></l> 
+        <l>important<s n="adj"/><s n="f"/><s n="sg"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5670,7 +5670,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="f"/><s n="sg"/></l> 
+        <l>important<s n="adj"/><s n="f"/><s n="pl"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5684,16 +5684,16 @@
 
 <cross-action id="ND-247">
 	<pattern>
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>a-bouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>important<s n="adj"/><s n="GD"/><s n="ND"/></r> 
+        <r>important<s n="adj"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR" a="eleka">
+    <e r="RL" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="f"/><s n="pl"/></l> 
+        <l>important<s n="adj"/><s n="GD"/><s n="ND"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5714,9 +5714,9 @@
       </p>
     </e>
 
-    <e r="RL" a="eleka">
+    <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="GD"/><s n="ND"/></l> 
+        <l>important<s n="adj"/><s n="m"/><s n="sg"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5739,7 +5739,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="m"/><s n="sg"/></l> 
+        <l>important<s n="adj"/><s n="m"/><s n="pl"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5762,7 +5762,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="m"/><s n="pl"/></l> 
+        <l>important<s n="adj"/><s n="f"/><s n="sg"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5785,7 +5785,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="f"/><s n="sg"/></l> 
+        <l>important<s n="adj"/><s n="f"/><s n="pl"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5802,13 +5802,13 @@
     <e r="RL">
       <p>
         <l>a-bouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>important<s n="adj"/><s n="m"/><s n="sg"/></r> 
+        <r>important<s n="adj"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR" a="eleka">
+    <e r="RL" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="f"/><s n="pl"/></l> 
+        <l>important<s n="adj"/><s n="GD"/><s n="ND"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5829,9 +5829,9 @@
       </p>
     </e>
 
-    <e r="RL" a="eleka">
+    <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="GD"/><s n="ND"/></l> 
+        <l>important<s n="adj"/><s n="m"/><s n="sg"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5854,7 +5854,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="m"/><s n="sg"/></l> 
+        <l>important<s n="adj"/><s n="m"/><s n="pl"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5877,7 +5877,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="m"/><s n="pl"/></l> 
+        <l>important<s n="adj"/><s n="f"/><s n="sg"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5900,7 +5900,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="f"/><s n="sg"/></l> 
+        <l>important<s n="adj"/><s n="f"/><s n="pl"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5917,13 +5917,13 @@
     <e r="RL">
       <p>
         <l>a-bouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>important<s n="adj"/><s n="m"/><s n="pl"/></r> 
+        <r>important<s n="adj"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR" a="eleka">
+    <e r="RL" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="f"/><s n="pl"/></l> 
+        <l>important<s n="adj"/><s n="GD"/><s n="ND"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5944,9 +5944,9 @@
       </p>
     </e>
 
-    <e r="RL" a="eleka">
+    <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="GD"/><s n="ND"/></l> 
+        <l>important<s n="adj"/><s n="m"/><s n="sg"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5969,7 +5969,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="m"/><s n="sg"/></l> 
+        <l>important<s n="adj"/><s n="m"/><s n="pl"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -5992,7 +5992,7 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="m"/><s n="pl"/></l> 
+        <l>important<s n="adj"/><s n="f"/><s n="sg"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -6015,29 +6015,6 @@
 
     <e r="LR" a="eleka">
       <p>
-        <l>important<s n="adj"/><s n="f"/><s n="sg"/></l> 
-        <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 5 entries like this -->
-
-<cross-action id="ND-262">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>a-bouez<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>important<s n="adj"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR" a="eleka">
-      <p>
         <l>important<s n="adj"/><s n="f"/><s n="pl"/></l> 
         <r>de<b/>entidad<s n="adj"/><s n="mf"/><s n="sp"/></r> 
       </p>
@@ -6050,7 +6027,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-263">
+<cross-action id="ND-262">
 	<pattern>
     <e r="RL">
       <p>
@@ -6073,7 +6050,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-264">
+<cross-action id="ND-263">
 	<pattern>
     <e r="RL">
       <p>
@@ -6096,7 +6073,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-265">
+<cross-action id="ND-264">
 	<pattern>
     <e r="RL">
       <p>
@@ -6119,7 +6096,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-266">
+<cross-action id="ND-265">
 	<pattern>
     <e r="RL">
       <p>
@@ -6142,7 +6119,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-267">
+<cross-action id="ND-266">
 	<pattern>
     <e r="RL">
       <p>
@@ -6165,7 +6142,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-268">
+<cross-action id="ND-267">
 	<pattern>
     <e>
       <p>
@@ -6188,7 +6165,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-269">
+<cross-action id="ND-268">
 	<pattern>
     <e>
       <p>
@@ -6211,7 +6188,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-270">
+<cross-action id="ND-269">
 	<pattern>
     <e r="LR">
       <p>
@@ -6234,7 +6211,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-271">
+<cross-action id="ND-270">
 	<pattern>
     <e r="RL">
       <p>
@@ -6257,7 +6234,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-272">
+<cross-action id="ND-271">
 	<pattern>
     <e>
       <p>
@@ -6280,7 +6257,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-273">
+<cross-action id="ND-272">
 	<pattern>
     <e>
       <p>
@@ -6303,7 +6280,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-274">
+<cross-action id="ND-273">
 	<pattern>
     <e>
       <p>
@@ -6315,6 +6292,29 @@
     <e r="LR" a="eleka">
       <p>
         <l>mineur<s n="n"/><s n="sg"/></l> 
+        <r>menor<g><b/>de<b/>edad</g><s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 5 entries like this -->
+
+<cross-action id="ND-274">
+	<pattern>
+    <e>
+      <p>
+        <l>mengleuzier<s n="n"/><s n="m"/></l> 
+        <r>mineur<s n="n"/><s n="m"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="eleka">
+      <p>
+        <l>mineur<s n="n"/><s n="GD"/></l> 
         <r>menor<g><b/>de<b/>edad</g><s n="n"/><s n="m"/></r> 
       </p>
     </e>
@@ -6335,29 +6335,6 @@
       </p>
     </e>
 
-    <e r="RL" a="eleka">
-      <p>
-        <l>mineur<s n="n"/><s n="GD"/></l> 
-        <r>menor<g><b/>de<b/>edad</g><s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 5 entries like this -->
-
-<cross-action id="ND-276">
-	<pattern>
-    <e>
-      <p>
-        <l>mengleuzier<s n="n"/><s n="m"/></l> 
-        <r>mineur<s n="n"/><s n="m"/></r> 
-      </p>
-    </e>
-
     <e r="LR" a="eleka">
       <p>
         <l>mineur<s n="n"/><s n="sg"/></l> 
@@ -6372,7 +6349,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-277">
+<cross-action id="ND-276">
 	<pattern>
     <e r="LR">
       <p>
@@ -6395,7 +6372,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-278">
+<cross-action id="ND-277">
 	<pattern>
     <e r="LR">
       <p>
@@ -6418,7 +6395,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-279">
+<cross-action id="ND-278">
 	<pattern>
     <e>
       <p>
@@ -6441,7 +6418,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-280">
+<cross-action id="ND-279">
 	<pattern>
     <e>
       <p>
@@ -6464,7 +6441,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-281">
+<cross-action id="ND-280">
 	<pattern>
     <e>
       <p>
@@ -6487,7 +6464,7 @@
 </cross-action>
 <!-- 5 entries like this -->
 
-<cross-action id="ND-282">
+<cross-action id="ND-281">
 	<pattern>
     <e>
       <p>
@@ -6510,12 +6487,35 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-283">
+<cross-action id="ND-282">
 	<pattern>
     <e r="LR">
       <p>
         <l>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
         <r>mon<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></l> 
+        <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 3 entries like this -->
+
+<cross-action id="ND-283">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
+        <r>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -6538,7 +6538,7 @@
     <e r="RL">
       <p>
         <l>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+        <r>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -6561,7 +6561,7 @@
     <e r="RL">
       <p>
         <l>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+        <r>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -6583,15 +6583,15 @@
 	<pattern>
     <e r="RL">
       <p>
-        <l>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+        <l>e<s n="det"/><s n="pos"/><s n="GD"/><s n="sp"/></l> 
+        <r>son<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
-        <l>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></l> 
-        <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+        <l>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
+        <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -6613,29 +6613,6 @@
 
     <e r="LR">
       <p>
-        <l>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
-        <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 3 entries like this -->
-
-<cross-action id="ND-288">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>e<s n="det"/><s n="pos"/><s n="GD"/><s n="sp"/></l> 
-        <r>son<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>son<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l> 
         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
@@ -6648,7 +6625,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-289">
+<cross-action id="ND-288">
 	<pattern>
     <e r="RL">
       <p>
@@ -6671,7 +6648,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-290">
+<cross-action id="ND-289">
 	<pattern>
     <e r="RL">
       <p>
@@ -6684,6 +6661,29 @@
       <p>
         <l>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></l> 
         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 3 entries like this -->
+
+<cross-action id="ND-290">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>e<s n="det"/><s n="pos"/><s n="GD"/><s n="sp"/></l> 
+        <r>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
+        <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -6705,29 +6705,6 @@
 
     <e r="LR">
       <p>
-        <l>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
-        <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 3 entries like this -->
-
-<cross-action id="ND-292">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>e<s n="det"/><s n="pos"/><s n="GD"/><s n="sp"/></l> 
-        <r>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>son<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l> 
         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
@@ -6740,7 +6717,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-293">
+<cross-action id="ND-292">
 	<pattern>
     <e r="RL">
       <p>
@@ -6763,7 +6740,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-294">
+<cross-action id="ND-293">
 	<pattern>
     <e r="RL">
       <p>
@@ -6776,6 +6753,29 @@
       <p>
         <l>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></l> 
         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 3 entries like this -->
+
+<cross-action id="ND-294">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>e<s n="det"/><s n="pos"/><s n="GD"/><s n="sp"/></l> 
+        <r>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
+        <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -6797,29 +6797,6 @@
 
     <e r="LR">
       <p>
-        <l>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
-        <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 3 entries like this -->
-
-<cross-action id="ND-296">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>e<s n="det"/><s n="pos"/><s n="GD"/><s n="sp"/></l> 
-        <r>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>son<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l> 
         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
@@ -6832,7 +6809,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-297">
+<cross-action id="ND-296">
 	<pattern>
     <e r="RL">
       <p>
@@ -6855,7 +6832,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-298">
+<cross-action id="ND-297">
 	<pattern>
     <e r="RL">
       <p>
@@ -6878,7 +6855,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-299">
+<cross-action id="ND-298">
 	<pattern>
     <e r="LR">
       <p>
@@ -6891,6 +6868,29 @@
       <p>
         <l>notre<s n="det"/><s n="pos"/><s n="mf"/></l> 
         <r>nuestro<s n="det"/><s n="pos"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 3 entries like this -->
+
+<cross-action id="ND-299">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>hon<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
+        <r>notre<s n="det"/><s n="pos"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>notre<s n="det"/><s n="pos"/><s n="mf"/></l> 
+        <r>nuestro<s n="det"/><s n="pos"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -6913,7 +6913,7 @@
     <e r="RL">
       <p>
         <l>notre<s n="det"/><s n="pos"/><s n="mf"/></l> 
-        <r>nuestro<s n="det"/><s n="pos"/><s n="f"/></r> 
+        <r>nuestro<s n="det"/><s n="pos"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -6926,17 +6926,17 @@
 
 <cross-action id="ND-301">
 	<pattern>
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>hon<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>notre<s n="det"/><s n="pos"/><s n="mf"/><s n="ND"/></r> 
+        <l>hon<s n="det"/><s n="pos"/><s n="GD"/><s n="sp"/></l> 
+        <r>notre<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
         <l>notre<s n="det"/><s n="pos"/><s n="mf"/></l> 
-        <r>nuestro<s n="det"/><s n="pos"/><s n="m"/></r> 
+        <r>nuestro<s n="det"/><s n="pos"/><s n="GD"/></r> 
       </p>
     </e>
 
@@ -6956,10 +6956,10 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>notre<s n="det"/><s n="pos"/><s n="mf"/></l> 
-        <r>nuestro<s n="det"/><s n="pos"/><s n="GD"/></r> 
+        <r>nuestro<s n="det"/><s n="pos"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -6982,29 +6982,6 @@
     <e r="RL">
       <p>
         <l>notre<s n="det"/><s n="pos"/><s n="mf"/></l> 
-        <r>nuestro<s n="det"/><s n="pos"/><s n="f"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 3 entries like this -->
-
-<cross-action id="ND-304">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>hon<s n="det"/><s n="pos"/><s n="GD"/><s n="sp"/></l> 
-        <r>notre<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>notre<s n="det"/><s n="pos"/><s n="mf"/></l> 
         <r>nuestro<s n="det"/><s n="pos"/><s n="m"/></r> 
       </p>
     </e>
@@ -7016,7 +6993,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-305">
+<cross-action id="ND-304">
 	<pattern>
     <e r="RL">
       <p>
@@ -7039,7 +7016,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-306">
+<cross-action id="ND-305">
 	<pattern>
     <e r="RL">
       <p>
@@ -7062,7 +7039,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-307">
+<cross-action id="ND-306">
 	<pattern>
     <e r="RL">
       <p>
@@ -7085,7 +7062,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-308">
+<cross-action id="ND-307">
 	<pattern>
     <e>
       <p>
@@ -7108,7 +7085,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-309">
+<cross-action id="ND-308">
 	<pattern>
     <e>
       <p>
@@ -7131,7 +7108,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-310">
+<cross-action id="ND-309">
 	<pattern>
     <e>
       <p>
@@ -7144,6 +7121,29 @@
       <p>
         <l>nous<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></l> 
         <r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 3 entries like this -->
+
+<cross-action id="ND-310">
+	<pattern>
+    <e>
+      <p>
+        <l>direct<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></l> 
+        <r>nous<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>nous<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></l> 
+        <r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -7166,29 +7166,6 @@
     <e r="RL">
       <p>
         <l>nous<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></l> 
-        <r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 3 entries like this -->
-
-<cross-action id="ND-312">
-	<pattern>
-    <e>
-      <p>
-        <l>direct<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></l> 
-        <r>nous<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>nous<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></l> 
         <r>nosotros<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/></r> 
       </p>
     </e>
@@ -7200,7 +7177,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-313">
+<cross-action id="ND-312">
 	<pattern>
     <e>
       <p>
@@ -7223,7 +7200,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-314">
+<cross-action id="ND-313">
 	<pattern>
     <e>
       <p>
@@ -7236,6 +7213,29 @@
       <p>
         <l>vous<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/></l> 
         <r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 3 entries like this -->
+
+<cross-action id="ND-314">
+	<pattern>
+    <e>
+      <p>
+        <l>direct<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></l> 
+        <r>vous<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>vous<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/></l> 
+        <r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -7258,29 +7258,6 @@
     <e r="RL">
       <p>
         <l>vous<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/></l> 
-        <r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 3 entries like this -->
-
-<cross-action id="ND-316">
-	<pattern>
-    <e>
-      <p>
-        <l>direct<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></l> 
-        <r>vous<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>vous<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/></l> 
         <r>vosotros<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/></r> 
       </p>
     </e>
@@ -7292,7 +7269,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-317">
+<cross-action id="ND-316">
 	<pattern>
     <e>
       <p>
@@ -7315,7 +7292,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-318">
+<cross-action id="ND-317">
 	<pattern>
     <e>
       <p>
@@ -7338,7 +7315,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-319">
+<cross-action id="ND-318">
 	<pattern>
     <e>
       <p>
@@ -7361,7 +7338,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-320">
+<cross-action id="ND-319">
 	<pattern>
     <e>
       <p>
@@ -7384,7 +7361,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-321">
+<cross-action id="ND-320">
 	<pattern>
     <e>
       <p>
@@ -7407,7 +7384,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-322">
+<cross-action id="ND-321">
 	<pattern>
     <e>
       <p>
@@ -7430,7 +7407,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-323">
+<cross-action id="ND-322">
 	<pattern>
     <e>
       <p>
@@ -7453,7 +7430,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-324">
+<cross-action id="ND-323">
 	<pattern>
     <e>
       <p>
@@ -7476,7 +7453,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-325">
+<cross-action id="ND-324">
 	<pattern>
     <e r="LR">
       <p>
@@ -7488,6 +7465,29 @@
     <e r="LR">
       <p>
         <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></l> 
+        <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 3 entries like this -->
+
+<cross-action id="ND-325">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>peseurt<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
+        <r>quel<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7510,7 +7510,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7533,7 +7533,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7554,9 +7554,9 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7570,16 +7570,16 @@
 
 <cross-action id="ND-329">
 	<pattern>
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>peseurt<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
-        <r>quel<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></r> 
+        <r>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7602,7 +7602,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7625,7 +7625,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7648,7 +7648,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7669,9 +7669,9 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7688,13 +7688,13 @@
     <e r="RL">
       <p>
         <l>peseurt<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
-        <r>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></r> 
+        <r>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7717,7 +7717,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7740,7 +7740,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7763,7 +7763,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7784,9 +7784,9 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7803,13 +7803,13 @@
     <e r="RL">
       <p>
         <l>peseurt<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
-        <r>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></r> 
+        <r>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="GD"/><s n="ND"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7832,7 +7832,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7855,7 +7855,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></l> 
+        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
     </e>
@@ -7878,29 +7878,6 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></l> 
-        <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 3 entries like this -->
-
-<cross-action id="ND-343">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>peseurt<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
-        <r>quel<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>quel<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></l> 
         <r>qué<s n="adj"/><s n="itg"/><s n="mf"/><s n="sp"/></r> 
       </p>
@@ -7913,7 +7890,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-344">
+<cross-action id="ND-343">
 	<pattern>
     <e r="RL">
       <p>
@@ -7936,7 +7913,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-345">
+<cross-action id="ND-344">
 	<pattern>
     <e r="RL">
       <p>
@@ -7959,7 +7936,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-346">
+<cross-action id="ND-345">
 	<pattern>
     <e r="RL">
       <p>
@@ -7982,7 +7959,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-347">
+<cross-action id="ND-346">
 	<pattern>
     <e r="RL">
       <p>
@@ -8005,7 +7982,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-348">
+<cross-action id="ND-347">
 	<pattern>
     <e r="RL">
       <p>
@@ -8028,7 +8005,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-349">
+<cross-action id="ND-348">
 	<pattern>
     <e r="RL">
       <p>
@@ -8051,7 +8028,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-350">
+<cross-action id="ND-349">
 	<pattern>
     <e r="LR">
       <p>
@@ -8064,6 +8041,29 @@
       <p>
         <l>autre<s n="adj"/><s n="ind"/><s n="mf"/></l> 
         <r>otro<s n="adj"/><s n="ind"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 3 entries like this -->
+
+<cross-action id="ND-350">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>all<s n="adj"/><s n="ind"/><s n="mf"/><s n="sp"/></l> 
+        <r>autre<s n="adj"/><s n="ind"/><s n="mf"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>autre<s n="adj"/><s n="ind"/><s n="mf"/></l> 
+        <r>otro<s n="adj"/><s n="ind"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -8086,7 +8086,7 @@
     <e r="RL">
       <p>
         <l>autre<s n="adj"/><s n="ind"/><s n="mf"/></l> 
-        <r>otro<s n="adj"/><s n="ind"/><s n="f"/></r> 
+        <r>otro<s n="adj"/><s n="ind"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -8106,10 +8106,10 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" a="eleka">
       <p>
-        <l>autre<s n="adj"/><s n="ind"/><s n="mf"/></l> 
-        <r>otro<s n="adj"/><s n="ind"/><s n="m"/></r> 
+        <l>autre<s n="adj"/><s n="mf"/></l> 
+        <r>otro<s n="adj"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -8132,7 +8132,7 @@
     <e r="RL" a="eleka">
       <p>
         <l>autre<s n="adj"/><s n="mf"/></l> 
-        <r>otro<s n="adj"/><s n="m"/></r> 
+        <r>otro<s n="adj"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -8145,17 +8145,17 @@
 
 <cross-action id="ND-354">
 	<pattern>
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>all<s n="adj"/><s n="ind"/><s n="mf"/><s n="sp"/></l> 
-        <r>autre<s n="adj"/><s n="ind"/><s n="mf"/><s n="ND"/></r> 
+        <r>autre<s n="adj"/><s n="ind"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="RL" a="eleka">
+    <e r="LR">
       <p>
-        <l>autre<s n="adj"/><s n="mf"/></l> 
-        <r>otro<s n="adj"/><s n="f"/></r> 
+        <l>autre<s n="adj"/><s n="ind"/><s n="mf"/></l> 
+        <r>otro<s n="adj"/><s n="ind"/><s n="GD"/></r> 
       </p>
     </e>
 
@@ -8175,10 +8175,10 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>autre<s n="adj"/><s n="ind"/><s n="mf"/></l> 
-        <r>otro<s n="adj"/><s n="ind"/><s n="GD"/></r> 
+        <r>otro<s n="adj"/><s n="ind"/><s n="f"/></r> 
       </p>
     </e>
 
@@ -8201,7 +8201,7 @@
     <e r="RL">
       <p>
         <l>autre<s n="adj"/><s n="ind"/><s n="mf"/></l> 
-        <r>otro<s n="adj"/><s n="ind"/><s n="f"/></r> 
+        <r>otro<s n="adj"/><s n="ind"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -8221,10 +8221,10 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="RL" a="eleka">
       <p>
-        <l>autre<s n="adj"/><s n="ind"/><s n="mf"/></l> 
-        <r>otro<s n="adj"/><s n="ind"/><s n="m"/></r> 
+        <l>autre<s n="adj"/><s n="mf"/></l> 
+        <r>otro<s n="adj"/><s n="m"/></r> 
       </p>
     </e>
 
@@ -8247,29 +8247,6 @@
     <e r="RL" a="eleka">
       <p>
         <l>autre<s n="adj"/><s n="mf"/></l> 
-        <r>otro<s n="adj"/><s n="m"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 3 entries like this -->
-
-<cross-action id="ND-359">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>all<s n="adj"/><s n="ind"/><s n="mf"/><s n="sp"/></l> 
-        <r>autre<s n="adj"/><s n="ind"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" a="eleka">
-      <p>
-        <l>autre<s n="adj"/><s n="mf"/></l> 
         <r>otro<s n="adj"/><s n="f"/></r> 
       </p>
     </e>
@@ -8281,7 +8258,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-360">
+<cross-action id="ND-359">
 	<pattern>
     <e r="RL">
       <p>
@@ -8304,7 +8281,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-361">
+<cross-action id="ND-360">
 	<pattern>
     <e r="RL">
       <p>
@@ -8327,7 +8304,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-362">
+<cross-action id="ND-361">
 	<pattern>
     <e r="RL">
       <p>
@@ -8350,7 +8327,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-363">
+<cross-action id="ND-362">
 	<pattern>
     <e r="RL">
       <p>
@@ -8373,7 +8350,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-364">
+<cross-action id="ND-363">
 	<pattern>
     <e r="RL">
       <p>
@@ -8396,7 +8373,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-365">
+<cross-action id="ND-364">
 	<pattern>
     <e r="LR">
       <p>
@@ -8419,7 +8396,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-366">
+<cross-action id="ND-365">
 	<pattern>
     <e r="LR">
       <p>
@@ -8442,7 +8419,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-367">
+<cross-action id="ND-366">
 	<pattern>
     <e r="LR">
       <p>
@@ -8465,7 +8442,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-368">
+<cross-action id="ND-367">
 	<pattern>
     <e r="LR">
       <p>
@@ -8488,7 +8465,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-369">
+<cross-action id="ND-368">
 	<pattern>
     <e r="RL">
       <p>
@@ -8511,7 +8488,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-370">
+<cross-action id="ND-369">
 	<pattern>
     <e r="LR">
       <p>
@@ -8534,7 +8511,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-371">
+<cross-action id="ND-370">
 	<pattern>
     <e r="RL">
       <p>
@@ -8557,7 +8534,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-372">
+<cross-action id="ND-371">
 	<pattern>
     <e r="RL">
       <p>
@@ -8580,7 +8557,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-373">
+<cross-action id="ND-372">
 	<pattern>
     <e r="RL">
       <p>
@@ -8603,7 +8580,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-374">
+<cross-action id="ND-373">
 	<pattern>
     <e r="LR">
       <p>
@@ -8626,7 +8603,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-375">
+<cross-action id="ND-374">
 	<pattern>
     <e r="LR">
       <p>
@@ -8649,7 +8626,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-376">
+<cross-action id="ND-375">
 	<pattern>
     <e r="LR">
       <p>
@@ -8672,7 +8649,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-377">
+<cross-action id="ND-376">
 	<pattern>
     <e r="LR">
       <p>
@@ -8695,7 +8672,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-378">
+<cross-action id="ND-377">
 	<pattern>
     <e>
       <p>
@@ -8718,7 +8695,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-379">
+<cross-action id="ND-378">
 	<pattern>
     <e>
       <p>
@@ -8741,7 +8718,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-380">
+<cross-action id="ND-379">
 	<pattern>
     <e>
       <p>
@@ -8764,7 +8741,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-381">
+<cross-action id="ND-380">
 	<pattern>
     <e>
       <p>
@@ -8787,7 +8764,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-382">
+<cross-action id="ND-381">
 	<pattern>
     <e>
       <p>
@@ -8810,7 +8787,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-383">
+<cross-action id="ND-382">
 	<pattern>
     <e>
       <p>
@@ -8833,7 +8810,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-384">
+<cross-action id="ND-383">
 	<pattern>
     <e r="LR">
       <p>
@@ -8856,7 +8833,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-385">
+<cross-action id="ND-384">
 	<pattern>
     <e r="LR">
       <p>
@@ -8879,7 +8856,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-386">
+<cross-action id="ND-385">
 	<pattern>
     <e r="RL">
       <p>
@@ -8902,7 +8879,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-387">
+<cross-action id="ND-386">
 	<pattern>
     <e r="RL">
       <p>
@@ -8925,7 +8902,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-388">
+<cross-action id="ND-387">
 	<pattern>
     <e r="LR">
       <p>
@@ -8948,7 +8925,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-389">
+<cross-action id="ND-388">
 	<pattern>
     <e r="LR">
       <p>
@@ -8971,7 +8948,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-390">
+<cross-action id="ND-389">
 	<pattern>
     <e>
       <p>
@@ -8994,7 +8971,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-391">
+<cross-action id="ND-390">
 	<pattern>
     <e>
       <p>
@@ -9017,7 +8994,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-392">
+<cross-action id="ND-391">
 	<pattern>
     <e r="LR">
       <p>
@@ -9040,7 +9017,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-393">
+<cross-action id="ND-392">
 	<pattern>
     <e r="LR">
       <p>
@@ -9063,7 +9040,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-394">
+<cross-action id="ND-393">
 	<pattern>
     <e r="RL">
       <p>
@@ -9086,7 +9063,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-395">
+<cross-action id="ND-394">
 	<pattern>
     <e r="RL">
       <p>
@@ -9109,7 +9086,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-396">
+<cross-action id="ND-395">
 	<pattern>
     <e>
       <p>
@@ -9132,7 +9109,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-397">
+<cross-action id="ND-396">
 	<pattern>
     <e>
       <p>
@@ -9155,7 +9132,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-398">
+<cross-action id="ND-397">
 	<pattern>
     <e>
       <p>
@@ -9178,7 +9155,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-399">
+<cross-action id="ND-398">
 	<pattern>
     <e>
       <p>
@@ -9201,7 +9178,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-400">
+<cross-action id="ND-399">
 	<pattern>
     <e>
       <p>
@@ -9224,7 +9201,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-401">
+<cross-action id="ND-400">
 	<pattern>
     <e r="RL">
       <p>
@@ -9247,7 +9224,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-402">
+<cross-action id="ND-401">
 	<pattern>
     <e r="LR">
       <p>
@@ -9270,7 +9247,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-403">
+<cross-action id="ND-402">
 	<pattern>
     <e r="LR">
       <p>
@@ -9293,7 +9270,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-404">
+<cross-action id="ND-403">
 	<pattern>
     <e r="RL">
       <p>
@@ -9316,7 +9293,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-405">
+<cross-action id="ND-404">
 	<pattern>
     <e r="LR">
       <p>
@@ -9339,7 +9316,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-406">
+<cross-action id="ND-405">
 	<pattern>
     <e r="RL">
       <p>
@@ -9362,7 +9339,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-407">
+<cross-action id="ND-406">
 	<pattern>
     <e r="RL">
       <p>
@@ -9375,6 +9352,29 @@
       <p>
         <l>toux<s n="n"/><s n="f"/><s n="sp"/></l> 
         <r>tos<s n="n"/><s n="f"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 3 entries like this -->
+
+<cross-action id="ND-407">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>peus<s n="n"/><s n="m"/><s n="ND"/></l> 
+        <r>toux<s n="n"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="webform">
+      <p>
+        <l>toux<s n="n"/><s n="f"/><s n="sp"/></l> 
+        <r>tos<s n="n"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -9397,29 +9397,6 @@
     <e r="RL" a="webform">
       <p>
         <l>toux<s n="n"/><s n="f"/><s n="sp"/></l> 
-        <r>tos<s n="n"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 3 entries like this -->
-
-<cross-action id="ND-409">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>peus<s n="n"/><s n="m"/><s n="ND"/></l> 
-        <r>toux<s n="n"/><s n="f"/><s n="sp"/></r> 
-      </p>
-    </e>
-
-    <e r="RL" a="webform">
-      <p>
-        <l>toux<s n="n"/><s n="f"/><s n="sp"/></l> 
         <r>tos<s n="n"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -9431,7 +9408,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-410">
+<cross-action id="ND-409">
 	<pattern>
     <e r="LR">
       <p>
@@ -9454,7 +9431,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-411">
+<cross-action id="ND-410">
 	<pattern>
     <e r="LR">
       <p>
@@ -9477,7 +9454,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-412">
+<cross-action id="ND-411">
 	<pattern>
     <e r="LR">
       <p>
@@ -9500,7 +9477,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-413">
+<cross-action id="ND-412">
 	<pattern>
     <e r="LR">
       <p>
@@ -9523,7 +9500,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-414">
+<cross-action id="ND-413">
 	<pattern>
     <e>
       <p>
@@ -9546,7 +9523,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-415">
+<cross-action id="ND-414">
 	<pattern>
     <e>
       <p>
@@ -9569,7 +9546,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-416">
+<cross-action id="ND-415">
 	<pattern>
     <e>
       <p>
@@ -9592,7 +9569,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-417">
+<cross-action id="ND-416">
 	<pattern>
     <e>
       <p>
@@ -9615,7 +9592,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-418">
+<cross-action id="ND-417">
 	<pattern>
     <e>
       <p>
@@ -9638,7 +9615,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-419">
+<cross-action id="ND-418">
 	<pattern>
     <e>
       <p>
@@ -9661,7 +9638,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-420">
+<cross-action id="ND-419">
 	<pattern>
     <e>
       <p>
@@ -9684,7 +9661,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-421">
+<cross-action id="ND-420">
 	<pattern>
     <e>
       <p>
@@ -9707,7 +9684,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-422">
+<cross-action id="ND-421">
 	<pattern>
     <e>
       <p>
@@ -9730,7 +9707,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-423">
+<cross-action id="ND-422">
 	<pattern>
     <e>
       <p>
@@ -9753,7 +9730,7 @@
 </cross-action>
 <!-- 3 entries like this -->
 
-<cross-action id="ND-424">
+<cross-action id="ND-423">
 	<pattern>
     <e r="LR">
       <p>
@@ -9776,7 +9753,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-425">
+<cross-action id="ND-424">
 	<pattern>
     <e r="RL">
       <p>
@@ -9799,7 +9776,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-426">
+<cross-action id="ND-425">
 	<pattern>
     <e r="RL">
       <p>
@@ -9822,7 +9799,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-427">
+<cross-action id="ND-426">
 	<pattern>
     <e r="RL">
       <p>
@@ -9845,7 +9822,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-428">
+<cross-action id="ND-427">
 	<pattern>
     <e r="RL">
       <p>
@@ -9868,7 +9845,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-429">
+<cross-action id="ND-428">
 	<pattern>
     <e r="LR">
       <p>
@@ -9881,6 +9858,29 @@
       <p>
         <l>le<s n="det"/><s n="def"/><s n="mf"/></l> 
         <r>el<s n="det"/><s n="def"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-429">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>an<s n="det"/><s n="def"/><s n="sp"/></l> 
+        <r>le<s n="det"/><s n="def"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l> 
+        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -9903,29 +9903,6 @@
     <e r="RL">
       <p>
         <l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l> 
-        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-431">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>an<s n="det"/><s n="def"/><s n="sp"/></l> 
-        <r>le<s n="det"/><s n="def"/><s n="GD"/><s n="ND"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l> 
         <r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -9937,7 +9914,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-432">
+<cross-action id="ND-431">
 	<pattern>
     <e r="LR">
       <p>
@@ -9960,7 +9937,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-433">
+<cross-action id="ND-432">
 	<pattern>
     <e r="LR">
       <p>
@@ -9983,7 +9960,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-434">
+<cross-action id="ND-433">
 	<pattern>
     <e r="RL">
       <p>
@@ -9996,6 +9973,29 @@
       <p>
         <l>le<s n="det"/><s n="def"/><s n="mf"/></l> 
         <r>el<s n="det"/><s n="def"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-434">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>an<s n="det"/><s n="def"/><s n="sp"/></l> 
+        <r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l> 
+        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -10018,29 +10018,6 @@
     <e r="RL">
       <p>
         <l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l> 
-        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-436">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>an<s n="det"/><s n="def"/><s n="sp"/></l> 
-        <r>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l> 
         <r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -10052,7 +10029,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-437">
+<cross-action id="ND-436">
 	<pattern>
     <e r="RL">
       <p>
@@ -10075,7 +10052,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-438">
+<cross-action id="ND-437">
 	<pattern>
     <e r="RL">
       <p>
@@ -10098,7 +10075,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-439">
+<cross-action id="ND-438">
 	<pattern>
     <e r="RL">
       <p>
@@ -10111,6 +10088,29 @@
       <p>
         <l>le<s n="det"/><s n="def"/><s n="mf"/></l> 
         <r>el<s n="det"/><s n="def"/><s n="GD"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-439">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>an<s n="det"/><s n="def"/><s n="sp"/></l> 
+        <r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l> 
+        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -10133,29 +10133,6 @@
     <e r="RL">
       <p>
         <l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l> 
-        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-441">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>an<s n="det"/><s n="def"/><s n="sp"/></l> 
-        <r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></l> 
         <r>el<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -10167,7 +10144,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-442">
+<cross-action id="ND-441">
 	<pattern>
     <e r="RL">
       <p>
@@ -10190,7 +10167,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-443">
+<cross-action id="ND-442">
 	<pattern>
     <e r="RL">
       <p>
@@ -10213,7 +10190,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-444">
+<cross-action id="ND-443">
 	<pattern>
     <e r="RL">
       <p>
@@ -10236,7 +10213,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-445">
+<cross-action id="ND-444">
 	<pattern>
     <e r="RL">
       <p>
@@ -10259,7 +10236,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-446">
+<cross-action id="ND-445">
 	<pattern>
     <e r="RL">
       <p>
@@ -10282,7 +10259,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-447">
+<cross-action id="ND-446">
 	<pattern>
     <e r="RL">
       <p>
@@ -10305,7 +10282,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-448">
+<cross-action id="ND-447">
 	<pattern>
     <e r="RL">
       <p>
@@ -10328,7 +10305,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-449">
+<cross-action id="ND-448">
 	<pattern>
     <e r="LR">
       <p>
@@ -10341,6 +10318,29 @@
       <p>
         <l>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l> 
         <r>uno<s n="det"/><s n="ind"/><s n="GD"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-449">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>un<s n="det"/><s n="ind"/><s n="sp"/></l> 
+        <r>un<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l> 
+        <r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -10363,29 +10363,6 @@
     <e r="RL">
       <p>
         <l>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l> 
-        <r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-451">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>un<s n="det"/><s n="ind"/><s n="sp"/></l> 
-        <r>un<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l> 
         <r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
@@ -10397,7 +10374,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-452">
+<cross-action id="ND-451">
 	<pattern>
     <e r="LR">
       <p>
@@ -10420,7 +10397,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-453">
+<cross-action id="ND-452">
 	<pattern>
     <e r="LR">
       <p>
@@ -10443,7 +10420,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-454">
+<cross-action id="ND-453">
 	<pattern>
     <e r="RL">
       <p>
@@ -10456,6 +10433,29 @@
       <p>
         <l>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l> 
         <r>uno<s n="det"/><s n="ind"/><s n="GD"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-454">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>un<s n="det"/><s n="ind"/><s n="sp"/></l> 
+        <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l> 
+        <r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -10478,29 +10478,6 @@
     <e r="RL">
       <p>
         <l>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l> 
-        <r>uno<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-456">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>un<s n="det"/><s n="ind"/><s n="sp"/></l> 
-        <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></l> 
         <r>uno<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
@@ -10512,7 +10489,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-457">
+<cross-action id="ND-456">
 	<pattern>
     <e r="RL">
       <p>
@@ -10535,7 +10512,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-458">
+<cross-action id="ND-457">
 	<pattern>
     <e r="RL">
       <p>
@@ -10558,7 +10535,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-459">
+<cross-action id="ND-458">
 	<pattern>
     <e r="RL">
       <p>
@@ -10581,7 +10558,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-460">
+<cross-action id="ND-459">
 	<pattern>
     <e r="RL">
       <p>
@@ -10604,7 +10581,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-461">
+<cross-action id="ND-460">
 	<pattern>
     <e r="RL">
       <p>
@@ -10627,7 +10604,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-462">
+<cross-action id="ND-461">
 	<pattern>
     <e r="RL">
       <p>
@@ -10650,7 +10627,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-463">
+<cross-action id="ND-462">
 	<pattern>
     <e r="RL">
       <p>
@@ -10673,7 +10650,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-464">
+<cross-action id="ND-463">
 	<pattern>
     <e>
       <p>
@@ -10696,7 +10673,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-465">
+<cross-action id="ND-464">
 	<pattern>
     <e>
       <p>
@@ -10719,7 +10696,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-466">
+<cross-action id="ND-465">
 	<pattern>
     <e r="LR">
       <p>
@@ -10742,7 +10719,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-467">
+<cross-action id="ND-466">
 	<pattern>
     <e r="LR">
       <p>
@@ -10765,7 +10742,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-468">
+<cross-action id="ND-467">
 	<pattern>
     <e r="LR">
       <p>
@@ -10777,6 +10754,29 @@
     <e r="RL">
       <p>
         <l>mon<s n="det"/><s n="pos"/><s n="GD"/><s n="sg"/></l> 
+        <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-468">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
+        <r>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
         <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -10799,7 +10799,7 @@
 
     <e r="LR">
       <p>
-        <l>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
+        <l>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l> 
         <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -10820,9 +10820,9 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l> 
+        <l>mon<s n="det"/><s n="pos"/><s n="GD"/><s n="sg"/></l> 
         <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -10839,13 +10839,13 @@
     <e r="RL">
       <p>
         <l>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+        <r>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>mon<s n="det"/><s n="pos"/><s n="GD"/><s n="sg"/></l> 
+        <l>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
         <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -10868,7 +10868,7 @@
 
     <e r="LR">
       <p>
-        <l>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
+        <l>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l> 
         <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -10889,9 +10889,9 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l> 
+        <l>mon<s n="det"/><s n="pos"/><s n="GD"/><s n="sg"/></l> 
         <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -10908,13 +10908,13 @@
     <e r="RL">
       <p>
         <l>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+        <r>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>mon<s n="det"/><s n="pos"/><s n="GD"/><s n="sg"/></l> 
+        <l>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
         <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -10937,29 +10937,6 @@
 
     <e r="LR">
       <p>
-        <l>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
-        <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-476">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>mon<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l> 
         <r>mío<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
@@ -10972,7 +10949,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-477">
+<cross-action id="ND-476">
 	<pattern>
     <e r="RL">
       <p>
@@ -10995,7 +10972,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-478">
+<cross-action id="ND-477">
 	<pattern>
     <e r="LR">
       <p>
@@ -11018,7 +10995,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-479">
+<cross-action id="ND-478">
 	<pattern>
     <e r="LR">
       <p>
@@ -11041,7 +11018,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-480">
+<cross-action id="ND-479">
 	<pattern>
     <e r="LR">
       <p>
@@ -11053,6 +11030,29 @@
     <e r="RL">
       <p>
         <l>ton<s n="det"/><s n="pos"/><s n="GD"/></l> 
+        <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-480">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>da<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
+        <r>ton<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ton<s n="det"/><s n="pos"/><s n="f"/></l> 
         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
     </e>
@@ -11075,7 +11075,7 @@
 
     <e r="LR">
       <p>
-        <l>ton<s n="det"/><s n="pos"/><s n="f"/></l> 
+        <l>ton<s n="det"/><s n="pos"/><s n="m"/></l> 
         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
     </e>
@@ -11096,9 +11096,9 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>ton<s n="det"/><s n="pos"/><s n="m"/></l> 
+        <l>ton<s n="det"/><s n="pos"/><s n="GD"/></l> 
         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
     </e>
@@ -11115,13 +11115,13 @@
     <e r="RL">
       <p>
         <l>da<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>ton<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+        <r>ton<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>ton<s n="det"/><s n="pos"/><s n="GD"/></l> 
+        <l>ton<s n="det"/><s n="pos"/><s n="f"/></l> 
         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
     </e>
@@ -11144,7 +11144,7 @@
 
     <e r="LR">
       <p>
-        <l>ton<s n="det"/><s n="pos"/><s n="f"/></l> 
+        <l>ton<s n="det"/><s n="pos"/><s n="m"/></l> 
         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
     </e>
@@ -11165,9 +11165,9 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>ton<s n="det"/><s n="pos"/><s n="m"/></l> 
+        <l>ton<s n="det"/><s n="pos"/><s n="GD"/></l> 
         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
     </e>
@@ -11184,13 +11184,13 @@
     <e r="RL">
       <p>
         <l>da<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>ton<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+        <r>ton<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>ton<s n="det"/><s n="pos"/><s n="GD"/></l> 
+        <l>ton<s n="det"/><s n="pos"/><s n="f"/></l> 
         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
     </e>
@@ -11213,29 +11213,6 @@
 
     <e r="LR">
       <p>
-        <l>ton<s n="det"/><s n="pos"/><s n="f"/></l> 
-        <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-488">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>da<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></l> 
-        <r>ton<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>ton<s n="det"/><s n="pos"/><s n="m"/></l> 
         <r>tuyo<s n="det"/><s n="pos"/><s n="mf"/></r> 
       </p>
@@ -11248,7 +11225,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-489">
+<cross-action id="ND-488">
 	<pattern>
     <e r="RL">
       <p>
@@ -11271,7 +11248,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-490">
+<cross-action id="ND-489">
 	<pattern>
     <e r="LR">
       <p>
@@ -11294,7 +11271,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-491">
+<cross-action id="ND-490">
 	<pattern>
     <e r="LR">
       <p>
@@ -11317,7 +11294,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-492">
+<cross-action id="ND-491">
 	<pattern>
     <e r="LR">
       <p>
@@ -11340,7 +11317,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-493">
+<cross-action id="ND-492">
 	<pattern>
     <e r="LR">
       <p>
@@ -11353,6 +11330,29 @@
       <p>
         <l>son<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></l> 
         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-493">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>he<s n="det"/><s n="pos"/><s n="f"/><s n="sp"/></l> 
+        <r>son<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
+        <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -11374,29 +11374,6 @@
 
     <e r="LR">
       <p>
-        <l>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></l> 
-        <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-495">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>he<s n="det"/><s n="pos"/><s n="f"/><s n="sp"/></l> 
-        <r>son<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>son<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></l> 
         <r>suyo<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r> 
       </p>
@@ -11409,7 +11386,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-496">
+<cross-action id="ND-495">
 	<pattern>
     <e r="LR">
       <p>
@@ -11432,7 +11409,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-497">
+<cross-action id="ND-496">
 	<pattern>
     <e r="LR">
       <p>
@@ -11455,7 +11432,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-498">
+<cross-action id="ND-497">
 	<pattern>
     <e r="LR">
       <p>
@@ -11478,7 +11455,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-499">
+<cross-action id="ND-498">
 	<pattern>
     <e r="RL">
       <p>
@@ -11501,7 +11478,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-500">
+<cross-action id="ND-499">
 	<pattern>
     <e r="RL">
       <p>
@@ -11524,7 +11501,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-501">
+<cross-action id="ND-500">
 	<pattern>
     <e>
       <p>
@@ -11547,7 +11524,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-502">
+<cross-action id="ND-501">
 	<pattern>
     <e>
       <p>
@@ -11570,7 +11547,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-503">
+<cross-action id="ND-502">
 	<pattern>
     <e>
       <p>
@@ -11593,7 +11570,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-504">
+<cross-action id="ND-503">
 	<pattern>
     <e>
       <p>
@@ -11616,7 +11593,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-505">
+<cross-action id="ND-504">
 	<pattern>
     <e>
       <p>
@@ -11639,7 +11616,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-506">
+<cross-action id="ND-505">
 	<pattern>
     <e>
       <p>
@@ -11662,7 +11639,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-507">
+<cross-action id="ND-506">
 	<pattern>
     <e>
       <p>
@@ -11685,7 +11662,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-508">
+<cross-action id="ND-507">
 	<pattern>
     <e>
       <p>
@@ -11708,7 +11685,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-509">
+<cross-action id="ND-508">
 	<pattern>
     <e>
       <p>
@@ -11731,7 +11708,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-510">
+<cross-action id="ND-509">
 	<pattern>
     <e>
       <p>
@@ -11754,7 +11731,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-511">
+<cross-action id="ND-510">
 	<pattern>
     <e>
       <p>
@@ -11777,7 +11754,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-512">
+<cross-action id="ND-511">
 	<pattern>
     <e>
       <p>
@@ -11800,7 +11777,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-513">
+<cross-action id="ND-512">
 	<pattern>
     <e r="LR">
       <p>
@@ -11823,7 +11800,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-514">
+<cross-action id="ND-513">
 	<pattern>
     <e r="RL">
       <p>
@@ -11846,7 +11823,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-515">
+<cross-action id="ND-514">
 	<pattern>
     <e r="RL">
       <p>
@@ -11869,7 +11846,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-516">
+<cross-action id="ND-515">
 	<pattern>
     <e>
       <p>
@@ -11892,7 +11869,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-517">
+<cross-action id="ND-516">
 	<pattern>
     <e>
       <p>
@@ -11915,7 +11892,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-518">
+<cross-action id="ND-517">
 	<pattern>
     <e>
       <p>
@@ -11938,7 +11915,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-519">
+<cross-action id="ND-518">
 	<pattern>
     <e>
       <p>
@@ -11961,7 +11938,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-520">
+<cross-action id="ND-519">
 	<pattern>
     <e>
       <p>
@@ -11984,7 +11961,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-521">
+<cross-action id="ND-520">
 	<pattern>
     <e>
       <p>
@@ -12007,7 +11984,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-522">
+<cross-action id="ND-521">
 	<pattern>
     <e>
       <p>
@@ -12020,6 +11997,29 @@
       <p>
         <l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
         <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="GD"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-522">
+	<pattern>
+    <e>
+      <p>
+        <l>direct<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></l> 
+        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
+        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -12042,29 +12042,6 @@
     <e r="RL">
       <p>
         <l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
-        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-524">
-	<pattern>
-    <e>
-      <p>
-        <l>direct<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></l> 
-        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
         <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -12076,7 +12053,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-525">
+<cross-action id="ND-524">
 	<pattern>
     <e>
       <p>
@@ -12099,7 +12076,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-526">
+<cross-action id="ND-525">
 	<pattern>
     <e>
       <p>
@@ -12122,7 +12099,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-527">
+<cross-action id="ND-526">
 	<pattern>
     <e>
       <p>
@@ -12145,7 +12122,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-528">
+<cross-action id="ND-527">
 	<pattern>
     <e>
       <p>
@@ -12158,6 +12135,29 @@
       <p>
         <l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="GD"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-528">
+	<pattern>
+    <e>
+      <p>
+        <l>direct<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></l> 
+        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
+        <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -12180,29 +12180,6 @@
     <e r="RL">
       <p>
         <l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
-        <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-530">
-	<pattern>
-    <e>
-      <p>
-        <l>direct<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></l> 
-        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -12214,7 +12191,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-531">
+<cross-action id="ND-530">
 	<pattern>
     <e>
       <p>
@@ -12237,7 +12214,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-532">
+<cross-action id="ND-531">
 	<pattern>
     <e>
       <p>
@@ -12260,7 +12237,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-533">
+<cross-action id="ND-532">
 	<pattern>
     <e>
       <p>
@@ -12283,7 +12260,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-534">
+<cross-action id="ND-533">
 	<pattern>
     <e>
       <p>
@@ -12296,6 +12273,29 @@
       <p>
         <l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
         <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="GD"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-534">
+	<pattern>
+    <e>
+      <p>
+        <l>direct<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></l> 
+        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
+        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -12318,29 +12318,6 @@
     <e r="RL">
       <p>
         <l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
-        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-536">
-	<pattern>
-    <e>
-      <p>
-        <l>direct<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></l> 
-        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
         <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -12352,7 +12329,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-537">
+<cross-action id="ND-536">
 	<pattern>
     <e>
       <p>
@@ -12375,7 +12352,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-538">
+<cross-action id="ND-537">
 	<pattern>
     <e>
       <p>
@@ -12398,7 +12375,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-539">
+<cross-action id="ND-538">
 	<pattern>
     <e>
       <p>
@@ -12421,7 +12398,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-540">
+<cross-action id="ND-539">
 	<pattern>
     <e>
       <p>
@@ -12434,6 +12411,29 @@
       <p>
         <l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="GD"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-540">
+	<pattern>
+    <e>
+      <p>
+        <l>direct<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></l> 
+        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
+        <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -12456,29 +12456,6 @@
     <e r="RL">
       <p>
         <l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
-        <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-542">
-	<pattern>
-    <e>
-      <p>
-        <l>direct<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></l> 
-        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="RL">
-      <p>
-        <l>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l> 
         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
@@ -12490,7 +12467,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-543">
+<cross-action id="ND-542">
 	<pattern>
     <e>
       <p>
@@ -12513,7 +12490,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-544">
+<cross-action id="ND-543">
 	<pattern>
     <e>
       <p>
@@ -12536,7 +12513,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-545">
+<cross-action id="ND-544">
 	<pattern>
     <e>
       <p>
@@ -12559,7 +12536,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-546">
+<cross-action id="ND-545">
 	<pattern>
     <e>
       <p>
@@ -12582,7 +12559,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-547">
+<cross-action id="ND-546">
 	<pattern>
     <e>
       <p>
@@ -12605,7 +12582,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-548">
+<cross-action id="ND-547">
 	<pattern>
     <e>
       <p>
@@ -12628,7 +12605,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-549">
+<cross-action id="ND-548">
 	<pattern>
     <e>
       <p>
@@ -12651,7 +12628,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-550">
+<cross-action id="ND-549">
 	<pattern>
     <e>
       <p>
@@ -12674,7 +12651,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-551">
+<cross-action id="ND-550">
 	<pattern>
     <e>
       <p>
@@ -12697,7 +12674,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-552">
+<cross-action id="ND-551">
 	<pattern>
     <e>
       <p>
@@ -12720,7 +12697,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-553">
+<cross-action id="ND-552">
 	<pattern>
     <e>
       <p>
@@ -12743,7 +12720,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-554">
+<cross-action id="ND-553">
 	<pattern>
     <e>
       <p>
@@ -12766,7 +12743,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-555">
+<cross-action id="ND-554">
 	<pattern>
     <e>
       <p>
@@ -12789,7 +12766,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-556">
+<cross-action id="ND-555">
 	<pattern>
     <e r="RL">
       <p>
@@ -12812,7 +12789,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-557">
+<cross-action id="ND-556">
 	<pattern>
     <e r="RL">
       <p>
@@ -12835,7 +12812,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-558">
+<cross-action id="ND-557">
 	<pattern>
     <e r="RL">
       <p>
@@ -12858,7 +12835,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-559">
+<cross-action id="ND-558">
 	<pattern>
     <e r="RL">
       <p>
@@ -12871,6 +12848,29 @@
       <p>
         <l>lui<s n="prn"/><s n="tn"/></l> 
         <r>él<s n="prn"/><s n="tn"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-559">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></l> 
+        <r>lui<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>lui<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l> 
+        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -12892,29 +12892,6 @@
 
     <e>
       <p>
-        <l>lui<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l> 
-        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-561">
-	<pattern>
-    <e r="LR">
-      <p>
-        <l>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></l> 
-        <r>lui<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
         <l>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l> 
         <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
       </p>
@@ -12927,7 +12904,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-562">
+<cross-action id="ND-561">
 	<pattern>
     <e r="LR">
       <p>
@@ -12950,7 +12927,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-563">
+<cross-action id="ND-562">
 	<pattern>
     <e r="LR">
       <p>
@@ -12973,7 +12950,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-564">
+<cross-action id="ND-563">
 	<pattern>
     <e>
       <p>
@@ -12996,7 +12973,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-565">
+<cross-action id="ND-564">
 	<pattern>
     <e>
       <p>
@@ -13019,7 +12996,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-566">
+<cross-action id="ND-565">
 	<pattern>
     <e>
       <p>
@@ -13042,7 +13019,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-567">
+<cross-action id="ND-566">
 	<pattern>
     <e r="LR">
       <p>
@@ -13054,6 +13031,29 @@
     <e r="RL">
       <p>
         <l>quel<s n="prn"/><s n="itg"/><s n="GD"/></l> 
+        <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-567">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>peseurt<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
+        <r>quel<s n="prn"/><s n="itg"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>quel<s n="prn"/><s n="itg"/><s n="f"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13076,7 +13076,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="f"/></l> 
+        <l>quel<s n="prn"/><s n="itg"/><s n="m"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13090,16 +13090,16 @@
 
 <cross-action id="ND-569">
 	<pattern>
-    <e r="LR">
+    <e r="RL">
       <p>
         <l>peseurt<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
-        <r>quel<s n="prn"/><s n="itg"/><s n="GD"/><s n="ND"/></r> 
+        <r>quel<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="m"/></l> 
+        <l>quel<s n="prn"/><s n="itg"/><s n="GD"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13120,9 +13120,9 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="GD"/></l> 
+        <l>quel<s n="prn"/><s n="itg"/><s n="f"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13145,7 +13145,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="f"/></l> 
+        <l>quel<s n="prn"/><s n="itg"/><s n="m"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13162,13 +13162,13 @@
     <e r="RL">
       <p>
         <l>peseurt<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
-        <r>quel<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r> 
+        <r>quel<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="m"/></l> 
+        <l>quel<s n="prn"/><s n="itg"/><s n="GD"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13189,9 +13189,9 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="GD"/></l> 
+        <l>quel<s n="prn"/><s n="itg"/><s n="f"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13214,7 +13214,7 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="f"/></l> 
+        <l>quel<s n="prn"/><s n="itg"/><s n="m"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13231,13 +13231,13 @@
     <e r="RL">
       <p>
         <l>peseurt<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
-        <r>quel<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/></r> 
+        <r>quel<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="m"/></l> 
+        <l>quel<s n="prn"/><s n="itg"/><s n="GD"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13258,9 +13258,9 @@
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="GD"/></l> 
+        <l>quel<s n="prn"/><s n="itg"/><s n="f"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
     </e>
@@ -13283,29 +13283,6 @@
 
     <e r="LR">
       <p>
-        <l>quel<s n="prn"/><s n="itg"/><s n="f"/></l> 
-        <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-578">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>peseurt<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l> 
-        <r>quel<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>quel<s n="prn"/><s n="itg"/><s n="m"/></l> 
         <r>cuál<s n="prn"/><s n="itg"/><s n="mf"/></r> 
       </p>
@@ -13318,7 +13295,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-579">
+<cross-action id="ND-578">
 	<pattern>
     <e r="RL">
       <p>
@@ -13341,7 +13318,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-580">
+<cross-action id="ND-579">
 	<pattern>
     <e r="RL">
       <p>
@@ -13364,7 +13341,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-581">
+<cross-action id="ND-580">
 	<pattern>
     <e r="RL">
       <p>
@@ -13387,7 +13364,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-582">
+<cross-action id="ND-581">
 	<pattern>
     <e r="LR">
       <p>
@@ -13410,7 +13387,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-583">
+<cross-action id="ND-582">
 	<pattern>
     <e r="RL">
       <p>
@@ -13433,7 +13410,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-584">
+<cross-action id="ND-583">
 	<pattern>
     <e r="RL">
       <p>
@@ -13456,7 +13433,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-585">
+<cross-action id="ND-584">
 	<pattern>
     <e r="LR">
       <p>
@@ -13479,7 +13456,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-586">
+<cross-action id="ND-585">
 	<pattern>
     <e r="LR">
       <p>
@@ -13502,7 +13479,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-587">
+<cross-action id="ND-586">
 	<pattern>
     <e r="LR">
       <p>
@@ -13525,7 +13502,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-588">
+<cross-action id="ND-587">
 	<pattern>
     <e r="LR">
       <p>
@@ -13538,6 +13515,29 @@
       <p>
         <l>aucun<s n="prn"/><s n="tn"/></l> 
         <r>ninguno<s n="prn"/><s n="tn"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-588">
+	<pattern>
+    <e r="RL">
+      <p>
+        <l>hini<b/>ebet<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></l> 
+        <r>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l> 
+        <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -13559,7 +13559,7 @@
 
     <e r="LR">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l> 
+        <l>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l> 
         <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -13580,10 +13580,10 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l> 
-        <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
+        <l>aucun<s n="prn"/><s n="tn"/></l> 
+        <r>ninguno<s n="prn"/><s n="tn"/></r> 
       </p>
     </e>
 
@@ -13599,14 +13599,14 @@
     <e r="RL">
       <p>
         <l>hini<b/>ebet<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></l> 
-        <r>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r> 
+        <r>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/></l> 
-        <r>ninguno<s n="prn"/><s n="tn"/></r> 
+        <l>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l> 
+        <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -13628,7 +13628,7 @@
 
     <e r="LR">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l> 
+        <l>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l> 
         <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -13649,10 +13649,10 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l> 
-        <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
+        <l>aucun<s n="prn"/><s n="tn"/></l> 
+        <r>ninguno<s n="prn"/><s n="tn"/></r> 
       </p>
     </e>
 
@@ -13668,14 +13668,14 @@
     <e r="RL">
       <p>
         <l>hini<b/>ebet<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></l> 
-        <r>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r> 
+        <r>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/></l> 
-        <r>ninguno<s n="prn"/><s n="tn"/></r> 
+        <l>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l> 
+        <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -13697,7 +13697,7 @@
 
     <e r="LR">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l> 
+        <l>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l> 
         <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
@@ -13718,10 +13718,10 @@
       </p>
     </e>
 
-    <e r="LR">
+    <e r="RL">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l> 
-        <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
+        <l>aucun<s n="prn"/><s n="tn"/></l> 
+        <r>ninguno<s n="prn"/><s n="tn"/></r> 
       </p>
     </e>
 
@@ -13737,14 +13737,14 @@
     <e r="RL">
       <p>
         <l>hini<b/>ebet<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></l> 
-        <r>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r> 
+        <r>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e r="RL">
+    <e r="LR">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/></l> 
-        <r>ninguno<s n="prn"/><s n="tn"/></r> 
+        <l>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l> 
+        <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -13766,29 +13766,6 @@
 
     <e r="LR">
       <p>
-        <l>aucun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l> 
-        <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-	</pattern>
-<action-set>
-</action-set>
-
-</cross-action>
-<!-- 1 entries like this -->
-
-<cross-action id="ND-599">
-	<pattern>
-    <e r="RL">
-      <p>
-        <l>hini<b/>ebet<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></l> 
-        <r>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
         <l>aucun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l> 
         <r>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r> 
       </p>
@@ -13801,7 +13778,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-600">
+<cross-action id="ND-599">
 	<pattern>
     <e r="RL">
       <p>
@@ -13824,7 +13801,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-601">
+<cross-action id="ND-600">
 	<pattern>
     <e>
       <p>
@@ -13847,7 +13824,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-602">
+<cross-action id="ND-601">
 	<pattern>
     <e>
       <p>
@@ -13870,7 +13847,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-603">
+<cross-action id="ND-602">
 	<pattern>
     <e>
       <p>
@@ -13893,7 +13870,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-604">
+<cross-action id="ND-603">
 	<pattern>
     <e>
       <p>
@@ -13916,7 +13893,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-605">
+<cross-action id="ND-604">
 	<pattern>
     <e>
       <p>
@@ -13939,7 +13916,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-606">
+<cross-action id="ND-605">
 	<pattern>
     <e r="LR">
       <p>
@@ -13962,7 +13939,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-607">
+<cross-action id="ND-606">
 	<pattern>
     <e r="RL">
       <p>
@@ -13985,7 +13962,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-608">
+<cross-action id="ND-607">
 	<pattern>
     <e r="RL">
       <p>
@@ -14008,7 +13985,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-609">
+<cross-action id="ND-608">
 	<pattern>
     <e r="LR">
       <p>
@@ -14031,7 +14008,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-610">
+<cross-action id="ND-609">
 	<pattern>
     <e r="RL">
       <p>
@@ -14054,7 +14031,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-611">
+<cross-action id="ND-610">
 	<pattern>
     <e r="RL">
       <p>
@@ -14077,7 +14054,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-612">
+<cross-action id="ND-611">
 	<pattern>
     <e r="LR">
       <p>
@@ -14100,7 +14077,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-613">
+<cross-action id="ND-612">
 	<pattern>
     <e r="RL">
       <p>
@@ -14123,7 +14100,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-614">
+<cross-action id="ND-613">
 	<pattern>
     <e r="RL">
       <p>
@@ -14146,7 +14123,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-615">
+<cross-action id="ND-614">
 	<pattern>
     <e r="RL">
       <p>
@@ -14169,7 +14146,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-616">
+<cross-action id="ND-615">
 	<pattern>
     <e r="RL">
       <p>
@@ -14192,7 +14169,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-617">
+<cross-action id="ND-616">
 	<pattern>
     <e r="LR">
       <p>
@@ -14215,7 +14192,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-618">
+<cross-action id="ND-617">
 	<pattern>
     <e r="LR">
       <p>
@@ -14238,7 +14215,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-619">
+<cross-action id="ND-618">
 	<pattern>
     <e r="LR">
       <p>
@@ -14261,7 +14238,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-620">
+<cross-action id="ND-619">
 	<pattern>
     <e r="LR">
       <p>
@@ -14284,7 +14261,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-621">
+<cross-action id="ND-620">
 	<pattern>
     <e r="LR">
       <p>
@@ -14307,7 +14284,7 @@
 </cross-action>
 <!-- 1 entries like this -->
 
-<cross-action id="ND-622">
+<cross-action id="ND-621">
 	<pattern>
     <e r="LR">
       <p>
@@ -14320,6 +14297,29 @@
       <p>
         <l>obscur<s n="adj"/></l> 
         <r>oscuro<s n="adj"/></r> 
+      </p>
+    </e>
+
+	</pattern>
+<action-set>
+</action-set>
+
+</cross-action>
+<!-- 1 entries like this -->
+
+<cross-action id="ND-622">
+	<pattern>
+    <e r="LR">
+      <p>
+        <l>ker<s n="adj"/><s n="mf"/><s n="sp"/></l> 
+        <r>cher<s n="adj"/><s n="GD"/><s n="ND"/></r> 
+      </p>
+    </e>
+
+    <e r="RL" a="eleka">
+      <p>
+        <l>cher<s n="adj"/><s n="m"/></l> 
+        <r>entrañable<s n="adj"/><s n="mf"/></r> 
       </p>
     </e>
 
