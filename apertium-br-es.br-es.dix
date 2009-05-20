@@ -7,7 +7,7 @@
 	Sdefs: 90
       
       Patterns applied:
-      	default (4342 times)
+      	default (4341 times)
       	norestrictions-0 (1580 times)
       	norestrictions-1 (1245 times)
       	norestrictions-2 (1272 times)
@@ -33,6 +33,7 @@
       	adj-bothmf-leftsp-1 (91 times)
       	adj-bothmf-leftsp-2 (67 times)
       	adj-bothmf-leftsp-3 (2 times)
+      	adj-ABmf-Asp-1 (1 times)
 
 -->
 <dictionary>
@@ -79738,13 +79739,13 @@
     </e>
 
     <!-- 
-	forced 'null' restriction
-      default
+	forced 'RL' restriction
+      adj-ABmf-Asp-1
     -->
-    <e>
+    <e r="RL">
       <p>
         <l>kudennek<s n="adj"/><s n="mf"/><s n="sp"/></l> 
-        <r>problemático<s n="adj"/><s n="GD"/></r> 
+        <r>problemático<s n="adj"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
