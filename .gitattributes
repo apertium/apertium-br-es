@@ -2,7 +2,7 @@
 /apertium-br-es.br-es.dix -text
 /apertium-br-es.br.dix -text
 /apertium-br-es.es.dix -text
-dev/cross-model-br-fr-es.dix -text
+dev/cross-model-br-fr-es.xml -text
 dev/cross.xml -text
 dev/not-common-apertium-br-fr.br-fr.dix -text
 dev/not-common-apertium-br-fr.br.dix -text
