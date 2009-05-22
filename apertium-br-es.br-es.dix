@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-	Dictionary:
-	Sections: 1
-	Entries: 11752
-	Sdefs: 90
-
--->
 <dictionary>
   <alphabet></alphabet>
   <sdefs>
@@ -10594,6 +10587,27 @@
 
     <!-- Verbs -->
 
+    <e><p><l>bezañ<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e>
+    <e><p><l>endevout<s n="vblex"/></l><r>haber<s n="vblex"/></r></p></e>
+
+    <e><p><l>bezañ<s n="vblex"/></l><r>estar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>abaoe</g><s n="vblex"/></l><r>fechar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>abaoe</g><s n="vblex"/></l><r>datar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>bet<b/>darbet<b/>da</g><s n="vblex"/></l><r>fallar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>darbet<b/>da</g><s n="vblex"/></l><r>fallar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>o<b/>chom</g><s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>o<b/>chom</g><s n="vblex"/></l><r>habitar<s n="vblex"/></r></p></e>
+
+    <e><p><l>bezañ<s n="vbloc"/></l><r>estar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>abaoe</g><s n="vbloc"/></l><r>fechar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>abaoe</g><s n="vbloc"/></l><r>datar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>bet<b/>darbet<b/>da</g><s n="vbloc"/></l><r>fallar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>darbet<b/>da</g><s n="vbloc"/></l><r>fallar<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>o<b/>chom</g><s n="vbloc"/></l><r>vivir<s n="vblex"/></r></p></e>
+    <e><p><l>bezañ<g><b/>o<b/>chom</g><s n="vbloc"/></l><r>habitar<s n="vblex"/></r></p></e>
+
+
+
     <e><p><l>aberzhañ<s n="vblex"/></l><r>sacrificar<s n="vblex"/></r></p></e>
     <e><p><l>aberzhiñ<s n="vblex"/></l><r>sacrificar<s n="vblex"/></r></p></e>
     <e><p><l>achap<s n="vblex"/></l><r>escapar<s n="vblex"/></r></p></e>
@@ -10707,13 +10721,7 @@
     <e><p><l>bevañ<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e>
     <e><p><l>bevenniñ<s n="vblex"/></l><r>limitar<s n="vblex"/></r></p></e>
     <e><p><l>beveziñ<s n="vblex"/></l><r>consumir<s n="vblex"/></r></p></e>
-    <e><p><l>bezañ<s n="vblex"/></l><r>estar<s n="vblex"/></r></p></e>
-    <e><p><l>bezañ<g><b/>abaoe</g><s n="vblex"/></l><r>fechar<s n="vblex"/></r></p></e>
-    <e><p><l>bezañ<g><b/>abaoe</g><s n="vblex"/></l><r>datar<s n="vblex"/></r></p></e>
-    <e><p><l>bezañ<g><b/>bet<b/>darbet<b/>da</g><s n="vblex"/></l><r>fallar<s n="vblex"/></r></p></e>
-    <e><p><l>bezañ<g><b/>darbet<b/>da</g><s n="vblex"/></l><r>fallar<s n="vblex"/></r></p></e>
-    <e><p><l>bezañ<g><b/>o<b/>chom</g><s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e>
-    <e><p><l>bezañ<g><b/>o<b/>chom</g><s n="vblex"/></l><r>habitar<s n="vblex"/></r></p></e>
+
     <e><p><l>bizañ<s n="vblex"/></l><r>asomar<s n="vblex"/></r></p></e>
     <e><p><l>bizañ<s n="vblex"/></l><r>apuntar<s n="vblex"/></r></p></e>
     <e><p><l>bizitañ<s n="vblex"/></l><r>visitar<s n="vblex"/></r></p></e>
@@ -10980,14 +10988,17 @@
     <e><p><l>dizurzhiañ<s n="vblex"/></l><r>desorganizar<s n="vblex"/></r></p></e>
     <e><p><l>dleata<s n="vblex"/></l><r>facturar<s n="vblex"/></r></p></e>
     <e><p><l>dleout<s n="vblex"/></l><r>deber<s n="vblex"/></r></p></e>
+
     <e><p><l>donet<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
     <e><p><l>donet<g><b/>a-benn</g><s n="vblex"/></l><r>conseguir<s n="vblex"/></r></p></e>
     <e><p><l>donet<g><b/>en-dro</g><s n="vblex"/></l><r>tornar<s n="vblex"/></r></p></e>
     <e><p><l>donet<g><b/>en-dro</g><s n="vblex"/></l><r>volver<s n="vblex"/></r></p></e>
+
     <e><p><l>dont<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
     <e><p><l>dont<g><b/>a-benn</g><s n="vblex"/></l><r>conseguir<s n="vblex"/></r></p></e>
     <e><p><l>dont<g><b/>en-dro</g><s n="vblex"/></l><r>tornar<s n="vblex"/></r></p></e>
     <e><p><l>dont<g><b/>en-dro</g><s n="vblex"/></l><r>volver<s n="vblex"/></r></p></e>
+
     <e><p><l>dougen<s n="vblex"/></l><r>portar<s n="vblex"/></r></p></e>
     <e><p><l>dougen<s n="vblex"/></l><r>llevar<s n="vblex"/></r></p></e>
     <e><p><l>dougen<s n="vblex"/></l><r>acarrear<s n="vblex"/></r></p></e>
@@ -11359,19 +11370,23 @@
     <e><p><l>krapañ<s n="vblex"/></l><r>escalar<s n="vblex"/></r></p></e>
     <e><p><l>kravat<s n="vblex"/></l><r>rascar<s n="vblex"/></r></p></e>
     <e><p><l>krediñ<s n="vblex"/></l><r>creer<s n="vblex"/></r></p></e>
+
     <e><p><l>kregiñ<s n="vblex"/></l><r>comenzar<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<s n="vblex"/></l><r>empezar<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<s n="vblex"/></l><r>encabezar<s n="vblex"/></r></p></e>
+
     <e><p><l>kregiñ<g><b/>e</g><s n="vblex"/></l><r>coger<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<g><b/>e</g><s n="vblex"/></l><r>agarrar<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<g><b/>e</g><s n="vblex"/></l><r>captar<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<g><b/>e</g><s n="vblex"/></l><r>apresar<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<g><b/>e</g><s n="vblex"/></l><r>embargar<s n="vblex"/></r></p></e>
+
     <e><p><l>kregiñ<g><b/>en</g><s n="vblex"/></l><r>coger<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<g><b/>en</g><s n="vblex"/></l><r>agarrar<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<g><b/>en</g><s n="vblex"/></l><r>captar<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<g><b/>en</g><s n="vblex"/></l><r>apresar<s n="vblex"/></r></p></e>
     <e><p><l>kregiñ<g><b/>en</g><s n="vblex"/></l><r>embargar<s n="vblex"/></r></p></e>
+
     <e><p><l>krenañ<s n="vblex"/></l><r>temblar<s n="vblex"/></r></p></e>
     <e><p><l>kreskaat<s n="vblex"/></l><r>incrementar<s n="vblex"/></r></p></e>
     <e><p><l>kreskaat<s n="vblex"/></l><r>acrecentar<s n="vblex"/></r></p></e>
@@ -11479,6 +11494,7 @@
     <e><p><l>monet<s n="vblex"/></l><r>ir<s n="vblex"/></r></p></e>
     <e><p><l>monet<g><b/>en-dro</g><s n="vblex"/></l><r>volver<s n="vblex"/></r></p></e>
     <e><p><l>mont<s n="vblex"/></l><r>ir<s n="vblex"/></r></p></e>
+
     <e><p><l>mont<b/>a<b/>ober<s n="vblex"/></l><r>ir<s n="vblex"/></r></p></e>
     <e><p><l>mont<b/>a<b/>ober<g><b/>da<b/>anaon</g><s n="vblex"/></l><r>fallecer<s n="vblex"/></r></p></e>
     <e><p><l>mont<b/>a<b/>ober<g><b/>da<b/>get</g><s n="vblex"/></l><r>desaparecer<s n="vblex"/></r></p></e>
@@ -11486,12 +11502,14 @@
     <e><p><l>mont<b/>a<b/>ober<g><b/>kuit</g><s n="vblex"/></l><r>partir<s n="vblex"/></r></p></e>
     <e><p><l>mont<b/>a<b/>ober<g><b/>kuit</g><s n="vblex"/></l><r>marchar<s n="vblex"/></r></p></e>
     <e><p><l>mont<b/>a<b/>ober<g><b/>war-raok</g><s n="vblex"/></l><r>progresar<s n="vblex"/></r></p></e>
+
     <e><p><l>mont<g><b/>da<b/>anaon</g><s n="vblex"/></l><r>fallecer<s n="vblex"/></r></p></e>
     <e><p><l>mont<g><b/>da<b/>get</g><s n="vblex"/></l><r>desaparecer<s n="vblex"/></r></p></e>
     <e><p><l>mont<g><b/>en-dro</g><s n="vblex"/></l><r>volver<s n="vblex"/></r></p></e>
     <e><p><l>mont<g><b/>kuit</g><s n="vblex"/></l><r>partir<s n="vblex"/></r></p></e>
     <e><p><l>mont<g><b/>kuit</g><s n="vblex"/></l><r>marchar<s n="vblex"/></r></p></e>
     <e><p><l>mont<g><b/>war-raok</g><s n="vblex"/></l><r>progresar<s n="vblex"/></r></p></e>
+
     <e><p><l>morbreizhañ<s n="vblex"/></l><r>piratear<s n="vblex"/></r></p></e>
     <e><p><l>morc’hediñ<s n="vblex"/></l><r>lamentar<s n="vblex"/></r></p></e>
     <e><p><l>morlaerezh<s n="vblex"/></l><r>piratear<s n="vblex"/></r></p></e>
